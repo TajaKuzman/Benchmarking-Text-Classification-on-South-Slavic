@@ -1,6 +1,6 @@
-Genre-Identification-Benchmark/datasets/
-Genre-Identification-Benchmark/systems/OpenAI-GPT/API_key
-Genre-Identification-Benchmark/systems/local-GPT-models/local_models_path.txt
+Genre-Automatic-Identification-Benchmark/datasets/
+Genre-Automatic-Identification-Benchmark/systems/OpenAI-GPT/API_key
+Genre-Automatic-Identification-Benchmark/systems/local-GPT-models/local_models_path.txt
 IPTC-NewsTopic-Benchmark/datasets/
 IPTC-NewsTopic-Benchmark/systems/OpenAI-GPT/API_key
 IPTC-NewsTopic-Benchmark/systems/local-GPT-models/local_models_path.txt

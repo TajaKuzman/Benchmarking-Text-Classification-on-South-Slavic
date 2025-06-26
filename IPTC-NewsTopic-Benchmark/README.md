@@ -30,7 +30,7 @@ All models that were not used in a zero-shot scenario were trained on the train 
 | GPT-3.5-Turbo          |                  0.682 |                  0.67  |                 0.682 |                 0.67  |
 | LLaMA 3.3              |                  0.614 |                  0.61  |                 0.614 |                 0.61  |
 | Support Vector Machine |                  0.421 |                  0.426 |                 0.421 |                 0.426 |
-| DeepSeek-r1            |                  0.385 |                  0.361 |                 0.385 |                 0.361 |
+| DeepSeek-R1-Distill            |                  0.385 |                  0.361 |                 0.385 |                 0.361 |
 | Naive Bayes Classifier |                  0.211 |                  0.255 |                 0.211 |                 0.255 |
 | Dummy                  |                  0.007 |                  0.06  |                 0.007 |                 0.06  |
 

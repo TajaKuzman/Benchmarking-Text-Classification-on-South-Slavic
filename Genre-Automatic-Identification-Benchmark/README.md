@@ -36,7 +36,7 @@ The performance on EN-GINCO is generally lower than on X-GINCO datasets, because
 | Support Vector Machine |                  0.483 |                  0.494 |                 0.197 |                 0.241 |                   0.067 |                   0.138 |                0.572 |                0.512 |
 | GPT-3.5-Turbo          |                  0.642 |                  0.646 |                 0.571 |                 0.581 |                   0.594 |                   0.615 |                0.536 |                0.652 |
 | Naive Bayes Classifier |                  0.214 |                  0.3   |                 0.139 |                 0.214 |                   0.144 |                   0.164 |                0.336 |                0.38  |
-| DeepSeek-r1            |                  0.18  |                  0.196 |                 0.146 |                 0.137 |                   0.148 |                   0.158 |                0.319 |                0.275 |
+| DeepSeek-R1-Distill            |                  0.18  |                  0.196 |                 0.146 |                 0.137 |                   0.148 |                   0.158 |                0.319 |                0.275 |
 | Dummy                  |                  0.028 |                  0.125 |                 0.025 |                 0.112 |                   0.033 |                   0.15  |                0.038 |                0.178 |
 
 ![](evaluation-for-the-paper/genre-results-heatmap.png)

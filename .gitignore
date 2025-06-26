@@ -1,0 +1,9 @@
+Genre-Identification-Benchmark/datasets/
+Genre-Identification-Benchmark/systems/OpenAI-GPT/API_key
+Genre-Identification-Benchmark/systems/local-GPT-models/local_models_path.txt
+IPTC-NewsTopic-Benchmark/datasets/
+IPTC-NewsTopic-Benchmark/systems/OpenAI-GPT/API_key
+IPTC-NewsTopic-Benchmark/systems/local-GPT-models/local_models_path.txt
+ParlaSent-Benchmark/datasets/
+ParlaSent-Benchmark/systems/OpenAI-GPT/API_key
+ParlaSent-Benchmark/systems/local-GPT-models/local_models_path.txt

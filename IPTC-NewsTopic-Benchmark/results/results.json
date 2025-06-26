@@ -1,0 +1,288 @@
+[
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.006217923410975128,
+    "Micro F1": 0.05580159433126661,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.006493506493506493,
+        "Micro F1": 0.058419243986254296
+      },
+      "ca": {
+        "Macro F1": 0.005861419300816412,
+        "Micro F1": 0.052434456928838954
+      },
+      "sl": {
+        "Macro F1": 0.006688963210702341,
+        "Micro F1": 0.06028368794326241
+      },
+      "el": {
+        "Macro F1": 0.005804953560371517,
+        "Micro F1": 0.05190311418685121
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.06319414542550471,
+    "Micro F1": 0.07263064658990256,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.05651180911098832,
+        "Micro F1": 0.07216494845360824
+      },
+      "ca": {
+        "Macro F1": 0.055563194742721714,
+        "Micro F1": 0.06367041198501873
+      },
+      "sl": {
+        "Macro F1": 0.05266489526230521,
+        "Micro F1": 0.05319148936170213
+      },
+      "el": {
+        "Macro F1": 0.07731116063159406,
+        "Micro F1": 0.10034602076124567
+      }
+    }
+  },
+  {
+    "Model": "COMPLEMENTNB",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.20683222020127282,
+    "Micro F1": 0.2745792736935341,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.23110399801310985,
+        "Micro F1": 0.3127147766323024
+      },
+      "ca": {
+        "Macro F1": 0.17588672861421709,
+        "Micro F1": 0.24344569288389514
+      },
+      "sl": {
+        "Macro F1": 0.21072025543319306,
+        "Micro F1": 0.2553191489361702
+      },
+      "el": {
+        "Macro F1": 0.17943342610604904,
+        "Micro F1": 0.2837370242214533
+      }
+    }
+  },
+  {
+    "Model": "SVC",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.42135149433343805,
+    "Micro F1": 0.42338352524357836,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.3985861772314165,
+        "Micro F1": 0.42955326460481097
+      },
+      "ca": {
+        "Macro F1": 0.3757367305896717,
+        "Micro F1": 0.41198501872659177
+      },
+      "sl": {
+        "Macro F1": 0.42112365420196335,
+        "Micro F1": 0.425531914893617
+      },
+      "el": {
+        "Macro F1": 0.407388140799901,
+        "Micro F1": 0.42560553633217996
+      }
+    }
+  },
+  {
+    "Model": "deepseek-r1:14b",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.3941825671869676,
+    "Micro F1": 0.3791030975496995,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.40095849167221753,
+        "Micro F1": 0.39015817223198596
+      },
+      "ca": {
+        "Macro F1": 0.4357652596680117,
+        "Micro F1": 0.44150943396226416
+      },
+      "sl": {
+        "Macro F1": 0.3847646448934957,
+        "Micro F1": 0.3613138686131387
+      },
+      "el": {
+        "Macro F1": 0.32666510823192846,
+        "Micro F1": 0.32170542635658916
+      }
+    }
+  },
+  {
+    "Model": "llama3.3:latest",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.6308007299486329,
+    "Micro F1": 0.6256684491978609,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.6095577941128297,
+        "Micro F1": 0.6113989637305699
+      },
+      "ca": {
+        "Macro F1": 0.6670316696579887,
+        "Micro F1": 0.650375939849624
+      },
+      "sl": {
+        "Macro F1": 0.6143372767803654,
+        "Micro F1": 0.6096256684491979
+      },
+      "el": {
+        "Macro F1": 0.6274819641236701,
+        "Micro F1": 0.6328671328671329
+      }
+    }
+  },
+  {
+    "Model": "gpt-3.5-turbo-0125",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.6268739766395922,
+    "Micro F1": 0.6120460584588131,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.5873771314863793,
+        "Micro F1": 0.5773195876288659
+      },
+      "ca": {
+        "Macro F1": 0.5844535158077242,
+        "Micro F1": 0.5805243445692884
+      },
+      "sl": {
+        "Macro F1": 0.6822641573022055,
+        "Micro F1": 0.6702127659574468
+      },
+      "el": {
+        "Macro F1": 0.6286799800712426,
+        "Micro F1": 0.6193771626297578
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.7426101892848453,
+    "Micro F1": 0.7378210806023029,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.7408691741483786,
+        "Micro F1": 0.7353951890034365
+      },
+      "ca": {
+        "Macro F1": 0.7199369281555869,
+        "Micro F1": 0.7303370786516854
+      },
+      "sl": {
+        "Macro F1": 0.7669337672158412,
+        "Micro F1": 0.7659574468085106
+      },
+      "el": {
+        "Macro F1": 0.7252152668865709,
+        "Micro F1": 0.7197231833910035
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-mini-2024-07-18",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.7236387527369943,
+    "Micro F1": 0.7094774136403897,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.7316963588361564,
+        "Micro F1": 0.718213058419244
+      },
+      "ca": {
+        "Macro F1": 0.6982084578347739,
+        "Micro F1": 0.6853932584269663
+      },
+      "sl": {
+        "Macro F1": 0.7301731781816367,
+        "Micro F1": 0.723404255319149
+      },
+      "el": {
+        "Macro F1": 0.7166614326206265,
+        "Micro F1": 0.7093425605536332
+      }
+    }
+  },
+  {
+    "Model": "IPTC XLM-R classifier",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.7446334670083061,
+    "Micro F1": 0.733392382639504,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.7337250724282774,
+        "Micro F1": 0.7285223367697594
+      },
+      "ca": {
+        "Macro F1": 0.7223041816918032,
+        "Micro F1": 0.7153558052434457
+      },
+      "sl": {
+        "Macro F1": 0.7647838411831659,
+        "Micro F1": 0.7588652482269503
+      },
+      "el": {
+        "Macro F1": 0.7420989350503879,
+        "Micro F1": 0.7301038062283737
+      }
+    }
+  },
+  {
+    "Model": "gemma3:27b",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.6967397407767524,
+    "Micro F1": 0.6862222222222222,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.6950730295711288,
+        "Micro F1": 0.6919104991394148
+      },
+      "ca": {
+        "Macro F1": 0.6946611425996982,
+        "Micro F1": 0.6891385767790262
+      },
+      "sl": {
+        "Macro F1": 0.6929213897714488,
+        "Micro F1": 0.6833631484794276
+      },
+      "el": {
+        "Macro F1": 0.6873143514427946,
+        "Micro F1": 0.6805555555555556
+      }
+    }
+  }
+]

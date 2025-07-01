@@ -5,4 +5,4 @@ The repository comprises code and results for benchmarking non-neural methods, f
 - [news topic classification](IPTC-NewsTopic-Benchmark)
 - [sentiment classification in parliamentary texts](ParlaSent-Benchmark)
 
-The experiments and results are further discussed in a paper by Kuzman et al., to be published.
+The experiments and results are further discussed in a paper by Kuzman Pungeršek et al., to be published.

@@ -26,6 +26,10 @@ All models that were not used in a zero-shot scenario were trained on the train 
 
 The performance on EN-GINCO is generally lower than on X-GINCO datasets, because X-GINCO datasets contain only concrete labels, while EN-GINCO also has instances annotated as "Other".
 
+![](evaluation-for-the-paper/genre-results-heatmap.png)
+
+![](evaluation-for-the-paper/gpt_comparison.png)
+
 | Model                  |   Slovenian (macro-F1) |   Slovenian (micro-F1) |   Croatian (macro-F1) |   Croatian (micro-F1) |   Macedonian (macro-F1) |   Macedonian (micro-F1) |   English (macro-F1) |   English (micro-F1) |
 |:-----------------------|-----------------------:|-----------------------:|----------------------:|----------------------:|------------------------:|------------------------:|---------------------:|---------------------:|
 | GPT-5-mini             |                  0.738 |                  0.763 |                 0.75  |                 0.763 |                   0.649 |                   0.638 |                0.761 |                0.784 |
@@ -45,7 +49,7 @@ The performance on EN-GINCO is generally lower than on X-GINCO datasets, because
 | Dummy                  |                  0.028 |                  0.125 |                 0.025 |                 0.112 |                   0.033 |                   0.15  |                0.038 |                0.178 |
 | fastText               |                  0.422 |                  0.436 |                 0.169 |                 0.266 |                   0.094 |                   0.15  |              nan     |              nan     |
 
-![](evaluation-for-the-paper/genre-results-heatmap.png)
+
 
 
 ------------------------------------------

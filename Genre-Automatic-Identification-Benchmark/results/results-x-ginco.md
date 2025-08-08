@@ -4,6 +4,9 @@
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|-----------:|-----------:|
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        |      0.847 |      0.845 |
 | GPT-4o (gpt-4o-2024-08-06) (zero-shot)                                                                             | x-ginco        |      0.776 |      0.769 |
+| gpt-5-mini-2025-08-07                                                                                              | x-ginco        |      0.771 |      0.764 |
+| gpt-5                                                                                                              | x-ginco        |      0.77  |      0.768 |
+| gpt-5-nano-2025-08-07                                                                                              | x-ginco        |      0.749 |      0.738 |
 | Llama 3.3 (70B) (zero-shot)                                                                                        | x-ginco        |      0.741 |      0.738 |
 | Gemma 3 (27B) (zero-shot)                                                                                          | x-ginco        |      0.739 |      0.733 |
 | GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | x-ginco        |      0.688 |      0.67  |

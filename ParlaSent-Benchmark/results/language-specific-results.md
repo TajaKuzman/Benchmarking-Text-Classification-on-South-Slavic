@@ -3,12 +3,12 @@
 
 | Model                  | Test Dataset      | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:------------------|:-----------|-----------:|-----------:|
-| gpt-4o-mini-2024-07-18 | ParlaSent-EN-test | en         |      0.778 |      0.779 |
-| gpt-3.5-turbo-0125     | ParlaSent-EN-test | en         |      0.774 |      0.775 |
-| gpt-4o-2024-08-06      | ParlaSent-EN-test | en         |      0.773 |      0.774 |
+| gpt-4o-2024-08-06      | ParlaSent-EN-test | en         |      0.771 |      0.773 |
 | gemma3:27b             | ParlaSent-EN-test | en         |      0.768 |      0.766 |
 | llama3.3:latest        | ParlaSent-EN-test | en         |      0.749 |      0.745 |
+| gpt-4o-mini-2024-07-18 | ParlaSent-EN-test | en         |      0.733 |      0.733 |
 | XLM-R-ParlaSent        | ParlaSent-EN-test | en         |      0.728 |      0.727 |
+| gpt-3.5-turbo-0125     | ParlaSent-EN-test | en         |      0.7   |      0.698 |
 | deepseek-r1:14b        | ParlaSent-EN-test | en         |      0.617 |      0.617 |
 | SVC                    | ParlaSent-EN-test | en         |      0.346 |      0.395 |
 | dummy-stratified       | ParlaSent-EN-test | en         |      0.327 |      0.346 |
@@ -21,12 +21,12 @@
 
 | Model                  | Test Dataset       | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|:-----------|-----------:|-----------:|
-| gpt-3.5-turbo-0125     | ParlaSent-BCS-test | hr         |      0.758 |      0.787 |
-| gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | hr         |      0.752 |      0.782 |
-| gpt-4o-2024-08-06      | ParlaSent-BCS-test | hr         |      0.746 |      0.776 |
+| gpt-4o-2024-08-06      | ParlaSent-BCS-test | hr         |      0.757 |      0.782 |
 | gemma3:27b             | ParlaSent-BCS-test | hr         |      0.728 |      0.742 |
 | llama3.3:latest        | ParlaSent-BCS-test | hr         |      0.728 |      0.743 |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test | hr         |      0.698 |      0.719 |
+| gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | hr         |      0.686 |      0.719 |
+| gpt-3.5-turbo-0125     | ParlaSent-BCS-test | hr         |      0.652 |      0.673 |
 | deepseek-r1:14b        | ParlaSent-BCS-test | hr         |      0.595 |      0.613 |
 | COMPLEMENTNB           | ParlaSent-BCS-test | hr         |      0.432 |      0.452 |
 | SVC                    | ParlaSent-BCS-test | hr         |      0.345 |      0.496 |
@@ -40,11 +40,11 @@
 | Model                  | Test Dataset       | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|:-----------|-----------:|-----------:|
 | gemma3:27b             | ParlaSent-BCS-test | bs         |      0.718 |      0.742 |
-| gpt-3.5-turbo-0125     | ParlaSent-BCS-test | bs         |      0.713 |      0.763 |
-| gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | bs         |      0.705 |      0.753 |
-| gpt-4o-2024-08-06      | ParlaSent-BCS-test | bs         |      0.697 |      0.742 |
+| gpt-4o-2024-08-06      | ParlaSent-BCS-test | bs         |      0.701 |      0.747 |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test | bs         |      0.697 |      0.721 |
 | llama3.3:latest        | ParlaSent-BCS-test | bs         |      0.673 |      0.711 |
+| gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | bs         |      0.593 |      0.653 |
+| gpt-3.5-turbo-0125     | ParlaSent-BCS-test | bs         |      0.584 |      0.626 |
 | deepseek-r1:14b        | ParlaSent-BCS-test | bs         |      0.568 |      0.589 |
 | COMPLEMENTNB           | ParlaSent-BCS-test | bs         |      0.447 |      0.495 |
 | SVC                    | ParlaSent-BCS-test | bs         |      0.345 |      0.532 |
@@ -57,12 +57,12 @@
 
 | Model                  | Test Dataset       | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|:-----------|-----------:|-----------:|
-| gpt-4o-2024-08-06      | ParlaSent-BCS-test | sr         |      0.736 |      0.763 |
-| gpt-3.5-turbo-0125     | ParlaSent-BCS-test | sr         |      0.734 |      0.759 |
-| gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | sr         |      0.731 |      0.757 |
+| gpt-4o-2024-08-06      | ParlaSent-BCS-test | sr         |      0.738 |      0.764 |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test | sr         |      0.71  |      0.732 |
 | gemma3:27b             | ParlaSent-BCS-test | sr         |      0.707 |      0.725 |
 | llama3.3:latest        | ParlaSent-BCS-test | sr         |      0.693 |      0.711 |
+| gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | sr         |      0.681 |      0.706 |
+| gpt-3.5-turbo-0125     | ParlaSent-BCS-test | sr         |      0.664 |      0.67  |
 | deepseek-r1:14b        | ParlaSent-BCS-test | sr         |      0.597 |      0.615 |
 | COMPLEMENTNB           | ParlaSent-BCS-test | sr         |      0.442 |      0.477 |
 | SVC                    | ParlaSent-BCS-test | sr         |      0.37  |      0.535 |

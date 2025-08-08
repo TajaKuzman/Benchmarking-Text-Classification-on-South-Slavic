@@ -2,10 +2,13 @@
 
 | Model                                                                                                              | Test Dataset   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|-----------:|-----------:|
+| gpt-5-mini-2025-08-07                                                                                              | en-ginco       |      0.688 |      0.75  |
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | en-ginco       |      0.687 |      0.684 |
+| gpt-5                                                                                                              | en-ginco       |      0.653 |      0.761 |
 | GPT-4o (gpt-4o-2024-08-06) (zero-shot)                                                                             | en-ginco       |      0.62  |      0.735 |
 | Llama 3.3 (70B) (zero-shot)                                                                                        | en-ginco       |      0.586 |      0.684 |
 | Gemma 2 (27B) (zero-shot)                                                                                          | en-ginco       |      0.564 |      0.603 |
+| gpt-5-nano-2025-08-07                                                                                              | en-ginco       |      0.56  |      0.676 |
 | [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | en-ginco       |      0.545 |      0.588 |
 | Gemma 3 (27B) (zero-shot)                                                                                          | en-ginco       |      0.541 |      0.672 |
 | GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | en-ginco       |      0.534 |      0.632 |

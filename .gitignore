@@ -7,3 +7,6 @@ IPTC-NewsTopic-Benchmark/systems/local-GPT-models/local_models_path.txt
 ParlaSent-Benchmark/datasets/
 ParlaSent-Benchmark/systems/OpenAI-GPT/API_key
 ParlaSent-Benchmark/systems/local-GPT-models/local_models_path.txt
+ParlaCAP-Topic-Benchmark/datasets/
+ParlaCAP-Topic-Benchmark/systems/OpenAI-GPT/API_key
+ParlaCAP-Topic-Benchmark/systems/local-GPT-models/local_models_path.txt

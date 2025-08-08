@@ -290,108 +290,108 @@
   {
     "Model": "gpt-4o-mini-2024-07-18",
     "Test Dataset": "ParlaSent-BCS-test",
-    "Macro F1": 0.7405720181756671,
-    "Micro F1": 0.7696153846153846,
+    "Macro F1": 0.6785965771881265,
+    "Micro F1": 0.7084615384615385,
     "Epochs": null,
     "Learning Rate": null,
     "Language-Specific Scores": {
       "sr": {
-        "Macro F1": 0.7309018134301164,
-        "Micro F1": 0.7569832402234636
+        "Macro F1": 0.6813552090392131,
+        "Micro F1": 0.7057728119180633
       },
       "hr": {
-        "Macro F1": 0.7521324513002782,
-        "Micro F1": 0.782185628742515
+        "Macro F1": 0.6860364564431132,
+        "Micro F1": 0.718562874251497
       },
       "bs": {
-        "Macro F1": 0.7048155978388536,
-        "Micro F1": 0.7526315789473684
+        "Macro F1": 0.5932447170214957,
+        "Micro F1": 0.6526315789473685
       }
     }
   },
   {
     "Model": "gpt-3.5-turbo-0125",
     "Test Dataset": "ParlaSent-EN-test",
-    "Macro F1": 0.7739668942668637,
-    "Micro F1": 0.7746153846153846,
+    "Macro F1": 0.6997700528035994,
+    "Micro F1": 0.6976923076923077,
     "Epochs": null,
     "Learning Rate": null,
     "Language-Specific Scores": {
       "en": {
-        "Macro F1": 0.7739668942668637,
-        "Micro F1": 0.7746153846153846
+        "Macro F1": 0.6997700528035994,
+        "Micro F1": 0.6976923076923077
       }
     }
   },
   {
     "Model": "gpt-4o-2024-08-06",
     "Test Dataset": "ParlaSent-BCS-test",
-    "Macro F1": 0.7387139817413294,
-    "Micro F1": 0.7680769230769231,
+    "Macro F1": 0.7456592391924918,
+    "Micro F1": 0.7723076923076924,
     "Epochs": null,
     "Learning Rate": null,
     "Language-Specific Scores": {
       "sr": {
-        "Macro F1": 0.735574542279211,
-        "Micro F1": 0.7625698324022346
+        "Macro F1": 0.7382772548407787,
+        "Micro F1": 0.7644320297951583
       },
       "hr": {
-        "Macro F1": 0.7457157758712111,
-        "Micro F1": 0.7761976047904192
+        "Macro F1": 0.7565209565599647,
+        "Micro F1": 0.782185628742515
       },
       "bs": {
-        "Macro F1": 0.6971137610287247,
-        "Micro F1": 0.7421052631578947
+        "Macro F1": 0.7009673255759309,
+        "Micro F1": 0.7473684210526316
       }
     }
   },
   {
     "Model": "gpt-4o-mini-2024-07-18",
     "Test Dataset": "ParlaSent-EN-test",
-    "Macro F1": 0.7784016087262035,
-    "Micro F1": 0.7792307692307693,
+    "Macro F1": 0.7331263777501179,
+    "Micro F1": 0.7334615384615385,
     "Epochs": null,
     "Learning Rate": null,
     "Language-Specific Scores": {
       "en": {
-        "Macro F1": 0.7784016087262035,
-        "Micro F1": 0.7792307692307693
+        "Macro F1": 0.7331263777501179,
+        "Micro F1": 0.7334615384615385
       }
     }
   },
   {
     "Model": "gpt-4o-2024-08-06",
     "Test Dataset": "ParlaSent-EN-test",
-    "Macro F1": 0.773181376210499,
-    "Micro F1": 0.7738461538461539,
+    "Macro F1": 0.7710796128060396,
+    "Micro F1": 0.7730769230769231,
     "Epochs": null,
     "Learning Rate": null,
     "Language-Specific Scores": {
       "en": {
-        "Macro F1": 0.773181376210499,
-        "Micro F1": 0.7738461538461539
+        "Macro F1": 0.7710796128060396,
+        "Micro F1": 0.7730769230769231
       }
     }
   },
   {
     "Model": "gpt-3.5-turbo-0125",
     "Test Dataset": "ParlaSent-BCS-test",
-    "Macro F1": 0.7456246955015429,
-    "Micro F1": 0.7734615384615384,
+    "Macro F1": 0.6535746670661036,
+    "Micro F1": 0.6684615384615384,
     "Epochs": null,
     "Learning Rate": null,
     "Language-Specific Scores": {
       "sr": {
-        "Macro F1": 0.7344657128836588,
-        "Micro F1": 0.7588454376163873
+        "Macro F1": 0.6641372491979204,
+        "Micro F1": 0.6703910614525139
       },
       "hr": {
-        "Macro F1": 0.7578191562936033,
-        "Micro F1": 0.7866766467065869
+        "Macro F1": 0.6517928959027689,
+        "Micro F1": 0.6729041916167665
       },
       "bs": {
-        "Macro F1": 0.71295097142395,
-        "Micro F1": 0.7631578947368421
+        "Macro F1": 0.5838749439713132,
+        "Micro F1": 0.6263157894736842
       }
     }
   }

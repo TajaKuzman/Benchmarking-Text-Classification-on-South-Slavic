@@ -31,6 +31,8 @@ All models that were not used in a zero-shot scenario were trained on the train 
 | GPT-5-Nano             |                  0.73  |                  0.713 |                 0.661 |                 0.653 |
 | Gemma 3                |                  0.693 |                  0.683 |                 0.695 |                 0.692 |
 | GPT-3.5-Turbo          |                  0.682 |                  0.67  |                 0.587 |                 0.577 |
+| Qwen 3                 |                  0.656 |                  0.663 |                 0.677 |                 0.674 |
+| LLaMA 4 Scout          |                  0.625 |                  0.61  |                 0.585 |                 0.57  |
 | LLaMA 3.3              |                  0.614 |                  0.61  |                 0.61  |                 0.611 |
 | Support Vector Machine |                  0.421 |                  0.426 |                 0.399 |                 0.43  |
 | DeepSeek-R1-Distill    |                  0.385 |                  0.361 |                 0.401 |                 0.39  |

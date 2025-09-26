@@ -9,8 +9,10 @@
 | gpt-4o-mini-2024-07-18 | IPTC-test      |      0.724 |      0.709 |
 | gemma3:27b             | IPTC-test      |      0.697 |      0.686 |
 | gpt-5-nano-2025-08-07  | IPTC-test      |      0.686 |      0.667 |
+| qwen3:32b              | IPTC-test      |      0.671 |      0.663 |
 | llama3.3:latest        | IPTC-test      |      0.631 |      0.626 |
 | gpt-3.5-turbo-0125     | IPTC-test      |      0.627 |      0.612 |
+| llama4:scout           | IPTC-test      |      0.616 |      0.596 |
 | SVC                    | IPTC-test      |      0.421 |      0.423 |
 | deepseek-r1:14b        | IPTC-test      |      0.394 |      0.379 |
 | COMPLEMENTNB           | IPTC-test      |      0.207 |      0.275 |

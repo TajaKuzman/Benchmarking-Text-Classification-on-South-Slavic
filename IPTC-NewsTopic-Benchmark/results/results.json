@@ -284,5 +284,83 @@
         "Micro F1": 0.6805555555555556
       }
     }
+  },
+  {
+    "Model": "gpt-5-mini-2025-08-07",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.7273037198301102,
+    "Micro F1": 0.7139061116031886,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.710572234524097,
+        "Micro F1": 0.7044673539518901
+      },
+      "ca": {
+        "Macro F1": 0.713100234478828,
+        "Micro F1": 0.700374531835206
+      },
+      "sl": {
+        "Macro F1": 0.7490369211158885,
+        "Micro F1": 0.7411347517730497
+      },
+      "el": {
+        "Macro F1": 0.7168803911948077,
+        "Micro F1": 0.7093425605536332
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-nano-2025-08-07",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.6859249986957411,
+    "Micro F1": 0.66696191319752,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.6605808893796488,
+        "Micro F1": 0.6529209621993127
+      },
+      "ca": {
+        "Macro F1": 0.6733936782337832,
+        "Micro F1": 0.6479400749063671
+      },
+      "sl": {
+        "Macro F1": 0.7299360176714389,
+        "Micro F1": 0.7127659574468085
+      },
+      "el": {
+        "Macro F1": 0.6727105094660273,
+        "Micro F1": 0.6539792387543253
+      }
+    }
+  },
+  {
+    "Model": "gpt-5",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.737548014878266,
+    "Micro F1": 0.7271922054915855,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.7489222635132373,
+        "Micro F1": 0.7457044673539519
+      },
+      "ca": {
+        "Macro F1": 0.7034961432968017,
+        "Micro F1": 0.6966292134831461
+      },
+      "sl": {
+        "Macro F1": 0.7357318069575479,
+        "Micro F1": 0.7269503546099291
+      },
+      "el": {
+        "Macro F1": 0.7437917179611834,
+        "Micro F1": 0.7370242214532872
+      }
+    }
   }
 ]

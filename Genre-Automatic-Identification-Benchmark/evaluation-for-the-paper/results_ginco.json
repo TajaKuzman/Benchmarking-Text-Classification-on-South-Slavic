@@ -18,3 +18,5 @@
 {"Model":"gpt-5-mini-2025-08-07","Slovenian (macro-F1)":0.7380027867,"Slovenian (micro-F1)":0.7625,"Croatian (macro-F1)":0.7502496227,"Croatian (micro-F1)":0.7625,"Macedonian (macro-F1)":0.6487356054,"Macedonian (micro-F1)":0.6375}
 {"Model":"gpt-5-nano-2025-08-07","Slovenian (macro-F1)":0.7709228658,"Slovenian (micro-F1)":0.775,"Croatian (macro-F1)":0.6948051948,"Croatian (micro-F1)":0.7125,"Macedonian (macro-F1)":0.6535899966,"Macedonian (micro-F1)":0.6375}
 {"Model":"gpt-5","Slovenian (macro-F1)":0.7044359721,"Slovenian (micro-F1)":0.7169811321,"Croatian (macro-F1)":0.7573550725,"Croatian (micro-F1)":0.775,"Macedonian (macro-F1)":0.7081896113,"Macedonian (micro-F1)":0.7}
+{"Model":"qwen3:32b","Slovenian (macro-F1)":0.6530387047,"Slovenian (micro-F1)":0.641509434,"Croatian (macro-F1)":0.6290151515,"Croatian (micro-F1)":0.641509434,"Macedonian (macro-F1)":0.6367874901,"Macedonian (micro-F1)":0.625}
+{"Model":"llama4:scout","Slovenian (macro-F1)":0.4110799288,"Slovenian (micro-F1)":0.425,"Croatian (macro-F1)":0.3646910279,"Croatian (micro-F1)":0.4125,"Macedonian (macro-F1)":0.3536435109,"Macedonian (micro-F1)":0.3875}

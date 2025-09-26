@@ -10,9 +10,11 @@
 | Llama 3.3 (70B) (zero-shot)                                                                                        | x-ginco        |      0.741 |      0.738 |
 | Gemma 3 (27B) (zero-shot)                                                                                          | x-ginco        |      0.739 |      0.733 |
 | GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | x-ginco        |      0.688 |      0.67  |
+| qwen3:32b                                                                                                          | x-ginco        |      0.662 |      0.647 |
 | [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | x-ginco        |      0.651 |      0.652 |
 | GPT-3.5-Turbo (zero-shot)                                                                                          | x-ginco        |      0.627 |      0.622 |
 | Gemma 2 (27B) (zero-shot)                                                                                          | x-ginco        |      0.612 |      0.593 |
+| llama4:scout                                                                                                       | x-ginco        |      0.401 |      0.411 |
 | GaMS-9B-Instruct                                                                                                   | x-ginco        |      0.379 |      0.381 |
 | DeepSeek-R1 14B (zero-shot)                                                                                        | x-ginco        |      0.197 |      0.204 |
 | Logistic Regression                                                                                                | x-ginco        |      0.174 |      0.185 |

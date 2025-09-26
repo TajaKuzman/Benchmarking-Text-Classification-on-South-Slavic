@@ -2,9 +2,11 @@
 {"Model":"LOGISTICREGRESSION","English (macro-F1)":0.5085631171,"English (micro-F1)":0.4941176471}
 {"Model":"SVC","English (macro-F1)":0.5718479589,"English (micro-F1)":0.511627907}
 {"Model":"X-GENRE classifier","English (macro-F1)":0.7498784236,"English (micro-F1)":0.7051792829}
+{"Model":"llama4:scout","English (macro-F1)":0.4571636322,"English (micro-F1)":0.4379844961}
 {"Model":"deepseek-r1:14b","English (macro-F1)":0.3190032711,"English (micro-F1)":0.2753246753}
 {"Model":"GaMS-9B-Instruct","English (macro-F1)":0.2866607317,"English (micro-F1)":0.382892057}
 {"Model":"gemma3:27b","English (macro-F1)":0.623836133,"English (micro-F1)":0.70703125}
+{"Model":"qwen3:32b","English (macro-F1)":0.5332205396,"English (micro-F1)":0.6317829457}
 {"Model":"llama3.3:latest","English (macro-F1)":0.6488683542,"English (micro-F1)":0.7109375}
 {"Model":"gemma2:27b","English (macro-F1)":0.6353385106,"English (micro-F1)":0.6352941176}
 {"Model":"gpt-5-nano-2025-08-07","English (macro-F1)":0.6391610646,"English (micro-F1)":0.7093023256}

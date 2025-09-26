@@ -7,7 +7,10 @@ The following models were evaluated:
 - [Gemma 2 (27B model)](https://ollama.com/library/gemma2) `gemma2:27b`
 - [DeepSeek-R1 (14B model)](https://ollama.com/library/deepseek-r1) `deepseek-r1:14b`
 - [Llama 3.3 model (70B model)](https://ollama.com/library/llama3.3) `llama3.3:latest`
+- [Llama 4 Scout model (17B active parameters, 109B total parameters, 16 experts)](https://ollama.com/library/llama4) `llama4:scout`
+- [Qwen 3 (32B)](https://ollama.com/library/qwen3) `qwen3:32b`
 - [GaMS-Instruct model (9B model)](https://huggingface.co/cjvt/GaMS-9B-Instruct) `GaMS-9B-Instruct:latest`
+
 
 The prompt:
 ```python

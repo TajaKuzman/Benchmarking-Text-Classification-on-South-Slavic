@@ -15,7 +15,9 @@
 | Support Vector Machine                                                                                             | en-ginco       |      0.514 |      0.489 |
 | GPT-3.5-Turbo (zero-shot)                                                                                          | en-ginco       |      0.494 |      0.625 |
 | Logistic Regression                                                                                                | en-ginco       |      0.464 |      0.471 |
+| qwen3:32b                                                                                                          | en-ginco       |      0.449 |      0.599 |
 | fastText                                                                                                           | en-ginco       |      0.408 |      0.445 |
+| llama4:scout                                                                                                       | en-ginco       |      0.396 |      0.415 |
 | DeepSeek-R1 14B (zero-shot)                                                                                        | en-ginco       |      0.293 |      0.229 |
 | Naive Bayes                                                                                                        | en-ginco       |      0.289 |      0.36  |
 | GaMS-9B-Instruct                                                                                                   | en-ginco       |      0.255 |      0.351 |

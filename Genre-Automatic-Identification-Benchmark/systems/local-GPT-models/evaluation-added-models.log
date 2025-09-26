@@ -1,5 +1,61 @@
+All evaluations completed. The results are added to the `results/results.json` file.
+New benchmark scores:
 
-#### Albanian
+| Model                                                                                                              | Test Dataset   |   Macro F1 |   Micro F1 |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------|-----------:|-----------:|
+| [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        |      0.847 |      0.845 |
+| GPT-4o (gpt-4o-2024-08-06) (zero-shot)                                                                             | x-ginco        |      0.776 |      0.769 |
+| gpt-5-mini-2025-08-07                                                                                              | x-ginco        |      0.771 |      0.764 |
+| gpt-5                                                                                                              | x-ginco        |      0.77  |      0.768 |
+| gpt-5-nano-2025-08-07                                                                                              | x-ginco        |      0.749 |      0.738 |
+| Llama 3.3 (70B) (zero-shot)                                                                                        | x-ginco        |      0.741 |      0.738 |
+| Gemma 3 (27B) (zero-shot)                                                                                          | x-ginco        |      0.739 |      0.733 |
+| GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | x-ginco        |      0.688 |      0.67  |
+| qwen3:32b                                                                                                          | x-ginco        |      0.662 |      0.647 |
+| [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | x-ginco        |      0.651 |      0.652 |
+| GPT-3.5-Turbo (zero-shot)                                                                                          | x-ginco        |      0.627 |      0.622 |
+| Gemma 2 (27B) (zero-shot)                                                                                          | x-ginco        |      0.612 |      0.593 |
+| llama4:scout                                                                                                       | x-ginco        |      0.401 |      0.411 |
+| GaMS-9B-Instruct                                                                                                   | x-ginco        |      0.379 |      0.381 |
+| DeepSeek-R1 14B (zero-shot)                                                                                        | x-ginco        |      0.197 |      0.204 |
+| Logistic Regression                                                                                                | x-ginco        |      0.174 |      0.185 |
+| NLI zero-shot model ([mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)) | x-ginco        |      0.17  |      0.189 |
+| Support Vector Machine                                                                                             | x-ginco        |      0.166 |      0.184 |
+| fastText                                                                                                           | x-ginco        |      0.156 |      0.179 |
+| Naive Bayes                                                                                                        | x-ginco        |      0.143 |      0.171 |
+| Dummy Classifier (stratified)                                                                                      | x-ginco        |      0.106 |      0.113 |
+| Dummy classifier (most frequent)                                                                                   | x-ginco        |      0.029 |      0.133 |
+
+------------------------------------------
+
+New benchmark scores:
+
+| Model                                                                                                              | Test Dataset   |   Macro F1 |   Micro F1 |
+|:-------------------------------------------------------------------------------------------------------------------|:---------------|-----------:|-----------:|
+| gpt-5-mini-2025-08-07                                                                                              | en-ginco       |      0.688 |      0.75  |
+| [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | en-ginco       |      0.687 |      0.684 |
+| gpt-5                                                                                                              | en-ginco       |      0.653 |      0.761 |
+| GPT-4o (gpt-4o-2024-08-06) (zero-shot)                                                                             | en-ginco       |      0.62  |      0.735 |
+| Llama 3.3 (70B) (zero-shot)                                                                                        | en-ginco       |      0.586 |      0.684 |
+| Gemma 2 (27B) (zero-shot)                                                                                          | en-ginco       |      0.564 |      0.603 |
+| gpt-5-nano-2025-08-07                                                                                              | en-ginco       |      0.56  |      0.676 |
+| [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | en-ginco       |      0.545 |      0.588 |
+| Gemma 3 (27B) (zero-shot)                                                                                          | en-ginco       |      0.541 |      0.672 |
+| GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | en-ginco       |      0.534 |      0.632 |
+| Support Vector Machine                                                                                             | en-ginco       |      0.514 |      0.489 |
+| GPT-3.5-Turbo (zero-shot)                                                                                          | en-ginco       |      0.494 |      0.625 |
+| Logistic Regression                                                                                                | en-ginco       |      0.464 |      0.471 |
+| qwen3:32b                                                                                                          | en-ginco       |      0.449 |      0.599 |
+| fastText                                                                                                           | en-ginco       |      0.408 |      0.445 |
+| llama4:scout                                                                                                       | en-ginco       |      0.396 |      0.415 |
+| DeepSeek-R1 14B (zero-shot)                                                                                        | en-ginco       |      0.293 |      0.229 |
+| Naive Bayes                                                                                                        | en-ginco       |      0.289 |      0.36  |
+| GaMS-9B-Instruct                                                                                                   | en-ginco       |      0.255 |      0.351 |
+| NLI zero-shot model ([mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)) | en-ginco       |      0.149 |      0.202 |
+| Dummy Classifier (stratified)                                                                                      | en-ginco       |      0.088 |      0.154 |
+| Dummy classifier (most frequent)                                                                                   | en-ginco       |      0.032 |      0.169 |
+
+------------------------------------------
 
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
@@ -25,11 +81,6 @@
 | Support Vector Machine                                                                                             | x-ginco        | Albanian   |      0.057 |      0.1   |
 | fastText                                                                                                           | x-ginco        | Albanian   |      0.024 |      0.062 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Albanian   |      0.023 |      0.1   |
-
-------------------------------------------
-
-#### Catalan
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | gpt-5-mini-2025-08-07                                                                                              | x-ginco        | Catalan    |      0.788 |      0.762 |
@@ -54,11 +105,6 @@
 | Logistic Regression                                                                                                | x-ginco        | Catalan    |      0.063 |      0.138 |
 | fastText                                                                                                           | x-ginco        | Catalan    |      0.063 |      0.138 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Catalan    |      0.02  |      0.088 |
-
-------------------------------------------
-
-#### Croatian
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        | Croatian   |      0.894 |      0.9   |
@@ -83,11 +129,6 @@
 | Logistic Regression                                                                                                | x-ginco        | Croatian   |      0.117 |      0.155 |
 | Dummy Classifier (stratified)                                                                                      | x-ginco        | Croatian   |      0.055 |      0.064 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Croatian   |      0.025 |      0.112 |
-
-------------------------------------------
-
-#### English
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | gpt-5-mini-2025-08-07                                                                                              | en-ginco       | English    |      0.688 |      0.75  |
@@ -112,11 +153,6 @@
 | NLI zero-shot model ([mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)) | en-ginco       | English    |      0.149 |      0.202 |
 | Dummy Classifier (stratified)                                                                                      | en-ginco       | English    |      0.088 |      0.154 |
 | Dummy classifier (most frequent)                                                                                   | en-ginco       | English    |      0.032 |      0.169 |
-
-------------------------------------------
-
-#### Greek
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | gpt-5-mini-2025-08-07                                                                                              | x-ginco        | Greek      |      0.818 |      0.818 |
@@ -141,11 +177,6 @@
 | fastText                                                                                                           | x-ginco        | Greek      |      0.095 |      0.138 |
 | Naive Bayes                                                                                                        | x-ginco        | Greek      |      0.093 |      0.138 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Greek      |      0.028 |      0.125 |
-
-------------------------------------------
-
-#### Icelandic
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | gpt-5                                                                                                              | x-ginco        | Icelandic  |      0.847 |      0.855 |
@@ -170,11 +201,6 @@
 | Naive Bayes                                                                                                        | x-ginco        | Icelandic  |      0.059 |      0.169 |
 | fastText                                                                                                           | x-ginco        | Icelandic  |      0.052 |      0.105 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Icelandic  |      0.033 |      0.15  |
-
-------------------------------------------
-
-#### Macedonian
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        | Macedonian |      0.911 |      0.912 |
@@ -199,11 +225,6 @@
 | Support Vector Machine                                                                                             | x-ginco        | Macedonian |      0.067 |      0.138 |
 | Dummy Classifier (stratified)                                                                                      | x-ginco        | Macedonian |      0.065 |      0.065 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Macedonian |      0.033 |      0.15  |
-
-------------------------------------------
-
-#### Maltese
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | Llama 3.3 (70B) (zero-shot)                                                                                        | x-ginco        | Maltese    |      0.642 |      0.8   |
@@ -228,11 +249,6 @@
 | DeepSeek-R1 14B (zero-shot)                                                                                        | x-ginco        | Maltese    |      0.071 |      0.136 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Maltese    |      0.053 |      0.229 |
 | [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | x-ginco        | Maltese    |      0     |      0     |
-
-------------------------------------------
-
-#### Slovenian
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        | Slovenian  |      0.936 |      0.938 |
@@ -257,11 +273,6 @@
 | NLI zero-shot model ([mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)) | x-ginco        | Slovenian  |      0.131 |      0.157 |
 | Dummy Classifier (stratified)                                                                                      | x-ginco        | Slovenian  |      0.128 |      0.143 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Slovenian  |      0.028 |      0.125 |
-
-------------------------------------------
-
-#### Turkish
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        | Turkish    |      0.916 |      0.917 |
@@ -286,11 +297,6 @@
 | Support Vector Machine                                                                                             | x-ginco        | Turkish    |      0.093 |      0.138 |
 | fastText                                                                                                           | x-ginco        | Turkish    |      0.092 |      0.126 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Turkish    |      0.03  |      0.138 |
-
-------------------------------------------
-
-#### Ukrainian
-
 | Model                                                                                                              | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|:-----------|-----------:|-----------:|
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | x-ginco        | Ukrainian  |      0.945 |      0.949 |
@@ -315,5 +321,3 @@
 | Support Vector Machine                                                                                             | x-ginco        | Ukrainian  |      0.058 |      0.112 |
 | Dummy Classifier (stratified)                                                                                      | x-ginco        | Ukrainian  |      0.056 |      0.064 |
 | Dummy classifier (most frequent)                                                                                   | x-ginco        | Ukrainian  |      0.028 |      0.125 |
-
-------------------------------------------

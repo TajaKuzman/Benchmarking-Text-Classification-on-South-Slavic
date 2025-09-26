@@ -23,19 +23,19 @@ All models that were not used in a zero-shot scenario were trained on the train 
 
 | Model                  |   Slovenian (macro-F1) |   Slovenian (micro-F1) |   Croatian (macro-F1) |   Croatian (micro-F1) |
 |:-----------------------|-----------------------:|-----------------------:|----------------------:|----------------------:|
-| GPT-4o                 |                  0.767 |                  0.766 |                 0.767 |                 0.766 |
-| Fine-Tuned XLM-R       |                  0.765 |                  0.759 |                 0.765 |                 0.759 |
-| GPT-5-mini             |                  0.749 |                  0.741 |                 0.749 |                 0.741 |
-| GPT-5                  |                  0.736 |                  0.727 |                 0.736 |                 0.727 |
-| GPT-4o-mini            |                  0.73  |                  0.723 |                 0.73  |                 0.723 |
-| GPT-5-Nano             |                  0.73  |                  0.713 |                 0.73  |                 0.713 |
-| Gemma 3                |                  0.693 |                  0.683 |                 0.693 |                 0.683 |
-| GPT-3.5-Turbo          |                  0.682 |                  0.67  |                 0.682 |                 0.67  |
-| LLaMA 3.3              |                  0.614 |                  0.61  |                 0.614 |                 0.61  |
-| Support Vector Machine |                  0.421 |                  0.426 |                 0.421 |                 0.426 |
-| DeepSeek-R1-Distill    |                  0.385 |                  0.361 |                 0.385 |                 0.361 |
-| Naive Bayes Classifier |                  0.211 |                  0.255 |                 0.211 |                 0.255 |
-| Dummy                  |                  0.007 |                  0.06  |                 0.007 |                 0.06  |
+| GPT-4o                 |                  0.767 |                  0.766 |                 0.741 |                 0.735 |
+| Fine-Tuned XLM-R       |                  0.765 |                  0.759 |                 0.734 |                 0.729 |
+| GPT-5-mini             |                  0.749 |                  0.741 |                 0.711 |                 0.704 |
+| GPT-5                  |                  0.736 |                  0.727 |                 0.749 |                 0.746 |
+| GPT-4o-mini            |                  0.73  |                  0.723 |                 0.732 |                 0.718 |
+| GPT-5-Nano             |                  0.73  |                  0.713 |                 0.661 |                 0.653 |
+| Gemma 3                |                  0.693 |                  0.683 |                 0.695 |                 0.692 |
+| GPT-3.5-Turbo          |                  0.682 |                  0.67  |                 0.587 |                 0.577 |
+| LLaMA 3.3              |                  0.614 |                  0.61  |                 0.61  |                 0.611 |
+| Support Vector Machine |                  0.421 |                  0.426 |                 0.399 |                 0.43  |
+| DeepSeek-R1-Distill    |                  0.385 |                  0.361 |                 0.401 |                 0.39  |
+| Naive Bayes Classifier |                  0.211 |                  0.255 |                 0.231 |                 0.313 |
+| Dummy                  |                  0.007 |                  0.06  |                 0.006 |                 0.058 |
 
 ![](evaluation-for-the-paper/topic-classification-results.png)
 

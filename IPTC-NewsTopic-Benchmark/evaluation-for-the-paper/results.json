@@ -1,14 +1,14 @@
-{"Model":"gpt-4o-2024-08-06","Slovenian (macro-F1)":0.767,"Slovenian (micro-F1)":0.766,"Croatian (macro-F1)":0.767,"Croatian (micro-F1)":0.766}
-{"Model":"IPTC XLM-R classifier","Slovenian (macro-F1)":0.765,"Slovenian (micro-F1)":0.759,"Croatian (macro-F1)":0.765,"Croatian (micro-F1)":0.759}
-{"Model":"gpt-5-mini-2025-08-07","Slovenian (macro-F1)":0.749,"Slovenian (micro-F1)":0.741,"Croatian (macro-F1)":0.749,"Croatian (micro-F1)":0.741}
-{"Model":"gpt-5","Slovenian (macro-F1)":0.736,"Slovenian (micro-F1)":0.727,"Croatian (macro-F1)":0.736,"Croatian (micro-F1)":0.727}
-{"Model":"gpt-4o-mini-2024-07-18","Slovenian (macro-F1)":0.73,"Slovenian (micro-F1)":0.723,"Croatian (macro-F1)":0.73,"Croatian (micro-F1)":0.723}
-{"Model":"gpt-5-nano-2025-08-07","Slovenian (macro-F1)":0.73,"Slovenian (micro-F1)":0.713,"Croatian (macro-F1)":0.73,"Croatian (micro-F1)":0.713}
-{"Model":"gemma3:27b","Slovenian (macro-F1)":0.693,"Slovenian (micro-F1)":0.683,"Croatian (macro-F1)":0.693,"Croatian (micro-F1)":0.683}
-{"Model":"gpt-3.5-turbo-0125","Slovenian (macro-F1)":0.682,"Slovenian (micro-F1)":0.67,"Croatian (macro-F1)":0.682,"Croatian (micro-F1)":0.67}
-{"Model":"llama3.3:latest","Slovenian (macro-F1)":0.614,"Slovenian (micro-F1)":0.61,"Croatian (macro-F1)":0.614,"Croatian (micro-F1)":0.61}
-{"Model":"SVC","Slovenian (macro-F1)":0.421,"Slovenian (micro-F1)":0.426,"Croatian (macro-F1)":0.421,"Croatian (micro-F1)":0.426}
-{"Model":"deepseek-r1:14b","Slovenian (macro-F1)":0.385,"Slovenian (micro-F1)":0.361,"Croatian (macro-F1)":0.385,"Croatian (micro-F1)":0.361}
-{"Model":"COMPLEMENTNB","Slovenian (macro-F1)":0.211,"Slovenian (micro-F1)":0.255,"Croatian (macro-F1)":0.211,"Croatian (micro-F1)":0.255}
-{"Model":"dummy-stratified","Slovenian (macro-F1)":0.053,"Slovenian (micro-F1)":0.053,"Croatian (macro-F1)":0.053,"Croatian (micro-F1)":0.053}
-{"Model":"dummy-most_frequent","Slovenian (macro-F1)":0.007,"Slovenian (micro-F1)":0.06,"Croatian (macro-F1)":0.007,"Croatian (micro-F1)":0.06}
+{"Model":"gpt-4o-2024-08-06","Slovenian (macro-F1)":0.767,"Slovenian (micro-F1)":0.766,"Croatian (macro-F1)":0.741,"Croatian (micro-F1)":0.735}
+{"Model":"IPTC XLM-R classifier","Slovenian (macro-F1)":0.765,"Slovenian (micro-F1)":0.759,"Croatian (macro-F1)":0.734,"Croatian (micro-F1)":0.729}
+{"Model":"gpt-5-mini-2025-08-07","Slovenian (macro-F1)":0.749,"Slovenian (micro-F1)":0.741,"Croatian (macro-F1)":0.711,"Croatian (micro-F1)":0.704}
+{"Model":"gpt-5","Slovenian (macro-F1)":0.736,"Slovenian (micro-F1)":0.727,"Croatian (macro-F1)":0.749,"Croatian (micro-F1)":0.746}
+{"Model":"gpt-4o-mini-2024-07-18","Slovenian (macro-F1)":0.73,"Slovenian (micro-F1)":0.723,"Croatian (macro-F1)":0.732,"Croatian (micro-F1)":0.718}
+{"Model":"gpt-5-nano-2025-08-07","Slovenian (macro-F1)":0.73,"Slovenian (micro-F1)":0.713,"Croatian (macro-F1)":0.661,"Croatian (micro-F1)":0.653}
+{"Model":"gemma3:27b","Slovenian (macro-F1)":0.693,"Slovenian (micro-F1)":0.683,"Croatian (macro-F1)":0.695,"Croatian (micro-F1)":0.692}
+{"Model":"gpt-3.5-turbo-0125","Slovenian (macro-F1)":0.682,"Slovenian (micro-F1)":0.67,"Croatian (macro-F1)":0.587,"Croatian (micro-F1)":0.577}
+{"Model":"llama3.3:latest","Slovenian (macro-F1)":0.614,"Slovenian (micro-F1)":0.61,"Croatian (macro-F1)":0.61,"Croatian (micro-F1)":0.611}
+{"Model":"SVC","Slovenian (macro-F1)":0.421,"Slovenian (micro-F1)":0.426,"Croatian (macro-F1)":0.399,"Croatian (micro-F1)":0.43}
+{"Model":"deepseek-r1:14b","Slovenian (macro-F1)":0.385,"Slovenian (micro-F1)":0.361,"Croatian (macro-F1)":0.401,"Croatian (micro-F1)":0.39}
+{"Model":"COMPLEMENTNB","Slovenian (macro-F1)":0.211,"Slovenian (micro-F1)":0.255,"Croatian (macro-F1)":0.231,"Croatian (micro-F1)":0.313}
+{"Model":"dummy-stratified","Slovenian (macro-F1)":0.053,"Slovenian (micro-F1)":0.053,"Croatian (macro-F1)":0.057,"Croatian (micro-F1)":0.072}
+{"Model":"dummy-most_frequent","Slovenian (macro-F1)":0.007,"Slovenian (micro-F1)":0.06,"Croatian (macro-F1)":0.006,"Croatian (micro-F1)":0.058}

@@ -8,13 +8,11 @@ We evaluate the following models:
 We use the following prompt:
 
 ```python
-	# Add dictionary with information on the language and the home country of the dataset
 	lang_parl_dict = {
-	'hr': {"lang": "Croatian", "parl": "Croatian"},
-	#'SI': {"lang": "Slovenian", "parl": "Slovenian"},
-	#'RS': {"lang": "Serbian", "parl": "Serbian"},
-	'en': {"lang": "English", "parl": "British"},
-	#'BA': {"lang": "Bosnian", "parl": "Bosnian"},
+	'HR': {"lang": "Croatian", "parl": "Croatian"},
+	'RS': {"lang": "Serbian", "parl": "Serbian"},
+	'GB': {"lang": "English", "parl": "British"},
+	'BA': {"lang": "Bosnian", "parl": "Bosnian"},
 	}
 
 	start_time = time.time()

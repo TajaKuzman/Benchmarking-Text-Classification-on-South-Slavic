@@ -6,6 +6,8 @@ The following models were evaluated:
 - [Gemma 3 (27B model)](https://ollama.com/library/gemma3) `gemma3:27b`
 - [DeepSeek-R1 (14B model)](https://ollama.com/library/deepseek-r1) `deepseek-r1:14b`
 - [Llama 3.3 model (70B model)](https://ollama.com/library/llama3.3) `llama3.3:latest`
+- [Llama 4 Scout model (17B active parameters, 109B total parameters, 16 experts)](https://ollama.com/library/llama4) `llama4:scout`
+- [Qwen 3 (32B)](https://ollama.com/library/qwen3) `qwen3:32b`
 
 The prompt:
 ```python

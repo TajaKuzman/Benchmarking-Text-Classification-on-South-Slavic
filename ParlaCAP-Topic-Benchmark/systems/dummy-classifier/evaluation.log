@@ -3,7 +3,7 @@ New benchmark scores:
 
 | Model               | Test Dataset     |   Macro F1 |   Micro F1 |
 |:--------------------|:-----------------|-----------:|-----------:|
-| dummy-stratified    | ParlaCAP-HR-test |      0.054 |      0.061 |
+| dummy-stratified    | ParlaCAP-HR-test |      0.041 |      0.056 |
 | dummy-most_frequent | ParlaCAP-HR-test |      0.006 |      0.067 |
 
 ------------------------------------------
@@ -12,16 +12,42 @@ New benchmark scores:
 
 | Model               | Test Dataset     |   Macro F1 |   Micro F1 |
 |:--------------------|:-----------------|-----------:|-----------:|
-| dummy-stratified    | ParlaCAP-EN-test |      0.031 |      0.039 |
-| dummy-most_frequent | ParlaCAP-EN-test |      0.005 |      0.064 |
+| dummy-stratified    | ParlaCAP-EN-test |      0.049 |      0.056 |
+| dummy-most_frequent | ParlaCAP-EN-test |      0.005 |      0.061 |
+
+------------------------------------------
+
+New benchmark scores:
+
+| Model               | Test Dataset     |   Macro F1 |   Micro F1 |
+|:--------------------|:-----------------|-----------:|-----------:|
+| dummy-stratified    | ParlaCAP-RS-test |      0.046 |      0.058 |
+| dummy-most_frequent | ParlaCAP-RS-test |      0.006 |      0.066 |
+
+------------------------------------------
+
+New benchmark scores:
+
+| Model               | Test Dataset     |   Macro F1 |   Micro F1 |
+|:--------------------|:-----------------|-----------:|-----------:|
+| dummy-stratified    | ParlaCAP-BA-test |      0.042 |      0.061 |
+| dummy-most_frequent | ParlaCAP-BA-test |      0.009 |      0.104 |
 
 ------------------------------------------
 
 | Model               | Test Dataset     | Language   |   Macro F1 |   Micro F1 |
 |:--------------------|:-----------------|:-----------|-----------:|-----------:|
-| dummy-stratified    | ParlaCAP-EN-test | en         |      0.031 |      0.039 |
-| dummy-most_frequent | ParlaCAP-EN-test | en         |      0.005 |      0.064 |
+| dummy-stratified    | ParlaCAP-EN-test | GB         |      0.049 |      0.056 |
+| dummy-most_frequent | ParlaCAP-EN-test | GB         |      0.005 |      0.061 |
 | Model               | Test Dataset     | Language   |   Macro F1 |   Micro F1 |
 |:--------------------|:-----------------|:-----------|-----------:|-----------:|
-| dummy-stratified    | ParlaCAP-HR-test | hr         |      0.054 |      0.061 |
-| dummy-most_frequent | ParlaCAP-HR-test | hr         |      0.006 |      0.067 |
+| dummy-stratified    | ParlaCAP-HR-test | HR         |      0.041 |      0.056 |
+| dummy-most_frequent | ParlaCAP-HR-test | HR         |      0.006 |      0.067 |
+| Model               | Test Dataset     | Language   |   Macro F1 |   Micro F1 |
+|:--------------------|:-----------------|:-----------|-----------:|-----------:|
+| dummy-stratified    | ParlaCAP-BA-test | BA         |      0.042 |      0.061 |
+| dummy-most_frequent | ParlaCAP-BA-test | BA         |      0.009 |      0.104 |
+| Model               | Test Dataset     | Language   |   Macro F1 |   Micro F1 |
+|:--------------------|:-----------------|:-----------|-----------:|-----------:|
+| dummy-stratified    | ParlaCAP-RS-test | RS         |      0.046 |      0.058 |
+| dummy-most_frequent | ParlaCAP-RS-test | RS         |      0.006 |      0.066 |

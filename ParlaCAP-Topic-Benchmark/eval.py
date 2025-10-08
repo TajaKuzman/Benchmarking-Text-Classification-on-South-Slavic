@@ -37,13 +37,17 @@ def testing(true, pred, labels):
 def add_predictions_to_dataset(dataset_name, results):
     """The function takes the dataset name and dataset dictionary and returns test dataset with predictions.
     Args:
-    - dataset_name: should be "ParlaCAP-EN-test" or "ParlaCAP-HR-test"
+    - dataset_name: should be "ParlaCAP-EN-test", "ParlaCAP-HR-test", "ParlaCAP-BA-test" or "ParlaCAP-RS-test"
     """
     # Load the dataset
     if dataset_name == "ParlaCAP-EN-test":
-        test_df = pd.read_json("datasets/ParlaCAP-EN-test/ParlaMint-EN-CAP-test-dataset.jsonl", lines=True)
+        test_df = pd.read_json("datasets/ParlaMint-EN-CAP-test-dataset.jsonl", lines=True)
     elif dataset_name == "ParlaCAP-HR-test":
-        test_df = pd.read_json("datasets/ParlaCAP-HR-test/ParlaMint-HR-CAP-test-dataset.jsonl", lines=True)
+        test_df = pd.read_json("datasets/ParlaMint-HR-CAP-test-dataset.jsonl", lines=True)
+    elif dataset_name == "ParlaCAP-BA-test":
+        test_df = pd.read_json("datasets/ParlaMint-BA-CAP-test-dataset.jsonl", lines=True)
+    elif dataset_name == "ParlaCAP-RS-test":
+        test_df = pd.read_json("datasets/ParlaMint-RS-CAP-test-dataset.jsonl", lines=True)
 
     # Extract predictions
     y_pred = results["predictions"][0]["predictions"]
@@ -140,7 +144,7 @@ def results_table(result_df, dataset):
     return dataset_df
 
 
-for dataset in ["ParlaCAP-HR-test", "ParlaCAP-EN-test"]:
+for dataset in ["ParlaCAP-HR-test", "ParlaCAP-EN-test", "ParlaCAP-RS-test", "ParlaCAP-BA-test"]:
     print("New benchmark scores:\n")
 
     current_df = results_table(result_df, dataset)
@@ -155,7 +159,7 @@ for dataset in ["ParlaCAP-HR-test", "ParlaCAP-EN-test"]:
 # Create language-specific results
 lang_results_dict = []
 
-for lang in ["en", "hr"]:
+for lang in ["GB", "HR", "BA", "RS"]:
 	for result in results_list:
 		cur_result = {"Model": result["Model"], "Test Dataset": result["Test Dataset"], "Language": lang}
 		try:
@@ -191,7 +195,7 @@ def results_table_lang(lang_results_df, lang):
 
 lang_result_file = open("results/language-specific-results.md", "w")
 
-for lang in ["en", "hr"]:
+for lang in ["GB", "HR", "BA", "RS"]:
 
     current_df = results_table_lang(lang_results_df, lang)
     

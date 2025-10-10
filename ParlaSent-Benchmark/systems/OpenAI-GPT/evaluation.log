@@ -3,8 +3,11 @@ New benchmark scores:
 
 | Model                  | Test Dataset      |   Macro F1 |   Micro F1 |
 |:-----------------------|:------------------|-----------:|-----------:|
+| gpt-5                  | ParlaSent-EN-test |      0.784 |      0.782 |
+| gpt-5-mini-2025-08-07  | ParlaSent-EN-test |      0.773 |      0.771 |
 | gpt-4o-2024-08-06      | ParlaSent-EN-test |      0.771 |      0.773 |
 | gemma3:27b             | ParlaSent-EN-test |      0.768 |      0.766 |
+| gpt-5-nano-2025-08-07  | ParlaSent-EN-test |      0.752 |      0.749 |
 | llama3.3:latest        | ParlaSent-EN-test |      0.749 |      0.745 |
 | gpt-4o-mini-2024-07-18 | ParlaSent-EN-test |      0.733 |      0.733 |
 | XLM-R-ParlaSent        | ParlaSent-EN-test |      0.728 |      0.727 |
@@ -21,8 +24,11 @@ New benchmark scores:
 
 | Model                  | Test Dataset       |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|-----------:|-----------:|
+| gpt-5                  | ParlaSent-BCS-test |      0.761 |      0.778 |
+| gpt-5-mini-2025-08-07  | ParlaSent-BCS-test |      0.755 |      0.766 |
 | gpt-4o-2024-08-06      | ParlaSent-BCS-test |      0.746 |      0.772 |
 | gemma3:27b             | ParlaSent-BCS-test |      0.719 |      0.735 |
+| gpt-5-nano-2025-08-07  | ParlaSent-BCS-test |      0.713 |      0.721 |
 | llama3.3:latest        | ParlaSent-BCS-test |      0.71  |      0.727 |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test |      0.703 |      0.725 |
 | gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test |      0.679 |      0.708 |
@@ -37,8 +43,11 @@ New benchmark scores:
 
 | Model                  | Test Dataset      | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:------------------|:-----------|-----------:|-----------:|
+| gpt-5                  | ParlaSent-EN-test | en         |      0.784 |      0.782 |
+| gpt-5-mini-2025-08-07  | ParlaSent-EN-test | en         |      0.773 |      0.771 |
 | gpt-4o-2024-08-06      | ParlaSent-EN-test | en         |      0.771 |      0.773 |
 | gemma3:27b             | ParlaSent-EN-test | en         |      0.768 |      0.766 |
+| gpt-5-nano-2025-08-07  | ParlaSent-EN-test | en         |      0.752 |      0.749 |
 | llama3.3:latest        | ParlaSent-EN-test | en         |      0.749 |      0.745 |
 | gpt-4o-mini-2024-07-18 | ParlaSent-EN-test | en         |      0.733 |      0.733 |
 | XLM-R-ParlaSent        | ParlaSent-EN-test | en         |      0.728 |      0.727 |
@@ -51,8 +60,11 @@ New benchmark scores:
 | Model                  | Test Dataset       | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|:-----------|-----------:|-----------:|
 | gpt-4o-2024-08-06      | ParlaSent-BCS-test | hr         |      0.757 |      0.782 |
+| gpt-5                  | ParlaSent-BCS-test | hr         |      0.756 |      0.773 |
+| gpt-5-mini-2025-08-07  | ParlaSent-BCS-test | hr         |      0.752 |      0.762 |
 | gemma3:27b             | ParlaSent-BCS-test | hr         |      0.728 |      0.742 |
 | llama3.3:latest        | ParlaSent-BCS-test | hr         |      0.728 |      0.743 |
+| gpt-5-nano-2025-08-07  | ParlaSent-BCS-test | hr         |      0.71  |      0.72  |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test | hr         |      0.698 |      0.719 |
 | gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | hr         |      0.686 |      0.719 |
 | gpt-3.5-turbo-0125     | ParlaSent-BCS-test | hr         |      0.652 |      0.673 |
@@ -63,9 +75,12 @@ New benchmark scores:
 | dummy-most_frequent    | ParlaSent-BCS-test | hr         |      0.197 |      0.419 |
 | Model                  | Test Dataset       | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|:-----------|-----------:|-----------:|
+| gpt-5                  | ParlaSent-BCS-test | bs         |      0.759 |      0.779 |
+| gpt-5-mini-2025-08-07  | ParlaSent-BCS-test | bs         |      0.734 |      0.753 |
 | gemma3:27b             | ParlaSent-BCS-test | bs         |      0.718 |      0.742 |
 | gpt-4o-2024-08-06      | ParlaSent-BCS-test | bs         |      0.701 |      0.747 |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test | bs         |      0.697 |      0.721 |
+| gpt-5-nano-2025-08-07  | ParlaSent-BCS-test | bs         |      0.684 |      0.695 |
 | llama3.3:latest        | ParlaSent-BCS-test | bs         |      0.673 |      0.711 |
 | gpt-4o-mini-2024-07-18 | ParlaSent-BCS-test | bs         |      0.593 |      0.653 |
 | gpt-3.5-turbo-0125     | ParlaSent-BCS-test | bs         |      0.584 |      0.626 |
@@ -76,7 +91,10 @@ New benchmark scores:
 | dummy-most_frequent    | ParlaSent-BCS-test | bs         |      0.216 |      0.479 |
 | Model                  | Test Dataset       | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------|:-------------------|:-----------|-----------:|-----------:|
+| gpt-5                  | ParlaSent-BCS-test | sr         |      0.768 |      0.783 |
+| gpt-5-mini-2025-08-07  | ParlaSent-BCS-test | sr         |      0.761 |      0.774 |
 | gpt-4o-2024-08-06      | ParlaSent-BCS-test | sr         |      0.738 |      0.764 |
+| gpt-5-nano-2025-08-07  | ParlaSent-BCS-test | sr         |      0.72  |      0.727 |
 | XLM-R-ParlaSent        | ParlaSent-BCS-test | sr         |      0.71  |      0.732 |
 | gemma3:27b             | ParlaSent-BCS-test | sr         |      0.707 |      0.725 |
 | llama3.3:latest        | ParlaSent-BCS-test | sr         |      0.693 |      0.711 |

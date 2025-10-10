@@ -278,5 +278,901 @@
         "Micro F1": 0.12543153049482164
       }
     }
+  },
+  {
+    "Model": "gemma3:27b",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.5704465687016116,
+    "Micro F1": 0.5655409273039497,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.5704465687016116,
+        "Micro F1": 0.5655409273039497
+      }
+    }
+  },
+  {
+    "Model": "llama4:scout",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.513116228776372,
+    "Micro F1": 0.5251141552511416,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.513116228776372,
+        "Micro F1": 0.5251141552511416
+      }
+    }
+  },
+  {
+    "Model": "gemma3:27b",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5103113923147746,
+    "Micro F1": 0.5,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5103113923147746,
+        "Micro F1": 0.5
+      }
+    }
+  },
+  {
+    "Model": "llama3.3:latest",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6129052744402503,
+    "Micro F1": 0.6086956521739131,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6129052744402503,
+        "Micro F1": 0.6086956521739131
+      }
+    }
+  },
+  {
+    "Model": "llama3.3:latest",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6316826140338769,
+    "Micro F1": 0.6404109589041096,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6316826140338769,
+        "Micro F1": 0.6404109589041096
+      }
+    }
+  },
+  {
+    "Model": "qwen3:32b",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6466629855437667,
+    "Micro F1": 0.6495433789954338,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6466629855437667,
+        "Micro F1": 0.6495433789954338
+      }
+    }
+  },
+  {
+    "Model": "llama4:scout",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.38200554430378636,
+    "Micro F1": 0.37985436893203883,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.38200554430378636,
+        "Micro F1": 0.37985436893203883
+      }
+    }
+  },
+  {
+    "Model": "deepseek-r1:14b",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.2661747664574743,
+    "Micro F1": 0.25970873786407767,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.2661747664574743,
+        "Micro F1": 0.25970873786407767
+      }
+    }
+  },
+  {
+    "Model": "llama4:scout",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.477661480524902,
+    "Micro F1": 0.47139588100686497,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.477661480524902,
+        "Micro F1": 0.47139588100686497
+      }
+    }
+  },
+  {
+    "Model": "deepseek-r1:14b",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.3027400051777706,
+    "Micro F1": 0.2791762013729977,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.3027400051777706,
+        "Micro F1": 0.2791762013729977
+      }
+    }
+  },
+  {
+    "Model": "llama3.3:latest",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5256781706039884,
+    "Micro F1": 0.5230582524271845,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5256781706039884,
+        "Micro F1": 0.5230582524271845
+      }
+    }
+  },
+  {
+    "Model": "qwen3:32b",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.5975587847658281,
+    "Micro F1": 0.5811277330264673,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.5975587847658281,
+        "Micro F1": 0.5811277330264673
+      }
+    }
+  },
+  {
+    "Model": "qwen3:32b",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.47970145060350017,
+    "Micro F1": 0.46480582524271846,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.47970145060350017,
+        "Micro F1": 0.46480582524271846
+      }
+    }
+  },
+  {
+    "Model": "qwen3:32b",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.5692075044840291,
+    "Micro F1": 0.551487414187643,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.5692075044840291,
+        "Micro F1": 0.551487414187643
+      }
+    }
+  },
+  {
+    "Model": "deepseek-r1:14b",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.3114163981456587,
+    "Micro F1": 0.28423475258918296,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.3114163981456587,
+        "Micro F1": 0.28423475258918296
+      }
+    }
+  },
+  {
+    "Model": "gemma3:27b",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.5546842733139663,
+    "Micro F1": 0.5506912442396313,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.5546842733139663,
+        "Micro F1": 0.5506912442396313
+      }
+    }
+  },
+  {
+    "Model": "llama4:scout",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.4836522523668912,
+    "Micro F1": 0.4844649021864212,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.4836522523668912,
+        "Micro F1": 0.4844649021864212
+      }
+    }
+  },
+  {
+    "Model": "gemma3:27b",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6199967091516144,
+    "Micro F1": 0.6198630136986302,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6199967091516144,
+        "Micro F1": 0.6198630136986302
+      }
+    }
+  },
+  {
+    "Model": "llama3.3:latest",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.5546599187602603,
+    "Micro F1": 0.5650172612197929,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.5546599187602603,
+        "Micro F1": 0.5650172612197929
+      }
+    }
+  },
+  {
+    "Model": "deepseek-r1:14b",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.4044985650028574,
+    "Micro F1": 0.3812785388127854,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.4044985650028574,
+        "Micro F1": 0.3812785388127854
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.6291958537678501,
+    "Micro F1": 0.6298543689320388,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.6291958537678501,
+        "Micro F1": 0.6298543689320388
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-mini-2024-07-18",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.592527815847066,
+    "Micro F1": 0.5881006864988558,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.592527815847066,
+        "Micro F1": 0.5881006864988558
+      }
+    }
+  },
+  {
+    "Model": "gpt-5",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.7338714523440124,
+    "Micro F1": 0.7317351598173516,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.7338714523440124,
+        "Micro F1": 0.7317351598173516
+      }
+    }
+  },
+  {
+    "Model": "gpt-3.5-turbo-0125",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.5537989794117945,
+    "Micro F1": 0.5411899313501144,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.5537989794117945,
+        "Micro F1": 0.5411899313501144
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6714281454463852,
+    "Micro F1": 0.663981588032221,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6714281454463852,
+        "Micro F1": 0.663981588032221
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-nano-2025-08-07",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6061069527051396,
+    "Micro F1": 0.5983889528193326,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6061069527051396,
+        "Micro F1": 0.5983889528193326
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-mini-2025-08-07",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.7289633013849646,
+    "Micro F1": 0.7294520547945206,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.7289633013849646,
+        "Micro F1": 0.7294520547945206
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-nano-2025-08-07",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6567632007892289,
+    "Micro F1": 0.6643835616438356,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6567632007892289,
+        "Micro F1": 0.6643835616438356
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.7445347430011097,
+    "Micro F1": 0.7442922374429224,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.7445347430011097,
+        "Micro F1": 0.7442922374429224
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-mini-2025-08-07",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6810894241082058,
+    "Micro F1": 0.6708860759493671,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6810894241082058,
+        "Micro F1": 0.6708860759493671
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6910109861724837,
+    "Micro F1": 0.6887871853546911,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6910109861724837,
+        "Micro F1": 0.6887871853546911
+      }
+    }
+  },
+  {
+    "Model": "gpt-3.5-turbo-0125",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.5447803659242495,
+    "Micro F1": 0.5468036529680366,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.5447803659242495,
+        "Micro F1": 0.5468036529680366
+      }
+    }
+  },
+  {
+    "Model": "gpt-3.5-turbo-0125",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.48716596769665227,
+    "Micro F1": 0.4844649021864212,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.48716596769665227,
+        "Micro F1": 0.4844649021864212
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-mini-2024-07-18",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.5895846597511641,
+    "Micro F1": 0.5880322209436134,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.5895846597511641,
+        "Micro F1": 0.5880322209436134
+      }
+    }
+  },
+  {
+    "Model": "gpt-3.5-turbo-0125",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.4892742143217113,
+    "Micro F1": 0.4878640776699029,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.4892742143217113,
+        "Micro F1": 0.4878640776699029
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-mini-2024-07-18",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6410095723303635,
+    "Micro F1": 0.6415525114155252,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6410095723303635,
+        "Micro F1": 0.6415525114155252
+      }
+    }
+  },
+  {
+    "Model": "gpt-5",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6885932492164636,
+    "Micro F1": 0.6835443037974683,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6885932492164636,
+        "Micro F1": 0.6835443037974683
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-mini-2024-07-18",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5235427671865758,
+    "Micro F1": 0.5218446601941747,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5235427671865758,
+        "Micro F1": 0.5218446601941747
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash-lite",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6786531566074027,
+    "Micro F1": 0.682648401826484,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6786531566074027,
+        "Micro F1": 0.682648401826484
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.7094757831776004,
+    "Micro F1": 0.7123287671232876,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.7094757831776004,
+        "Micro F1": 0.7123287671232876
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.666442219554106,
+    "Micro F1": 0.6643835616438356,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.666442219554106,
+        "Micro F1": 0.6643835616438356
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-small-3.2-24b-instruct",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.628721392264005,
+    "Micro F1": 0.6244292237442922,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.628721392264005,
+        "Micro F1": 0.6244292237442922
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash-lite",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6025530061129635,
+    "Micro F1": 0.5891829689298044,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6025530061129635,
+        "Micro F1": 0.5891829689298044
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash-lite",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6240595421665668,
+    "Micro F1": 0.6167048054919908,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6240595421665668,
+        "Micro F1": 0.6167048054919908
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6271852901630097,
+    "Micro F1": 0.6110471806674338,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6271852901630097,
+        "Micro F1": 0.6110471806674338
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6613926030356052,
+    "Micro F1": 0.6536248561565017,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6613926030356052,
+        "Micro F1": 0.6536248561565017
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-small-3.2-24b-instruct",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.5763213782550719,
+    "Micro F1": 0.5684695051783659,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.5763213782550719,
+        "Micro F1": 0.5684695051783659
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-nano-2025-08-07",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6252173455169828,
+    "Micro F1": 0.6304347826086957,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6252173455169828,
+        "Micro F1": 0.6304347826086957
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-nano-2025-08-07",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6051046671659258,
+    "Micro F1": 0.5983889528193326,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6051046671659258,
+        "Micro F1": 0.5983889528193326
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-mini-2025-08-07",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6776315452135059,
+    "Micro F1": 0.6720368239355581,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6776315452135059,
+        "Micro F1": 0.6720368239355581
+      }
+    }
+  },
+  {
+    "Model": "gpt-5",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.6910365387127066,
+    "Micro F1": 0.6869965477560415,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.6910365387127066,
+        "Micro F1": 0.6869965477560415
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6332974126731109,
+    "Micro F1": 0.631578947368421,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6332974126731109,
+        "Micro F1": 0.631578947368421
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash-lite",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5187000796886635,
+    "Micro F1": 0.5266990291262136,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5187000796886635,
+        "Micro F1": 0.5266990291262136
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-small-3.2-24b-instruct",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5430821316701308,
+    "Micro F1": 0.5218446601941747,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5430821316701308,
+        "Micro F1": 0.5218446601941747
+      }
+    }
+  },
+  {
+    "Model": "cohere/command-a",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.6688801800309444,
+    "Micro F1": 0.6735159817351598,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.6688801800309444,
+        "Micro F1": 0.6735159817351598
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-small-3.2-24b-instruct",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6013668853090351,
+    "Micro F1": 0.5949656750572082,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6013668853090351,
+        "Micro F1": 0.5949656750572082
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.59699141438773,
+    "Micro F1": 0.5778032036613272,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.59699141438773,
+        "Micro F1": 0.5778032036613272
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5862478831453785,
+    "Micro F1": 0.5898058252427184,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5862478831453785,
+        "Micro F1": 0.5898058252427184
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5144432283347479,
+    "Micro F1": 0.4878640776699029,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5144432283347479,
+        "Micro F1": 0.4878640776699029
+      }
+    }
+  },
+  {
+    "Model": "gpt-5",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.7072848538753687,
+    "Micro F1": 0.7025171624713958,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.7072848538753687,
+        "Micro F1": 0.7025171624713958
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-mini-2025-08-07",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.6837198435763774,
+    "Micro F1": 0.6773455377574371,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.6837198435763774,
+        "Micro F1": 0.6773455377574371
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-mini-2025-08-07",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.621466214986352,
+    "Micro F1": 0.6322815533980582,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.621466214986352,
+        "Micro F1": 0.6322815533980582
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-nano-2025-08-07",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.5641829058770294,
+    "Micro F1": 0.5849514563106796,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.5641829058770294,
+        "Micro F1": 0.5849514563106796
+      }
+    }
+  },
+  {
+    "Model": "gpt-5",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.642833625341882,
+    "Micro F1": 0.6529126213592233,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.642833625341882,
+        "Micro F1": 0.6529126213592233
+      }
+    }
   }
 ]

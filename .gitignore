@@ -11,3 +11,6 @@ ParlaCAP-Topic-Benchmark/datasets/
 ParlaCAP-Topic-Benchmark/systems/OpenAI-GPT/API_key
 ParlaCAP-Topic-Benchmark/systems/local-GPT-models/local_models_path.txt
 ParlaCAP-Topic-Benchmark/systems/other-closed-models/API_key
+Genre-Automatic-Identification-Benchmark/systems/other-closed-models/API_key
+IPTC-NewsTopic-Benchmark/systems/other-closed-models/API_key
+ParlaSent-Benchmark/systems/other-closed-models/API_key

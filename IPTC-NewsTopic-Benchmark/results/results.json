@@ -414,5 +414,57 @@
         "Micro F1": 0.6055363321799307
       }
     }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.7156772084802615,
+    "Micro F1": 0.7103631532329495,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.6997768431643485,
+        "Micro F1": 0.7010309278350515
+      },
+      "ca": {
+        "Macro F1": 0.6783670307005957,
+        "Micro F1": 0.6853932584269663
+      },
+      "sl": {
+        "Macro F1": 0.7607607336118889,
+        "Micro F1": 0.7624113475177305
+      },
+      "el": {
+        "Macro F1": 0.7000686283601932,
+        "Micro F1": 0.6920415224913494
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "IPTC-test",
+    "Macro F1": 0.7672179231354976,
+    "Micro F1": 0.7581930912311781,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "hr": {
+        "Macro F1": 0.747268168803043,
+        "Micro F1": 0.7422680412371134
+      },
+      "ca": {
+        "Macro F1": 0.7349026978944692,
+        "Micro F1": 0.7303370786516854
+      },
+      "sl": {
+        "Macro F1": 0.7946422953452638,
+        "Micro F1": 0.7872340425531915
+      },
+      "el": {
+        "Macro F1": 0.7804119181894739,
+        "Micro F1": 0.7716262975778547
+      }
+    }
   }
 ]

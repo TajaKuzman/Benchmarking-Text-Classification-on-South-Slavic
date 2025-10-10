@@ -574,5 +574,77 @@
         "Micro F1": 0.6578947368421053
       }
     }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "ParlaSent-EN-test",
+    "Macro F1": 0.7675114266389033,
+    "Micro F1": 0.7676923076923077,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "en": {
+        "Macro F1": 0.7675114266389033,
+        "Micro F1": 0.7676923076923077
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "ParlaSent-EN-test",
+    "Macro F1": 0.7593535600237137,
+    "Micro F1": 0.7566839776880169,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "en": {
+        "Macro F1": 0.7593535600237137,
+        "Micro F1": 0.7566839776880169
+      }
+    }
+  },
+  {
+    "Model": "mistralai/mistral-medium-3.1",
+    "Test Dataset": "ParlaSent-BCS-test",
+    "Macro F1": 0.7156035562094306,
+    "Micro F1": 0.7339873052510099,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "sr": {
+        "Macro F1": 0.7043345052194608,
+        "Micro F1": 0.7182114578481602
+      },
+      "hr": {
+        "Macro F1": 0.7339183247633952,
+        "Micro F1": 0.7552395209580839
+      },
+      "bs": {
+        "Macro F1": 0.6412158118379317,
+        "Micro F1": 0.6736842105263158
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-flash",
+    "Test Dataset": "ParlaSent-BCS-test",
+    "Macro F1": 0.7453897697849401,
+    "Micro F1": 0.7719230769230769,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "sr": {
+        "Macro F1": 0.734061562778622,
+        "Micro F1": 0.7607076350093109
+      },
+      "hr": {
+        "Macro F1": 0.7607604070297067,
+        "Micro F1": 0.7866766467065869
+      },
+      "bs": {
+        "Macro F1": 0.6911787938503496,
+        "Micro F1": 0.7315789473684211
+      }
+    }
   }
 ]

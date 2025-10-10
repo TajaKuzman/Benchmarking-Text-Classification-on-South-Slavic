@@ -8,6 +8,9 @@ The code for all evaluated models is available in the [systems](systems) directo
 
 ## Benchmark scores
 
+![](evaluation-for-the-paper/topic-results-heatmap.png)
+![](evaluation-for-the-paper/gpt_comparison.png)
+
 | Model                      |   Croatian (macro-F1) |   Croatian (micro-F1) |   English (macro-F1) |   English (micro-F1) |   Serbian (macro-F1) |   Serbian (micro-F1) |   Bosnian (macro-F1) |   Bosnian (micro-F1) |
 |:---------------------------|----------------------:|----------------------:|---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|
 | GPT-5                      |            0.691037   |             0.686997  |           0.733871   |            0.731735  |           0.707285   |            0.702517  |           0.642834   |             0.652913 |
@@ -29,9 +32,8 @@ The code for all evaluated models is available in the [systems](systems) directo
 | Support Vector Machine     |            0.0730544  |             0.125432  |           0.0348638  |            0.0707763 |           0.0565144  |            0.124714  |           0.0497498  |             0.137136 |
 | Naive Bayes Classifier     |            0.019588   |             0.104718  |           0.00811946 |            0.0445205 |           0.0129641  |            0.083524  |           0.020087   |             0.135922 |
 | Dummy (Frequent)           |            0.00568795 |             0.0667434 |           0.00518642 |            0.0605023 |           0.00565743 |            0.0663616 |           0.00859141 |             0.104369 |
-| Command A                  |          nan          |           nan         |           0.66888    |            0.673516  |         nan          |          nan         |         nan          |           nan        |
 
-![](evaluation-for-the-paper/topic-results-heatmap.png)
+
 
 ------------------------------------------
 

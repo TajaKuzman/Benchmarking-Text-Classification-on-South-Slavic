@@ -1,54 +1,30 @@
-# IPTC-test Benchmark
+(1129, 5)
+(1129, 5)
+All evaluations completed. The results are added to the `results/results.json` file.
+New benchmark scores:
 
-A benchmark for evaluating robustness of IPTC news topic models to test their usability for the automatic enrichment of large text collections with topic information.
+| Model                        | Test Dataset   |   Macro F1 |   Micro F1 |
+|:-----------------------------|:---------------|-----------:|-----------:|
+| google/gemini-2.5-flash      | IPTC-test      |      0.767 |      0.758 |
+| IPTC XLM-R classifier        | IPTC-test      |      0.745 |      0.733 |
+| gpt-4o-2024-08-06            | IPTC-test      |      0.743 |      0.738 |
+| gpt-5                        | IPTC-test      |      0.738 |      0.727 |
+| gpt-5-mini-2025-08-07        | IPTC-test      |      0.727 |      0.714 |
+| gpt-4o-mini-2024-07-18       | IPTC-test      |      0.724 |      0.709 |
+| mistralai/mistral-medium-3.1 | IPTC-test      |      0.716 |      0.71  |
+| gemma3:27b                   | IPTC-test      |      0.697 |      0.686 |
+| gpt-5-nano-2025-08-07        | IPTC-test      |      0.686 |      0.667 |
+| qwen3:32b                    | IPTC-test      |      0.671 |      0.663 |
+| llama3.3:latest              | IPTC-test      |      0.631 |      0.626 |
+| gpt-3.5-turbo-0125           | IPTC-test      |      0.627 |      0.612 |
+| llama4:scout                 | IPTC-test      |      0.616 |      0.596 |
+| SVC                          | IPTC-test      |      0.421 |      0.423 |
+| deepseek-r1:14b              | IPTC-test      |      0.394 |      0.379 |
+| COMPLEMENTNB                 | IPTC-test      |      0.207 |      0.275 |
+| dummy-stratified             | IPTC-test      |      0.063 |      0.073 |
+| dummy-most_frequent          | IPTC-test      |      0.006 |      0.056 |
 
-The benchmark is based on one manually-annotated test dataset:
-- IPTC-test: 1129 news articles balanced between 4 languages (Croatian, Catalan, Greek and Slovenian), manually-annotated with the top-level IPTC News MediaTopic labels.
-
-The dataset is available upon request - please write to taja.kuzman@ijs.si to get access to private GitHub repositories where they are deposited.
-
-The datasets is not publicly available to prevent exposure to LLM models which would make any further evaluation of the capabilities of generative large language models on this test set unreliable. If you wish to contribute to the benchmark, the test datasets will be shared with you upon request.
-
-The development of the test dataset and evaluation of a fine-tuned model is described in the paper [LLM Teacher-Student Framework for Text Classification With No Manually Annotated Data: A Case Study in IPTC News Topic Classification](https://doi.org/10.1109/ACCESS.2025.3544814) (Kuzman and Ljubešić, 2025)
-
-The fine-tuned IPTC classifier is freely available at the HuggingFace repository: https://huggingface.co/classla/multilingual-IPTC-news-topic-classifier The IPTC classifier is based on XLM-RoBERTa-large model and it was fine-tuned on the training split of the [EMMediaTopic dataset](https://www.clarin.si/repository/xmlui/handle/11356/1991), more precisely, on a stratified split containing 15,000 instances in 4 languages.
-
-The code for all evaluated models is available in the [systems](systems) directory.
-
-## Benchmark scores
-
-Benchmark scores were calculated only once per system. Fine-tuning hyperparameters are listed in the json submission files, where applicable.
-
-All models that were not used in a zero-shot scenario were trained on the train split of the [EMMediaTopic dataset](https://www.clarin.si/repository/xmlui/handle/11356/1991).
-
-![](evaluation-for-the-paper/topic-classification-results.png)
-![](evaluation-for-the-paper/gpt_comparison.png)
-
-|    | Model                        |   Slovenian (macro-F1) |   Slovenian (micro-F1) |   Croatian (macro-F1) |   Croatian (micro-F1) |
-|---:|:-----------------------------|-----------------------:|-----------------------:|----------------------:|----------------------:|
-| 13 | gpt-5                        |                  0.736 |                  0.727 |                 0.749 |                 0.746 |
-| 17 | google/gemini-2.5-flash      |                  0.795 |                  0.787 |                 0.747 |                 0.742 |
-|  7 | gpt-4o-2024-08-06            |                  0.767 |                  0.766 |                 0.741 |                 0.735 |
-|  9 | IPTC XLM-R classifier        |                  0.765 |                  0.759 |                 0.734 |                 0.729 |
-|  8 | gpt-4o-mini-2024-07-18       |                  0.73  |                  0.723 |                 0.732 |                 0.718 |
-| 11 | gpt-5-mini-2025-08-07        |                  0.749 |                  0.741 |                 0.711 |                 0.704 |
-| 16 | mistralai/mistral-medium-3.1 |                  0.761 |                  0.762 |                 0.7   |                 0.701 |
-| 10 | gemma3:27b                   |                  0.693 |                  0.683 |                 0.695 |                 0.692 |
-| 14 | qwen3:32b                    |                  0.656 |                  0.663 |                 0.677 |                 0.674 |
-| 12 | gpt-5-nano-2025-08-07        |                  0.73  |                  0.713 |                 0.661 |                 0.653 |
-|  5 | llama3.3:latest              |                  0.614 |                  0.61  |                 0.61  |                 0.611 |
-|  6 | gpt-3.5-turbo-0125           |                  0.682 |                  0.67  |                 0.587 |                 0.577 |
-| 15 | llama4:scout                 |                  0.625 |                  0.61  |                 0.585 |                 0.57  |
-|  4 | deepseek-r1:14b              |                  0.385 |                  0.361 |                 0.401 |                 0.39  |
-|  3 | SVC                          |                  0.421 |                  0.426 |                 0.399 |                 0.43  |
-|  2 | COMPLEMENTNB                 |                  0.211 |                  0.255 |                 0.231 |                 0.313 |
-|  1 | dummy-stratified             |                  0.053 |                  0.053 |                 0.057 |                 0.072 |
-|  0 | dummy-most_frequent          |                  0.007 |                  0.06  |                 0.006 |                 0.058 |
-
-### Language-Specific Results
-
-
-#### Catalan
+------------------------------------------
 
 | Model                        | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------------|:---------------|:-----------|-----------:|-----------:|
@@ -70,11 +46,6 @@ All models that were not used in a zero-shot scenario were trained on the train 
 | COMPLEMENTNB                 | IPTC-test      | ca         |      0.176 |      0.243 |
 | dummy-stratified             | IPTC-test      | ca         |      0.056 |      0.064 |
 | dummy-most_frequent          | IPTC-test      | ca         |      0.006 |      0.052 |
-
-------------------------------------------
-
-#### Croatian
-
 | Model                        | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------------|:---------------|:-----------|-----------:|-----------:|
 | gpt-5                        | IPTC-test      | hr         |      0.749 |      0.746 |
@@ -95,11 +66,6 @@ All models that were not used in a zero-shot scenario were trained on the train 
 | COMPLEMENTNB                 | IPTC-test      | hr         |      0.231 |      0.313 |
 | dummy-stratified             | IPTC-test      | hr         |      0.057 |      0.072 |
 | dummy-most_frequent          | IPTC-test      | hr         |      0.006 |      0.058 |
-
-------------------------------------------
-
-#### Greek
-
 | Model                        | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------------|:---------------|:-----------|-----------:|-----------:|
 | google/gemini-2.5-flash      | IPTC-test      | el         |      0.78  |      0.772 |
@@ -120,11 +86,6 @@ All models that were not used in a zero-shot scenario were trained on the train 
 | COMPLEMENTNB                 | IPTC-test      | el         |      0.179 |      0.284 |
 | dummy-stratified             | IPTC-test      | el         |      0.077 |      0.1   |
 | dummy-most_frequent          | IPTC-test      | el         |      0.006 |      0.052 |
-
-------------------------------------------
-
-#### Slovenian
-
 | Model                        | Test Dataset   | Language   |   Macro F1 |   Micro F1 |
 |:-----------------------------|:---------------|:-----------|-----------:|-----------:|
 | google/gemini-2.5-flash      | IPTC-test      | sl         |      0.795 |      0.787 |
@@ -145,45 +106,3 @@ All models that were not used in a zero-shot scenario were trained on the train 
 | COMPLEMENTNB                 | IPTC-test      | sl         |      0.211 |      0.255 |
 | dummy-stratified             | IPTC-test      | sl         |      0.053 |      0.053 |
 | dummy-most_frequent          | IPTC-test      | sl         |      0.007 |      0.06  |
-
-------------------------------------------
-
-
-
-
-## Contributing to the benchmark
-
-Should you wish to contribute an entry, feel free to submit a folder in the [systems](systems) directory with or without the code used (see the submission examples in the directory).
-
-The results JSON file name should start with `submission-` and the content should be structured like this:
-
-```python
-{
-    "system": "Pick a name for your system",
-    "predictions": [
-        {   "train": "what you trained on", # e.g. "EMMediaTopic (train split)"
-            "test": "what you evaluated on", # should be "IPTC-test"
-            "predictions": [....] # The length of predictions should match the length of test data
-        },
-    ],
-    # Additional information, e.g. fine-tuning params (optional):
-    "model": "EMBEDDIA/crosloengual-bert",
-    "lr": "4e-5",
-    "epoch": "15"
-}
-```
-
-All submission JSON files should be saved in a `submissions` directory inside the directory for your system. They will be evaluated against the datasets in the `data/datasets` directory.
-
-It is highly encouraged that you also provide additional information about your system in a README file, and that you provide the code used for the classification with the system.
-
-## Evaluation
-
-Micro and Macro F1 scores will be used to evaluate and compare systems.
-
-The submissions are evaluated using the following code with the path to the submissions directory (e.g., ``systems/dummy-classifier/submissions``) as the argument. The log file is to be saved in the relevant system directory:
-```python eval.py "submission-path" > systems/dummy-classifier/evaluation.log```
-
-The code produces:
-- a JSON file with the results of all tested models: `results/results.json`
-- a table with the results, e.g. `results/results-IPTC-test.md`

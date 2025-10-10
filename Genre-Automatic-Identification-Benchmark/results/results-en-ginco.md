@@ -4,8 +4,10 @@
 |:-------------------------------------------------------------------------------------------------------------------|:---------------|-----------:|-----------:|
 | gpt-5-mini-2025-08-07                                                                                              | en-ginco       |      0.688 |      0.75  |
 | [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | en-ginco       |      0.687 |      0.684 |
+| google/gemini-2.5-flash                                                                                            | en-ginco       |      0.655 |      0.735 |
 | gpt-5                                                                                                              | en-ginco       |      0.653 |      0.761 |
 | GPT-4o (gpt-4o-2024-08-06) (zero-shot)                                                                             | en-ginco       |      0.62  |      0.735 |
+| mistralai/mistral-medium-3.1                                                                                       | en-ginco       |      0.599 |      0.688 |
 | Llama 3.3 (70B) (zero-shot)                                                                                        | en-ginco       |      0.586 |      0.684 |
 | Gemma 2 (27B) (zero-shot)                                                                                          | en-ginco       |      0.564 |      0.603 |
 | gpt-5-nano-2025-08-07                                                                                              | en-ginco       |      0.56  |      0.676 |

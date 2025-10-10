@@ -7,8 +7,10 @@
 | gpt-5-mini-2025-08-07                                                                                              | x-ginco        |      0.771 |      0.764 |
 | gpt-5                                                                                                              | x-ginco        |      0.77  |      0.768 |
 | gpt-5-nano-2025-08-07                                                                                              | x-ginco        |      0.749 |      0.738 |
+| google/gemini-2.5-flash                                                                                            | x-ginco        |      0.743 |      0.726 |
 | Llama 3.3 (70B) (zero-shot)                                                                                        | x-ginco        |      0.741 |      0.738 |
 | Gemma 3 (27B) (zero-shot)                                                                                          | x-ginco        |      0.739 |      0.733 |
+| mistralai/mistral-medium-3.1                                                                                       | x-ginco        |      0.725 |      0.722 |
 | GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | x-ginco        |      0.688 |      0.67  |
 | qwen3:32b                                                                                                          | x-ginco        |      0.662 |      0.647 |
 | [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | x-ginco        |      0.651 |      0.652 |

@@ -1,9 +1,11 @@
-Test data are available at: https://github.com/clarinsi/dialect-copa-test
+Dialectal test data are available at: https://github.com/clarinsi/dialect-copa-test
+
+Standard test data are available at: 
 
 ```
 
-	for line in open('test.jsonl'):
-    entry=json.loads(line)
+    for line in open('test.jsonl'):
+        entry=json.loads(line)
 
     prompt= 'You will be given a task. The task definition is in English, but the task itself is in another language. Here is the task!\nGiven the premise "'+entry['premise']+'",'
     if entry['question']=='cause':
@@ -24,3 +26,4 @@ Test data are available at: https://github.com/clarinsi/dialect-copa-test
     )
     response=completion.choices[0].message.content
 ```
+

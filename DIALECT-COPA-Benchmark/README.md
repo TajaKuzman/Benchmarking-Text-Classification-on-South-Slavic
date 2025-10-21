@@ -1,6 +1,6 @@
 Dialectal test data are available at: https://github.com/clarinsi/dialect-copa-test
 
-Standard test data are available at: 
+Standard test data are available in the repository.
 
 ```
 
@@ -26,4 +26,5 @@ Standard test data are available at:
     )
     response=completion.choices[0].message.content
 ```
+
 

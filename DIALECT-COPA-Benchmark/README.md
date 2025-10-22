@@ -98,7 +98,7 @@ It is highly encouraged that you also provide additional information about your 
 
 ## Evaluation
 
-Micro and Macro F1 scores will be used to evaluate and compare systems.
+Accuracy will be used to evaluate and compare systems.
 
 The submissions are evaluated using the following code with the path to the submissions directory (e.g., ``systems/dummy-classifier/submissions``) as the argument. The log file is to be saved in the relevant system directory:
 ```python eval.py "submission-path" > systems/dummy-classifier/evaluation.log```

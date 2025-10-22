@@ -14,3 +14,7 @@ ParlaCAP-Topic-Benchmark/systems/other-closed-models/API_key
 Genre-Automatic-Identification-Benchmark/systems/other-closed-models/API_key
 IPTC-NewsTopic-Benchmark/systems/other-closed-models/API_key
 ParlaSent-Benchmark/systems/other-closed-models/API_key
+DIALECT-COPA-Benchmark/datasets
+DIALECT-COPA-Benchmark/systems/local-GPT-models/local_models_path.txt
+DIALECT-COPA-Benchmark/systems/OpenAI-GPT/API_key
+DIALECT-COPA-Benchmark/systems/other-closed-models/API_key

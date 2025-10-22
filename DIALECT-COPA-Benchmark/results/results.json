@@ -1,0 +1,232 @@
+[
+  {
+    "Model": "gpt-5-2025-08-07",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.996,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.996
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.988,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.988
+      }
+    }
+  },
+  {
+    "Model": "gpt-3.5-turbo-0125",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.952,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.952
+      }
+    }
+  },
+  {
+    "Model": "gpt-4o-2024-08-06",
+    "Test Dataset": "copa-sl",
+    "Accuracy": 0.97,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.97
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-sr",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "sr": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-sl",
+    "Accuracy": 0.484,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.484
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-sr-tor",
+    "Accuracy": 0.488,
+    "Language-Specific Scores": {
+      "sr-tor": {
+        "Accuracy": 0.488
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-sr-tor",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "sr-tor": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-sr",
+    "Accuracy": 0.494,
+    "Language-Specific Scores": {
+      "sr": {
+        "Accuracy": 0.494
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-hr-ckm",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-mk",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-hr",
+    "Accuracy": 0.512,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.512
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-mk",
+    "Accuracy": 0.518,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 0.518
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-sl-cer",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-sl",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-sl-cer",
+    "Accuracy": 0.528,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.528
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.518,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.518
+      }
+    }
+  },
+  {
+    "Model": "dummy-stratified",
+    "Test Dataset": "copa-hr-ckm",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "dummy-most_frequent",
+    "Test Dataset": "copa-hr",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "qwen3:32b",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.972,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.972
+      }
+    }
+  },
+  {
+    "Model": "gemma3:27b",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.97,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.97
+      }
+    }
+  },
+  {
+    "Model": "llama3.3:latest",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.986,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.986
+      }
+    }
+  }
+]

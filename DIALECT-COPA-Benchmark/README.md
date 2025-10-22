@@ -7,6 +7,21 @@ The code for all evaluated models is available in the [systems](systems) directo
 ![](evaluation-for-the-paper/copa-results-heatmap.png)
 ![](evaluation-for-the-paper/gpt_comparison.png)
 
+| Model               |   English (accuracy) |   Slovenian (accuracy) |   Croatian (accuracy) |   Serbian (accuracy) |   Macedonian (accuracy) |   Cerkno Dialect (accuracy) |   Chakavian Dialect (accuracy) |   Torlak Dialect (accuracy) |
+|:--------------------|---------------------:|-----------------------:|----------------------:|---------------------:|------------------------:|----------------------------:|-------------------------------:|----------------------------:|
+| GPT-5               |                0.996 |                  0.998 |                 0.99  |              nan     |                   0.986 |                     nan     |                          0.916 |                     nan     |
+| Gemini 2.5 Flash    |                0.99  |                  0.974 |                 0.98  |                0.972 |                   0.968 |                       0.742 |                          0.79  |                       0.944 |
+| GPT-4o              |                0.988 |                  0.97  |                 0.972 |                0.972 |                   0.968 |                       0.676 |                          0.774 |                       0.932 |
+| Claude Haiku 4.5    |                0.986 |                  0.926 |                 0.948 |                0.956 |                   0.924 |                       0.562 |                          0.706 |                       0.862 |
+| Mistral Medium 3.1  |                0.986 |                  0.9   |                 0.942 |                0.932 |                   0.9   |                       0.532 |                          0.7   |                       0.824 |
+| LLaMA 3.3           |                0.986 |                  0.87  |                 0.926 |                0.922 |                   0.894 |                       0.536 |                          0.674 |                       0.798 |
+| Qwen 3              |                0.972 |                  0.826 |                 0.9   |                0.89  |                   0.862 |                       0.544 |                          0.59  |                       0.782 |
+| Gemma 3             |                0.97  |                  0.862 |                 0.894 |                0.9   |                   0.904 |                       0.578 |                          0.642 |                       0.82  |
+| GPT-3.5-Turbo       |                0.952 |                  0.842 |                 0.854 |                0.808 |                   0.776 |                       0.528 |                          0.612 |                       0.734 |
+| GaMS-27B            |                0.864 |                  0.832 |                 0.788 |                0.784 |                   0.692 |                       0.586 |                          0.592 |                       0.636 |
+| DeepSeek-R1-Distill |                0.748 |                  0.53  |                 0.57  |                0.554 |                   0.546 |                       0.492 |                          0.504 |                       0.514 |
+| Dummy (Frequent)    |                0.5   |                  0.5   |                 0.5   |                0.5   |                   0.5   |                       0.5   |                          0.5   |                       0.5   |
+
 ## Datasets
 
 Dialectal test data (the DIALECT-COPA collection) are available at a private GitHub repository (https://github.com/clarinsi/dialect-copa-test) - access can be obtained upon request to Nikola Ljubešić (nikola.ljubesic@ijs.si) or Taja Kuzman Pungeršek (taja.kuzman@ijs.si).

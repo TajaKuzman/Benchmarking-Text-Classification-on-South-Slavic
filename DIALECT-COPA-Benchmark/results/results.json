@@ -1008,5 +1008,45 @@
         "Accuracy": 0.862
       }
     }
+  },
+  {
+    "Model": "gpt-5-2025-08-07",
+    "Test Dataset": "copa-sr-tor",
+    "Accuracy": 0.984,
+    "Language-Specific Scores": {
+      "sr-tor": {
+        "Accuracy": 0.984
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-2025-08-07",
+    "Test Dataset": "copa-sl-cer",
+    "Accuracy": 0.886,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.886
+      }
+    }
+  },
+  {
+    "Model": "gpt-5-2025-08-07",
+    "Test Dataset": "copa-sr",
+    "Accuracy": 0.992,
+    "Language-Specific Scores": {
+      "sr": {
+        "Accuracy": 0.992
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.996,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.996
+      }
+    }
   }
 ]

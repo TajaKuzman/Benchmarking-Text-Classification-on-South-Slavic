@@ -3,6 +3,7 @@
 | Model                        | Test Dataset   |   Accuracy |
 |:-----------------------------|:---------------|-----------:|
 | gpt-5-2025-08-07             | copa-sl-cer    |      0.886 |
+| google/gemini-2.5-pro        | copa-sl-cer    |      0.864 |
 | google/gemini-2.5-flash      | copa-sl-cer    |      0.742 |
 | gpt-4o-2024-08-06            | copa-sl-cer    |      0.676 |
 | GaMS-27B                     | copa-sl-cer    |      0.586 |

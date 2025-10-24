@@ -4,7 +4,6 @@
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-en        | en         |      0.996 |
-| google/gemini-2.5-pro        | copa-en        | en         |      0.996 |
 | google/gemini-2.5-flash      | copa-en        | en         |      0.99  |
 | gpt-4o-2024-08-06            | copa-en        | en         |      0.988 |
 | llama3.3:latest              | copa-en        | en         |      0.986 |
@@ -45,6 +44,7 @@
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-hr        | hr         |      0.99  |
+| google/gemini-2.5-pro        | copa-hr        | hr         |      0.99  |
 | google/gemini-2.5-flash      | copa-hr        | hr         |      0.98  |
 | gpt-4o-2024-08-06            | copa-hr        | hr         |      0.972 |
 | anthropic/claude-haiku-4.5   | copa-hr        | hr         |      0.948 |
@@ -64,6 +64,7 @@
 
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
+| google/gemini-2.5-pro        | copa-hr-ckm    | hr-ckm     |      0.93  |
 | gpt-5-2025-08-07             | copa-hr-ckm    | hr-ckm     |      0.916 |
 | google/gemini-2.5-flash      | copa-hr-ckm    | hr-ckm     |      0.79  |
 | gpt-4o-2024-08-06            | copa-hr-ckm    | hr-ckm     |      0.774 |
@@ -85,6 +86,7 @@
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-mk        | mk         |      0.986 |
+| google/gemini-2.5-pro        | copa-mk        | mk         |      0.986 |
 | gpt-4o-2024-08-06            | copa-mk        | mk         |      0.968 |
 | google/gemini-2.5-flash      | copa-mk        | mk         |      0.968 |
 | anthropic/claude-haiku-4.5   | copa-mk        | mk         |      0.924 |
@@ -97,6 +99,7 @@
 | deepseek-r1:14b              | copa-mk        | mk         |      0.546 |
 | dummy-stratified             | copa-mk        | mk         |      0.518 |
 | dummy-most_frequent          | copa-mk        | mk         |      0.5   |
+| google/gemini-2.5-pro        | copa-mk        | mk         |      0     |
 
 ------------------------------------------
 
@@ -105,6 +108,7 @@
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-sl-cer    | sl-cer     |      0.886 |
+| google/gemini-2.5-pro        | copa-sl-cer    | sl-cer     |      0.864 |
 | google/gemini-2.5-flash      | copa-sl-cer    | sl-cer     |      0.742 |
 | gpt-4o-2024-08-06            | copa-sl-cer    | sl-cer     |      0.676 |
 | GaMS-27B                     | copa-sl-cer    | sl-cer     |      0.586 |

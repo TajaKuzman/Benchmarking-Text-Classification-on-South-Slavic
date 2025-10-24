@@ -3,6 +3,7 @@
 | Model                        | Test Dataset   |   Accuracy |
 |:-----------------------------|:---------------|-----------:|
 | gpt-5-2025-08-07             | copa-mk        |      0.986 |
+| google/gemini-2.5-pro        | copa-mk        |      0.986 |
 | gpt-4o-2024-08-06            | copa-mk        |      0.968 |
 | google/gemini-2.5-flash      | copa-mk        |      0.968 |
 | anthropic/claude-haiku-4.5   | copa-mk        |      0.924 |
@@ -15,3 +16,4 @@
 | deepseek-r1:14b              | copa-mk        |      0.546 |
 | dummy-stratified             | copa-mk        |      0.518 |
 | dummy-most_frequent          | copa-mk        |      0.5   |
+| google/gemini-2.5-pro        | copa-mk        |      0     |

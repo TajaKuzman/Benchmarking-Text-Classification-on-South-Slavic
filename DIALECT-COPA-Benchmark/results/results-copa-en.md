@@ -3,7 +3,6 @@
 | Model                        | Test Dataset   |   Accuracy |
 |:-----------------------------|:---------------|-----------:|
 | gpt-5-2025-08-07             | copa-en        |      0.996 |
-| google/gemini-2.5-pro        | copa-en        |      0.996 |
 | google/gemini-2.5-flash      | copa-en        |      0.99  |
 | gpt-4o-2024-08-06            | copa-en        |      0.988 |
 | llama3.3:latest              | copa-en        |      0.986 |

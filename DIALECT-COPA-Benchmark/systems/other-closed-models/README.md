@@ -12,3 +12,5 @@ Later, we will also include more expensive models:
 - [`anthropic/claude-sonnet-4.5`](https://openrouter.ai/anthropic/claude-sonnet-4.5)
 
 We use the same prompt as for the local and OpenAI models, and use the same code as for the OpenAI models.
+
+`google/gemini-2.5-pro` outputted some empty responses (app. 2-4 per dataset) - the invalid responses were manually replaced with `2` so that accuracy could be calculated (if the invalid response is a string, this introduced problems)

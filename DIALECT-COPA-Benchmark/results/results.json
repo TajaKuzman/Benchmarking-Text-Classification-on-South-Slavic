@@ -1041,11 +1041,41 @@
   },
   {
     "Model": "google/gemini-2.5-pro",
-    "Test Dataset": "copa-en",
-    "Accuracy": 0.996,
+    "Test Dataset": "copa-hr-ckm",
+    "Accuracy": 0.93,
     "Language-Specific Scores": {
-      "en": {
-        "Accuracy": 0.996
+      "hr-ckm": {
+        "Accuracy": 0.93
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "copa-hr",
+    "Accuracy": 0.99,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.99
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "copa-mk",
+    "Accuracy": 0.986,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 0.986
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "copa-sl-cer",
+    "Accuracy": 0.864,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.864
       }
     }
   }

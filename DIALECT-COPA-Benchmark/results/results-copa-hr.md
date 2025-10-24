@@ -3,6 +3,7 @@
 | Model                        | Test Dataset   |   Accuracy |
 |:-----------------------------|:---------------|-----------:|
 | gpt-5-2025-08-07             | copa-hr        |      0.99  |
+| google/gemini-2.5-pro        | copa-hr        |      0.99  |
 | google/gemini-2.5-flash      | copa-hr        |      0.98  |
 | gpt-4o-2024-08-06            | copa-hr        |      0.972 |
 | anthropic/claude-haiku-4.5   | copa-hr        |      0.948 |

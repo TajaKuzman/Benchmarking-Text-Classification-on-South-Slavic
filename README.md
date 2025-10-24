@@ -6,6 +6,7 @@ The repository comprises code and results for benchmarking non-neural methods, f
 - [topic classification in parliamentary texts](ParlaCAP-Topic-Benchmark)
 - [sentiment classification in parliamentary texts](ParlaSent-Benchmark)
 - [causal commonsense reasoning (COPA)](DIALECT-COPA-Benchmark)
+- [physical commonsense reasoning (PIQA)](CLASSLA-PIQA-Benchmark)
 
 The experiments and results are further discussed in a paper by Kuzman Pungeršek et al., to be published.
 
@@ -38,3 +39,8 @@ The experiments and results are further discussed in a paper by Kuzman Pungerše
 
 ![](DIALECT-COPA-Benchmark/evaluation-for-the-paper/copa-results-heatmap.png)
 ![](DIALECT-COPA-Benchmark/evaluation-for-the-paper/gpt_comparison.png)
+
+### Physical Commonsense reasoning (PIQA)
+
+![](CLASSLA-PIQA-Benchmark/evaluation-for-the-paper/piqa-results-heatmap.png)
+![](CLASSLA-PIQA-Benchmark/evaluation-for-the-paper/gpt_comparison.png)

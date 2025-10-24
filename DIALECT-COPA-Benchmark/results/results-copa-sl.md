@@ -3,6 +3,7 @@
 | Model                        | Test Dataset   |   Accuracy |
 |:-----------------------------|:---------------|-----------:|
 | gpt-5-2025-08-07             | copa-sl        |      0.998 |
+| google/gemini-2.5-pro        | copa-sl        |      0.986 |
 | google/gemini-2.5-flash      | copa-sl        |      0.974 |
 | gpt-4o-2024-08-06            | copa-sl        |      0.97  |
 | anthropic/claude-haiku-4.5   | copa-sl        |      0.926 |

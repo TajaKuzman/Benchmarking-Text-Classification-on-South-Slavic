@@ -5,6 +5,7 @@
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-en        | en         |      0.996 |
 | google/gemini-2.5-flash      | copa-en        | en         |      0.99  |
+| google/gemini-2.5-pro        | copa-en        | en         |      0.99  |
 | gpt-4o-2024-08-06            | copa-en        | en         |      0.988 |
 | llama3.3:latest              | copa-en        | en         |      0.986 |
 | mistralai/mistral-medium-3.1 | copa-en        | en         |      0.986 |
@@ -24,6 +25,7 @@
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-sl        | sl         |      0.998 |
+| google/gemini-2.5-pro        | copa-sl        | sl         |      0.986 |
 | google/gemini-2.5-flash      | copa-sl        | sl         |      0.974 |
 | gpt-4o-2024-08-06            | copa-sl        | sl         |      0.97  |
 | anthropic/claude-haiku-4.5   | copa-sl        | sl         |      0.926 |

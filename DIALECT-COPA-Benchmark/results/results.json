@@ -1098,5 +1098,25 @@
         "Accuracy": 0.98
       }
     }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "copa-sl",
+    "Accuracy": 0.986,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.986
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.99,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.99
+      }
+    }
   }
 ]

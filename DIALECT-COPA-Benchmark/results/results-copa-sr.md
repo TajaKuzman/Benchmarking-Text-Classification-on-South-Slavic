@@ -2,6 +2,7 @@
 
 | Model                        | Test Dataset   |   Accuracy |
 |:-----------------------------|:---------------|-----------:|
+| google/gemini-2.5-pro        | copa-sr        |      0.994 |
 | gpt-5-2025-08-07             | copa-sr        |      0.992 |
 | gpt-4o-2024-08-06            | copa-sr        |      0.972 |
 | google/gemini-2.5-flash      | copa-sr        |      0.972 |

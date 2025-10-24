@@ -898,5 +898,205 @@
         "Accuracy": 0.96
       }
     }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-sr_latn",
+    "Accuracy": 0.94,
+    "Language-Specific Scores": {
+      "sr_latn": {
+        "Accuracy": 0.94
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-bs",
+    "Accuracy": 1.0,
+    "Language-Specific Scores": {
+      "bs": {
+        "Accuracy": 1.0
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-sl-cer",
+    "Accuracy": 0.57,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.57
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-en",
+    "Accuracy": 0.91,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.91
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-bg",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "bg": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-mk",
+    "Accuracy": 0.94,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 0.94
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-sl",
+    "Accuracy": 0.89,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.89
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-sr_cyrl",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "sr_cyrl": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-hr",
+    "Accuracy": 0.98,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.98
+      }
+    }
+  },
+  {
+    "Model": "anthropic/claude-haiku-4.5",
+    "Test Dataset": "piqa-hr-ckm",
+    "Accuracy": 0.5,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.5
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-hr",
+    "Accuracy": 0.98,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.98
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-bs",
+    "Accuracy": 0.98,
+    "Language-Specific Scores": {
+      "bs": {
+        "Accuracy": 0.98
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-sl",
+    "Accuracy": 1.0,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 1.0
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-sr_cyrl",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "sr_cyrl": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-mk",
+    "Accuracy": 1.0,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 1.0
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-bg",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "bg": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-en",
+    "Accuracy": 0.95,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.95
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-sr_latn",
+    "Accuracy": 0.93,
+    "Language-Specific Scores": {
+      "sr_latn": {
+        "Accuracy": 0.93
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-sl-cer",
+    "Accuracy": 0.95,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.95
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-2.5-pro",
+    "Test Dataset": "piqa-hr-ckm",
+    "Accuracy": 0.79,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.79
+      }
+    }
   }
 ]

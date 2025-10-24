@@ -16,4 +16,3 @@
 | deepseek-r1:14b              | copa-mk        |      0.546 |
 | dummy-stratified             | copa-mk        |      0.518 |
 | dummy-most_frequent          | copa-mk        |      0.5   |
-| google/gemini-2.5-pro        | copa-mk        |      0     |

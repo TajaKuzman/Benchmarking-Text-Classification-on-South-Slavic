@@ -99,7 +99,6 @@
 | deepseek-r1:14b              | copa-mk        | mk         |      0.546 |
 | dummy-stratified             | copa-mk        | mk         |      0.518 |
 | dummy-most_frequent          | copa-mk        | mk         |      0.5   |
-| google/gemini-2.5-pro        | copa-mk        | mk         |      0     |
 
 ------------------------------------------
 
@@ -128,6 +127,7 @@
 
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
+| google/gemini-2.5-pro        | copa-sr        | sr         |      0.994 |
 | gpt-5-2025-08-07             | copa-sr        | sr         |      0.992 |
 | gpt-4o-2024-08-06            | copa-sr        | sr         |      0.972 |
 | google/gemini-2.5-flash      | copa-sr        | sr         |      0.972 |
@@ -149,6 +149,7 @@
 | Model                        | Test Dataset   | Language   |   Accuracy |
 |:-----------------------------|:---------------|:-----------|-----------:|
 | gpt-5-2025-08-07             | copa-sr-tor    | sr-tor     |      0.984 |
+| google/gemini-2.5-pro        | copa-sr-tor    | sr-tor     |      0.98  |
 | google/gemini-2.5-flash      | copa-sr-tor    | sr-tor     |      0.944 |
 | gpt-4o-2024-08-06            | copa-sr-tor    | sr-tor     |      0.932 |
 | anthropic/claude-haiku-4.5   | copa-sr-tor    | sr-tor     |      0.862 |

@@ -4,10 +4,10 @@ The code for all evaluated models is available in the [systems](systems) directo
 
 ## Benchmark scores
 
-<!--
+
 ![](evaluation-for-the-paper/piqa-results-heatmap.png)
 ![](evaluation-for-the-paper/gpt_comparison.png)
--->
+
 
 
 ## Datasets

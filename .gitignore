@@ -22,3 +22,4 @@ CLASSLA-PIQA-Benchmark/systems/local-GPT-models/local_models_path.txt
 CLASSLA-PIQA-Benchmark/systems/OpenAI-GPT/API_key
 CLASSLA-PIQA-Benchmark/systems/other-closed-models/API_key
 CLASSLA-PIQA-Benchmark/datasets
+Genre-Automatic-Identification-Benchmark/old-results-prompt-without-description

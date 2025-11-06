@@ -1,28 +1,27 @@
 ## en-ginco
 
-| Model                                                                                                              | Test Dataset   |   Macro F1 |   Micro F1 |
-|:-------------------------------------------------------------------------------------------------------------------|:---------------|-----------:|-----------:|
-| gpt-5-mini-2025-08-07                                                                                              | en-ginco       |      0.688 |      0.75  |
-| [X-GENRE classifier](https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier)           | en-ginco       |      0.687 |      0.684 |
-| google/gemini-2.5-flash                                                                                            | en-ginco       |      0.655 |      0.735 |
-| gpt-5                                                                                                              | en-ginco       |      0.653 |      0.761 |
-| GPT-4o (gpt-4o-2024-08-06) (zero-shot)                                                                             | en-ginco       |      0.62  |      0.735 |
-| mistralai/mistral-medium-3.1                                                                                       | en-ginco       |      0.599 |      0.688 |
-| Llama 3.3 (70B) (zero-shot)                                                                                        | en-ginco       |      0.586 |      0.684 |
-| Gemma 2 (27B) (zero-shot)                                                                                          | en-ginco       |      0.564 |      0.603 |
-| gpt-5-nano-2025-08-07                                                                                              | en-ginco       |      0.56  |      0.676 |
-| [CORE register classifier](https://huggingface.co/TurkuNLP/web-register-classification-multilingual)               | en-ginco       |      0.545 |      0.588 |
-| Gemma 3 (27B) (zero-shot)                                                                                          | en-ginco       |      0.541 |      0.672 |
-| GPT-4o-mini (gpt-4o-mini-2024-07-18) (zero-shot)                                                                   | en-ginco       |      0.534 |      0.632 |
-| Support Vector Machine                                                                                             | en-ginco       |      0.514 |      0.489 |
-| GPT-3.5-Turbo (zero-shot)                                                                                          | en-ginco       |      0.494 |      0.625 |
-| Logistic Regression                                                                                                | en-ginco       |      0.464 |      0.471 |
-| qwen3:32b                                                                                                          | en-ginco       |      0.449 |      0.599 |
-| fastText                                                                                                           | en-ginco       |      0.408 |      0.445 |
-| llama4:scout                                                                                                       | en-ginco       |      0.396 |      0.415 |
-| DeepSeek-R1 14B (zero-shot)                                                                                        | en-ginco       |      0.293 |      0.229 |
-| Naive Bayes                                                                                                        | en-ginco       |      0.289 |      0.36  |
-| GaMS-9B-Instruct                                                                                                   | en-ginco       |      0.255 |      0.351 |
-| NLI zero-shot model ([mDeBERTa-v3-base-mnli-xnli](https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-mnli-xnli)) | en-ginco       |      0.149 |      0.202 |
-| Dummy Classifier (stratified)                                                                                      | en-ginco       |      0.088 |      0.154 |
-| Dummy classifier (most frequent)                                                                                   | en-ginco       |      0.032 |      0.169 |
+| Model                    | Test Dataset   |   Macro F1 |   Micro F1 |
+|:-------------------------|:---------------|-----------:|-----------:|
+| GPT-5-mini               | en-ginco       |      0.88  |      0.833 |
+| GPT-5                    | en-ginco       |      0.835 |      0.833 |
+| Gemini 2.5 Flash         | en-ginco       |      0.792 |      0.81  |
+| Gemini 2.5 Pro           | en-ginco       |      0.787 |      0.814 |
+| X-GENRE classifier       | en-ginco       |      0.752 |      0.71  |
+| GPT-4o                   | en-ginco       |      0.747 |      0.767 |
+| Mistral Medium 3.1       | en-ginco       |      0.724 |      0.779 |
+| Gemma 3                  | en-ginco       |      0.712 |      0.74  |
+| Llama 3.3                | en-ginco       |      0.704 |      0.767 |
+| GPT-4o-mini              | en-ginco       |      0.695 |      0.686 |
+| GPT-5-nano               | en-ginco       |      0.694 |      0.729 |
+| Qwen3                    | en-ginco       |      0.604 |      0.661 |
+| CORE register classifier | en-ginco       |      0.593 |      0.613 |
+| SVC                      | en-ginco       |      0.572 |      0.512 |
+| GPT-3.5-Turbo            | en-ginco       |      0.566 |      0.649 |
+| LOGISTICREGRESSION       | en-ginco       |      0.509 |      0.494 |
+| fastText                 | en-ginco       |      0.459 |      0.474 |
+| DeekSeek-R1              | en-ginco       |      0.412 |      0.507 |
+| GaMS-Instruct 27B        | en-ginco       |      0.337 |      0.416 |
+| COMPLEMENTNB             | en-ginco       |      0.336 |      0.38  |
+| NLI zero-shot model      | en-ginco       |      0.16  |      0.231 |
+| dummy-stratified         | en-ginco       |      0.102 |      0.166 |
+| dummy-most_frequent      | en-ginco       |      0.038 |      0.178 |

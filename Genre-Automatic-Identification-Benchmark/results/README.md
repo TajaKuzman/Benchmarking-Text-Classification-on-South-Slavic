@@ -1,0 +1,1 @@
+The results in this directory are copied from the [AGILE Genre Benchmark](https://github.com/TajaKuzman/AGILE-Automatic-Genre-Identification-Benchmark) where an extended set of experiments on South Slavic languages and other languages were performed.

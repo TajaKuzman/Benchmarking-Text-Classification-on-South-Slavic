@@ -22,7 +22,7 @@ Benchmark scores were calculated only once per system. Fine-tuning hyperparamete
 All models that were not used in a zero-shot scenario were trained on the train split of the [EMMediaTopic dataset](https://www.clarin.si/repository/xmlui/handle/11356/1991).
 
 ![](evaluation-for-the-paper/topic-classification-results.png)
-![](evaluation-for-the-paper/gpt_comparison.png)
+![](evaluation-for-the-paper/topic_gpt_comparison.png)
 
 |    | Model                        |   Slovenian (macro-F1) |   Slovenian (micro-F1) |   Croatian (macro-F1) |   Croatian (micro-F1) |
 |---:|:-----------------------------|-----------------------:|-----------------------:|----------------------:|----------------------:|

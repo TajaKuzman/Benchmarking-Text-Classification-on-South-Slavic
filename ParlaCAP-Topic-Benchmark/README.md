@@ -8,8 +8,8 @@ The code for all evaluated models is available in the [systems](systems) directo
 
 ## Benchmark scores
 
-![](evaluation-for-the-paper/topic-results-heatmap.png)
-![](evaluation-for-the-paper/gpt_comparison.png)
+![](evaluation-for-the-paper/parlacap-topic-results-heatmap.png)
+![](evaluation-for-the-paper/parlacap_gpt_comparison.png)
 
 | Model                      |   Croatian (macro-F1) |   Croatian (micro-F1) |   English (macro-F1) |   English (micro-F1) |   Serbian (macro-F1) |   Serbian (micro-F1) |   Bosnian (macro-F1) |   Bosnian (micro-F1) |
 |:---------------------------|----------------------:|----------------------:|---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|

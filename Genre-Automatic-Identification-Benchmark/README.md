@@ -41,6 +41,7 @@ The performance on EN-GINCO is generally lower than on X-GINCO datasets, because
 | Gemma 3                    |                   0.67 |                   0.66 |                  0.72 |                  0.74 |                    0.69 |                    0.7  |                 0.71 |                 0.74 |
 | Qwen 3                     |                   0.66 |                   0.66 |                  0.65 |                  0.66 |                    0.61 |                    0.6  |                 0.6  |                 0.66 |
 | GPT-3.5-Turbo              |                   0.59 |                   0.59 |                  0.59 |                  0.59 |                    0.51 |                    0.51 |                 0.57 |                 0.65 |
+| DeepSeek-R1-Distill        |                   0.35 |                   0.4  |                  0.37 |                  0.4  |                    0.42 |                    0.43 |                 0.41 |                 0.51 |
 | Dummy (Frequent)           |                   0.03 |                   0.12 |                  0.03 |                  0.11 |                    0.03 |                    0.15 |                 0.04 |                 0.18 |
 
 

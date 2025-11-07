@@ -12,7 +12,7 @@ The code for all evaluated models is available in the [systems](systems) directo
 
 ![](evaluation-for-the-paper/sentiment-results-heatmap.png)
 
-![](evaluation-for-the-paper/gpt_comparison.png)
+![](evaluation-for-the-paper/sentiment_gpt_comparison.png)
 
 | Model                      |   Croatian (macro-F1) |   Croatian (micro-F1) |   Serbian (macro-F1) |   Serbian (micro-F1) |   Bosnian (macro-F1) |   Bosnian (micro-F1) |   English (macro-F1) |   English (micro-F1) |
 |:---------------------------|----------------------:|----------------------:|---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|---------------------:|

@@ -22,18 +22,18 @@ The experiments and results are further discussed in a paper by Kuzman Pungerše
 ### News Topic Classification
 
 ![](IPTC-NewsTopic-Benchmark/evaluation-for-the-paper/topic-classification-results.png)
-![](IPTC-NewsTopic-Benchmark/evaluation-for-the-paper/gpt_comparison.png)
+![](IPTC-NewsTopic-Benchmark/evaluation-for-the-paper/topic_gpt_comparison.png)
 
 ### Topic Classification in Parliamentary Texts
 
-![](ParlaCAP-Topic-Benchmark/evaluation-for-the-paper/topic-results-heatmap.png)
-![](ParlaCAP-Topic-Benchmark/evaluation-for-the-paper/gpt_comparison.png)
+![](ParlaCAP-Topic-Benchmark/evaluation-for-the-paper/parlacap-topic-results-heatmap.png)
+![](ParlaCAP-Topic-Benchmark/evaluation-for-the-paper/parlacap_gpt_comparison.png)
 
 ### Sentiment Classification in Parliamentary Texts
 
 ![](ParlaSent-Benchmark/evaluation-for-the-paper/sentiment-results-heatmap.png)
 
-![](ParlaSent-Benchmark/evaluation-for-the-paper/gpt_comparison.png)
+![](ParlaSent-Benchmark/evaluation-for-the-paper/sentiment_gpt_comparison.png)
 
 ### Causal Commonsense reasoning (COPA)
 

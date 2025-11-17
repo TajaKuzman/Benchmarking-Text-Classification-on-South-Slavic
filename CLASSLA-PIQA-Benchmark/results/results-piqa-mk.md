@@ -10,6 +10,8 @@
 | anthropic/claude-haiku-4.5   | piqa-mk        |       0.94 |
 | mistralai/mistral-medium-3.1 | piqa-mk        |       0.92 |
 | gemma3:27b                   | piqa-mk        |       0.9  |
+| GaMS-27B                     | piqa-mk        |       0.87 |
 | qwen3:32b                    | piqa-mk        |       0.86 |
+| GaMS-27B-quantized           | piqa-mk        |       0.85 |
 | gpt-3.5-turbo-0125           | piqa-mk        |       0.8  |
 | deepseek-r1:14b              | piqa-mk        |       0.57 |

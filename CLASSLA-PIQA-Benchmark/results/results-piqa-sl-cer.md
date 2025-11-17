@@ -7,6 +7,8 @@
 | gpt-4o-2024-08-06            | piqa-sl-cer    |       0.78 |
 | google/gemini-2.5-flash      | piqa-sl-cer    |       0.77 |
 | mistralai/mistral-medium-3.1 | piqa-sl-cer    |       0.62 |
+| GaMS-27B                     | piqa-sl-cer    |       0.58 |
+| GaMS-27B-quantized           | piqa-sl-cer    |       0.58 |
 | gemma3:27b                   | piqa-sl-cer    |       0.57 |
 | anthropic/claude-haiku-4.5   | piqa-sl-cer    |       0.57 |
 | llama3.3:latest              | piqa-sl-cer    |       0.54 |

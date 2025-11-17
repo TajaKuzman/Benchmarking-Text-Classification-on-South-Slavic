@@ -730,26 +730,6 @@
     }
   },
   {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-en",
-    "Accuracy": 0.864,
-    "Language-Specific Scores": {
-      "en": {
-        "Accuracy": 0.864
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-sl",
-    "Accuracy": 0.832,
-    "Language-Specific Scores": {
-      "sl": {
-        "Accuracy": 0.832
-      }
-    }
-  },
-  {
     "Model": "mistralai/mistral-medium-3.1",
     "Test Dataset": "copa-sl-cer",
     "Accuracy": 0.532,
@@ -796,66 +776,6 @@
     "Language-Specific Scores": {
       "mk": {
         "Accuracy": 0.968
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-sr",
-    "Accuracy": 0.784,
-    "Language-Specific Scores": {
-      "sr": {
-        "Accuracy": 0.784
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-mk",
-    "Accuracy": 0.692,
-    "Language-Specific Scores": {
-      "mk": {
-        "Accuracy": 0.692
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-hr-ckm",
-    "Accuracy": 0.592,
-    "Language-Specific Scores": {
-      "hr-ckm": {
-        "Accuracy": 0.592
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-sr-tor",
-    "Accuracy": 0.636,
-    "Language-Specific Scores": {
-      "sr-tor": {
-        "Accuracy": 0.636
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-hr",
-    "Accuracy": 0.788,
-    "Language-Specific Scores": {
-      "hr": {
-        "Accuracy": 0.788
-      }
-    }
-  },
-  {
-    "Model": "GaMS-27B",
-    "Test Dataset": "copa-sl-cer",
-    "Accuracy": 0.586,
-    "Language-Specific Scores": {
-      "sl-cer": {
-        "Accuracy": 0.586
       }
     }
   },
@@ -1116,6 +1036,166 @@
     "Language-Specific Scores": {
       "en": {
         "Accuracy": 0.99
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-sr",
+    "Accuracy": 0.77,
+    "Language-Specific Scores": {
+      "sr": {
+        "Accuracy": 0.77
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-mk",
+    "Accuracy": 0.696,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 0.696
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-sl",
+    "Accuracy": 0.816,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.816
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-sr-tor",
+    "Accuracy": 0.656,
+    "Language-Specific Scores": {
+      "sr-tor": {
+        "Accuracy": 0.656
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-mk",
+    "Accuracy": 0.698,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 0.698
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-hr-ckm",
+    "Accuracy": 0.554,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.554
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-sr",
+    "Accuracy": 0.8,
+    "Language-Specific Scores": {
+      "sr": {
+        "Accuracy": 0.8
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.85,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.85
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-sr-tor",
+    "Accuracy": 0.676,
+    "Language-Specific Scores": {
+      "sr-tor": {
+        "Accuracy": 0.676
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-hr",
+    "Accuracy": 0.798,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.798
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-sl",
+    "Accuracy": 0.82,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 0.82
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-sl-cer",
+    "Accuracy": 0.53,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.53
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-hr-ckm",
+    "Accuracy": 0.608,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.608
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-sl-cer",
+    "Accuracy": 0.51,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.51
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "copa-en",
+    "Accuracy": 0.882,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.882
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "copa-hr",
+    "Accuracy": 0.762,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.762
       }
     }
   }

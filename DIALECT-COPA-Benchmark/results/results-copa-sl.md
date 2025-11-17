@@ -11,8 +11,9 @@
 | llama3.3:latest              | copa-sl        |      0.87  |
 | gemma3:27b                   | copa-sl        |      0.862 |
 | gpt-3.5-turbo-0125           | copa-sl        |      0.842 |
-| GaMS-27B                     | copa-sl        |      0.832 |
 | qwen3:32b                    | copa-sl        |      0.826 |
+| GaMS-27B                     | copa-sl        |      0.82  |
+| GaMS-27B-quantized           | copa-sl        |      0.816 |
 | deepseek-r1:14b              | copa-sl        |      0.53  |
 | dummy-most_frequent          | copa-sl        |      0.5   |
 | dummy-stratified             | copa-sl        |      0.484 |

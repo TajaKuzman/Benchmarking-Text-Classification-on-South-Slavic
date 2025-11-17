@@ -13,6 +13,8 @@
 | anthropic/claude-haiku-4.5   | piqa-en        | en         |       0.91 |
 | gpt-3.5-turbo-0125           | piqa-en        | en         |       0.86 |
 | gemma3:27b                   | piqa-en        | en         |       0.84 |
+| GaMS-27B-quantized           | piqa-en        | en         |       0.81 |
+| GaMS-27B                     | piqa-en        | en         |       0.79 |
 | deepseek-r1:14b              | piqa-en        | en         |       0.63 |
 
 ------------------------------------------
@@ -29,8 +31,10 @@
 | gemma3:27b                   | piqa-sl        | sl         |       0.87 |
 | mistralai/mistral-medium-3.1 | piqa-sl        | sl         |       0.86 |
 | llama3.3:latest              | piqa-sl        | sl         |       0.83 |
+| GaMS-27B                     | piqa-sl        | sl         |       0.82 |
 | gpt-3.5-turbo-0125           | piqa-sl        | sl         |       0.78 |
 | qwen3:32b                    | piqa-sl        | sl         |       0.75 |
+| GaMS-27B-quantized           | piqa-sl        | sl         |       0.75 |
 | deepseek-r1:14b              | piqa-sl        | sl         |       0.48 |
 
 ------------------------------------------
@@ -49,6 +53,8 @@
 | qwen3:32b                    | piqa-hr        | hr         |       0.9  |
 | llama3.3:latest              | piqa-hr        | hr         |       0.89 |
 | gpt-3.5-turbo-0125           | piqa-hr        | hr         |       0.88 |
+| GaMS-27B                     | piqa-hr        | hr         |       0.87 |
+| GaMS-27B-quantized           | piqa-hr        | hr         |       0.76 |
 | deepseek-r1:14b              | piqa-hr        | hr         |       0.6  |
 
 ------------------------------------------
@@ -67,6 +73,8 @@
 | gpt-3.5-turbo-0125           | piqa-bs        | bs         |       0.99 |
 | google/gemini-2.5-pro        | piqa-bs        | bs         |       0.98 |
 | qwen3:32b                    | piqa-bs        | bs         |       0.97 |
+| GaMS-27B                     | piqa-bs        | bs         |       0.97 |
+| GaMS-27B-quantized           | piqa-bs        | bs         |       0.94 |
 | deepseek-r1:14b              | piqa-bs        | bs         |       0.73 |
 
 ------------------------------------------
@@ -84,7 +92,9 @@
 | llama3.3:latest              | piqa-bg        | bg         |       0.94 |
 | qwen3:32b                    | piqa-bg        | bg         |       0.93 |
 | gemma3:27b                   | piqa-bg        | bg         |       0.92 |
+| GaMS-27B                     | piqa-bg        | bg         |       0.84 |
 | gpt-3.5-turbo-0125           | piqa-bg        | bg         |       0.78 |
+| GaMS-27B-quantized           | piqa-bg        | bg         |       0.76 |
 | deepseek-r1:14b              | piqa-bg        | bg         |       0.55 |
 
 ------------------------------------------
@@ -100,10 +110,12 @@
 | qwen3:32b                    | piqa-hr-ckm    | hr-ckm     |       0.54 |
 | llama3.3:latest              | piqa-hr-ckm    | hr-ckm     |       0.53 |
 | mistralai/mistral-medium-3.1 | piqa-hr-ckm    | hr-ckm     |       0.53 |
+| GaMS-27B-quantized           | piqa-hr-ckm    | hr-ckm     |       0.51 |
 | deepseek-r1:14b              | piqa-hr-ckm    | hr-ckm     |       0.5  |
 | anthropic/claude-haiku-4.5   | piqa-hr-ckm    | hr-ckm     |       0.5  |
 | gpt-3.5-turbo-0125           | piqa-hr-ckm    | hr-ckm     |       0.49 |
 | gemma3:27b                   | piqa-hr-ckm    | hr-ckm     |       0.48 |
+| GaMS-27B                     | piqa-hr-ckm    | hr-ckm     |       0.48 |
 
 ------------------------------------------
 
@@ -119,7 +131,9 @@
 | anthropic/claude-haiku-4.5   | piqa-mk        | mk         |       0.94 |
 | mistralai/mistral-medium-3.1 | piqa-mk        | mk         |       0.92 |
 | gemma3:27b                   | piqa-mk        | mk         |       0.9  |
+| GaMS-27B                     | piqa-mk        | mk         |       0.87 |
 | qwen3:32b                    | piqa-mk        | mk         |       0.86 |
+| GaMS-27B-quantized           | piqa-mk        | mk         |       0.85 |
 | gpt-3.5-turbo-0125           | piqa-mk        | mk         |       0.8  |
 | deepseek-r1:14b              | piqa-mk        | mk         |       0.57 |
 
@@ -134,6 +148,8 @@
 | gpt-4o-2024-08-06            | piqa-sl-cer    | sl-cer     |       0.78 |
 | google/gemini-2.5-flash      | piqa-sl-cer    | sl-cer     |       0.77 |
 | mistralai/mistral-medium-3.1 | piqa-sl-cer    | sl-cer     |       0.62 |
+| GaMS-27B                     | piqa-sl-cer    | sl-cer     |       0.58 |
+| GaMS-27B-quantized           | piqa-sl-cer    | sl-cer     |       0.58 |
 | gemma3:27b                   | piqa-sl-cer    | sl-cer     |       0.57 |
 | anthropic/claude-haiku-4.5   | piqa-sl-cer    | sl-cer     |       0.57 |
 | llama3.3:latest              | piqa-sl-cer    | sl-cer     |       0.54 |
@@ -157,6 +173,8 @@
 | qwen3:32b                    | piqa-sr_cyrl   | sr_cyrl    |       0.85 |
 | gemma3:27b                   | piqa-sr_cyrl   | sr_cyrl    |       0.84 |
 | gpt-3.5-turbo-0125           | piqa-sr_cyrl   | sr_cyrl    |       0.74 |
+| GaMS-27B-quantized           | piqa-sr_cyrl   | sr_cyrl    |       0.72 |
+| GaMS-27B                     | piqa-sr_cyrl   | sr_cyrl    |       0.72 |
 | deepseek-r1:14b              | piqa-sr_cyrl   | sr_cyrl    |       0.6  |
 
 ------------------------------------------
@@ -175,6 +193,8 @@
 | llama3.3:latest              | piqa-sr_latn   | sr_latn    |       0.87 |
 | qwen3:32b                    | piqa-sr_latn   | sr_latn    |       0.85 |
 | gpt-3.5-turbo-0125           | piqa-sr_latn   | sr_latn    |       0.79 |
+| GaMS-27B-quantized           | piqa-sr_latn   | sr_latn    |       0.74 |
+| GaMS-27B                     | piqa-sr_latn   | sr_latn    |       0.73 |
 | deepseek-r1:14b              | piqa-sr_latn   | sr_latn    |       0.6  |
 
 ------------------------------------------

@@ -10,6 +10,8 @@
 | gemma3:27b                   | piqa-sl        |       0.87 |
 | mistralai/mistral-medium-3.1 | piqa-sl        |       0.86 |
 | llama3.3:latest              | piqa-sl        |       0.83 |
+| GaMS-27B                     | piqa-sl        |       0.82 |
 | gpt-3.5-turbo-0125           | piqa-sl        |       0.78 |
 | qwen3:32b                    | piqa-sl        |       0.75 |
+| GaMS-27B-quantized           | piqa-sl        |       0.75 |
 | deepseek-r1:14b              | piqa-sl        |       0.48 |

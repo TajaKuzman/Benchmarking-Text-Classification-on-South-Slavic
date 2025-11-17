@@ -12,4 +12,6 @@
 | qwen3:32b                    | piqa-hr        |       0.9  |
 | llama3.3:latest              | piqa-hr        |       0.89 |
 | gpt-3.5-turbo-0125           | piqa-hr        |       0.88 |
+| GaMS-27B                     | piqa-hr        |       0.87 |
+| GaMS-27B-quantized           | piqa-hr        |       0.76 |
 | deepseek-r1:14b              | piqa-hr        |       0.6  |

@@ -12,4 +12,6 @@
 | qwen3:32b                    | piqa-sr_cyrl   |       0.85 |
 | gemma3:27b                   | piqa-sr_cyrl   |       0.84 |
 | gpt-3.5-turbo-0125           | piqa-sr_cyrl   |       0.74 |
+| GaMS-27B-quantized           | piqa-sr_cyrl   |       0.72 |
+| GaMS-27B                     | piqa-sr_cyrl   |       0.72 |
 | deepseek-r1:14b              | piqa-sr_cyrl   |       0.6  |

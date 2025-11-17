@@ -12,7 +12,8 @@
 | llama3.3:latest              | copa-sr-tor    |      0.798 |
 | qwen3:32b                    | copa-sr-tor    |      0.782 |
 | gpt-3.5-turbo-0125           | copa-sr-tor    |      0.734 |
-| GaMS-27B                     | copa-sr-tor    |      0.636 |
+| GaMS-27B                     | copa-sr-tor    |      0.676 |
+| GaMS-27B-quantized           | copa-sr-tor    |      0.656 |
 | deepseek-r1:14b              | copa-sr-tor    |      0.514 |
 | dummy-most_frequent          | copa-sr-tor    |      0.5   |
 | dummy-stratified             | copa-sr-tor    |      0.488 |

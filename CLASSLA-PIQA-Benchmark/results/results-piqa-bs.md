@@ -12,4 +12,6 @@
 | gpt-3.5-turbo-0125           | piqa-bs        |       0.99 |
 | google/gemini-2.5-pro        | piqa-bs        |       0.98 |
 | qwen3:32b                    | piqa-bs        |       0.97 |
+| GaMS-27B                     | piqa-bs        |       0.97 |
+| GaMS-27B-quantized           | piqa-bs        |       0.94 |
 | deepseek-r1:14b              | piqa-bs        |       0.73 |

@@ -11,5 +11,7 @@
 | llama3.3:latest              | piqa-bg        |       0.94 |
 | qwen3:32b                    | piqa-bg        |       0.93 |
 | gemma3:27b                   | piqa-bg        |       0.92 |
+| GaMS-27B                     | piqa-bg        |       0.84 |
 | gpt-3.5-turbo-0125           | piqa-bg        |       0.78 |
+| GaMS-27B-quantized           | piqa-bg        |       0.76 |
 | deepseek-r1:14b              | piqa-bg        |       0.55 |

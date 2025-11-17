@@ -12,7 +12,8 @@
 | gemma3:27b                   | copa-sr        |      0.9   |
 | qwen3:32b                    | copa-sr        |      0.89  |
 | gpt-3.5-turbo-0125           | copa-sr        |      0.808 |
-| GaMS-27B                     | copa-sr        |      0.784 |
+| GaMS-27B-quantized           | copa-sr        |      0.8   |
+| GaMS-27B                     | copa-sr        |      0.77  |
 | deepseek-r1:14b              | copa-sr        |      0.554 |
 | dummy-most_frequent          | copa-sr        |      0.5   |
 | dummy-stratified             | copa-sr        |      0.494 |

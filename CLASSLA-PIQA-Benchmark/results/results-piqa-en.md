@@ -12,4 +12,6 @@
 | anthropic/claude-haiku-4.5   | piqa-en        |       0.91 |
 | gpt-3.5-turbo-0125           | piqa-en        |       0.86 |
 | gemma3:27b                   | piqa-en        |       0.84 |
+| GaMS-27B-quantized           | piqa-en        |       0.81 |
+| GaMS-27B                     | piqa-en        |       0.79 |
 | deepseek-r1:14b              | piqa-en        |       0.63 |

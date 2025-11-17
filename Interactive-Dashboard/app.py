@@ -5,7 +5,15 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 import os
 
-os.chdir("Interactive-Dashboard")
+target = "Interactive-Dashboard"
+
+# If we're not already in the target directory
+if os.path.basename(os.getcwd()) != target:
+    relative_path = os.path.join(os.getcwd(), target)
+    if os.path.isdir(relative_path):
+        os.chdir(relative_path)
+    else:
+        raise FileNotFoundError(f"Relative path not found: {relative_path}")
 
 # ---------------------
 # Data loading
@@ -337,7 +345,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.sidebar.image("CLASSLA-k-centre-transparent-background.png", use_container_width=True)
+    st.sidebar.image("CLASSLA-k-centre-transparent-background.png", width='stretch')
 
     st.title("CLASSLA LLM Evaluation Dashboard for South Slavic Languages")
 

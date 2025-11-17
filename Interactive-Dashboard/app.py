@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 import os
 
-os.chdir("/workspaces/Benchmarking-Text-Classification-on-South-Slavic/Interactive-Dashboard")
+os.chdir("Interactive-Dashboard")
 
 # ---------------------
 # Data loading

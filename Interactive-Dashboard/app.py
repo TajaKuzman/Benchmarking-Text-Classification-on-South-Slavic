@@ -631,12 +631,9 @@ languages. Only models evaluated on all tasks are included.
             matrix["Average"] = matrix.mean(axis=1)
             matrix = matrix.sort_values("Average", ascending=False)
 
-            # Turn index into a column and name it "Model"
-            matrix = matrix.reset_index().rename(columns={"model": "Model"})
-
-            # Reorder columns: Model, languages, Average
-            col_order = ["Model"] + [
-                c for c in matrix.columns if c not in ["Model", "Average"]
+            # Reorder columns: languages then Average
+            col_order = [
+                c for c in matrix.columns if c != "Average"
             ] + ["Average"]
             matrix = matrix[col_order]
 

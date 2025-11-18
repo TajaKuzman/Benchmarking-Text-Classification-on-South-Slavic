@@ -375,7 +375,6 @@ def main():
         <style>
         html, body, [class*="css"] {
             font-family: 'Inter', sans-serif !important;
-            color: black !important;
         }
 
         p, span, div {
@@ -385,29 +384,24 @@ def main():
         .stSidebar, .stSidebar p, .stSidebar span, .stSidebar label {
             font-size: 18px !important;
             font-family: 'Inter', sans-serif !important;
-            color: black !important;
         }
 
         h1 {
             font-size: 38px !important;
             font-weight: 600 !important;
-            color: black !important;
         }
         h2 {
             font-size: 30px !important;
             font-weight: 500 !important;
-            color: black !important;
         }
         h3 {
             font-size: 24px !important;
             font-weight: 500 !important;
-            color: black !important;
         }
 
         .stDataFrame div, .stDataFrame table, .stDataFrame th, .stDataFrame td {
             font-size: 16px !important;
             font-family: 'Inter', sans-serif !important;
-            color: black !important;
         }
 
         [data-baseweb="tag"] {
@@ -429,9 +423,6 @@ def main():
         }
         [data-baseweb="select"] div[data-baseweb="option"]:hover {
             background-color: #0080aa20 !important;
-        }
-        html, body, [class*="css"] {
-            color: black !important;
         }
         </style>
         """,
@@ -509,7 +500,7 @@ languages. Only models evaluated on all tasks are included.
                 tooltip=list(ranking_df.columns),
             )
         )
-        st.altair_chart(chart_rank, use_container_width=True)
+        st.altair_chart(chart_rank, width='stretch')
 
         base_cols = ["Model", "Average ranking", "Average ranking English", "Average ranking South Slavic"]
         lang_cols = [c for c in ranking_df.columns if c not in base_cols]

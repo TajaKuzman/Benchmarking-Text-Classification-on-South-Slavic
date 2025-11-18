@@ -107,15 +107,6 @@ PIQA,GaMS-27B-Instruct,Cerkno Dialect,accuracy,0.58
 PIQA,GaMS-27B-Instruct,Bulgarian,accuracy,0.84
 PIQA,GaMS-27B-Instruct,Croatian,accuracy,0.87
 PIQA,GaMS-27B-Instruct,Bosnian,accuracy,0.97
-PIQA,GaMS-27B-Instruct (quantized),Macedonian,accuracy,0.85
-PIQA,GaMS-27B-Instruct (quantized),English,accuracy,0.81
-PIQA,GaMS-27B-Instruct (quantized),Chakavian Dialect,accuracy,0.51
-PIQA,GaMS-27B-Instruct (quantized),Serbian,accuracy,0.74
-PIQA,GaMS-27B-Instruct (quantized),Slovenian,accuracy,0.75
-PIQA,GaMS-27B-Instruct (quantized),Cerkno Dialect,accuracy,0.58
-PIQA,GaMS-27B-Instruct (quantized),Bulgarian,accuracy,0.76
-PIQA,GaMS-27B-Instruct (quantized),Croatian,accuracy,0.76
-PIQA,GaMS-27B-Instruct (quantized),Bosnian,accuracy,0.94
 COPA,GPT-5,English,accuracy,0.996
 COPA,GPT-5,Slovenian,accuracy,0.998
 COPA,GPT-5,Croatian,accuracy,0.99
@@ -140,22 +131,6 @@ COPA,GPT-3.5-Turbo,Macedonian,accuracy,0.776
 COPA,GPT-3.5-Turbo,Torlak Dialect,accuracy,0.734
 COPA,GPT-3.5-Turbo,Cerkno Dialect,accuracy,0.528
 COPA,GPT-3.5-Turbo,Serbian,accuracy,0.808
-COPA,Dummy (Most Frequent),English,accuracy,0.5
-COPA,Dummy (Most Frequent),Slovenian,accuracy,0.5
-COPA,Dummy (Most Frequent),Croatian,accuracy,0.5
-COPA,Dummy (Most Frequent),Chakavian Dialect,accuracy,0.5
-COPA,Dummy (Most Frequent),Macedonian,accuracy,0.5
-COPA,Dummy (Most Frequent),Torlak Dialect,accuracy,0.5
-COPA,Dummy (Most Frequent),Cerkno Dialect,accuracy,0.5
-COPA,Dummy (Most Frequent),Serbian,accuracy,0.5
-COPA,Dummy (Stratified),English,accuracy,0.518
-COPA,Dummy (Stratified),Slovenian,accuracy,0.484
-COPA,Dummy (Stratified),Croatian,accuracy,0.512
-COPA,Dummy (Stratified),Chakavian Dialect,accuracy,0.5
-COPA,Dummy (Stratified),Macedonian,accuracy,0.518
-COPA,Dummy (Stratified),Torlak Dialect,accuracy,0.488
-COPA,Dummy (Stratified),Cerkno Dialect,accuracy,0.528
-COPA,Dummy (Stratified),Serbian,accuracy,0.494
 COPA,Qwen 3,English,accuracy,0.972
 COPA,Qwen 3,Slovenian,accuracy,0.826
 COPA,Qwen 3,Croatian,accuracy,0.9
@@ -204,14 +179,6 @@ COPA,Gemini 2.5 Flash,Macedonian,accuracy,0.968
 COPA,Gemini 2.5 Flash,Torlak Dialect,accuracy,0.944
 COPA,Gemini 2.5 Flash,Cerkno Dialect,accuracy,0.742
 COPA,Gemini 2.5 Flash,Serbian,accuracy,0.972
-COPA,GaMS-27B-Instruct,English,accuracy,0.864
-COPA,GaMS-27B-Instruct,Slovenian,accuracy,0.832
-COPA,GaMS-27B-Instruct,Croatian,accuracy,0.788
-COPA,GaMS-27B-Instruct,Chakavian Dialect,accuracy,0.592
-COPA,GaMS-27B-Instruct,Macedonian,accuracy,0.692
-COPA,GaMS-27B-Instruct,Torlak Dialect,accuracy,0.636
-COPA,GaMS-27B-Instruct,Cerkno Dialect,accuracy,0.586
-COPA,GaMS-27B-Instruct,Serbian,accuracy,0.784
 COPA,Claude Haiku 4.5,English,accuracy,0.986
 COPA,Claude Haiku 4.5,Slovenian,accuracy,0.926
 COPA,Claude Haiku 4.5,Croatian,accuracy,0.948
@@ -228,62 +195,14 @@ COPA,Gemini 2.5 Pro,Macedonian,accuracy,0.986
 COPA,Gemini 2.5 Pro,Torlak Dialect,accuracy,0.98
 COPA,Gemini 2.5 Pro,Cerkno Dialect,accuracy,0.864
 COPA,Gemini 2.5 Pro,Serbian,accuracy,0.994
-Genre,Dummy (Most Frequent),Slovenian,macro_f1,0.0277777778
-Genre,Dummy (Most Frequent),Slovenian,micro_f1,0.125
-Genre,Dummy (Most Frequent),Croatian,macro_f1,0.0252808989
-Genre,Dummy (Most Frequent),Croatian,micro_f1,0.1125
-Genre,Dummy (Most Frequent),Macedonian,macro_f1,0.0326086957
-Genre,Dummy (Most Frequent),Macedonian,micro_f1,0.15
-Genre,Dummy (Most Frequent),English,macro_f1,0.0378289474
-Genre,Dummy (Most Frequent),English,micro_f1,0.1782945736
-Genre,Dummy (Stratified),Slovenian,macro_f1,0.1282066213
-Genre,Dummy (Stratified),Slovenian,micro_f1,0.1428571429
-Genre,Dummy (Stratified),Croatian,macro_f1,0.0547619048
-Genre,Dummy (Stratified),Croatian,micro_f1,0.0641025641
-Genre,Dummy (Stratified),Macedonian,macro_f1,0.0649483618
-Genre,Dummy (Stratified),Macedonian,micro_f1,0.0649350649
-Genre,Dummy (Stratified),English,macro_f1,0.1017403247
-Genre,Dummy (Stratified),English,micro_f1,0.1663366337
-Genre,fastText,Slovenian,macro_f1,0.4218894994
-Genre,fastText,Slovenian,micro_f1,0.4358974359
-Genre,fastText,Croatian,macro_f1,0.1686909582
-Genre,fastText,Croatian,micro_f1,0.2658227848
-Genre,fastText,Macedonian,macro_f1,0.0937621202
-Genre,fastText,Macedonian,micro_f1,0.15
-Genre,fastText,English,macro_f1,0.4587497966
-Genre,fastText,English,micro_f1,0.4743083004
-Genre,NLI zero-shot model,Slovenian,macro_f1,0.1311769113
-Genre,NLI zero-shot model,Slovenian,micro_f1,0.1571428571
-Genre,NLI zero-shot model,Croatian,macro_f1,0.1185606061
-Genre,NLI zero-shot model,Croatian,micro_f1,0.1692307692
-Genre,NLI zero-shot model,Macedonian,macro_f1,0.1961143695
-Genre,NLI zero-shot model,Macedonian,micro_f1,0.2133333333
-Genre,NLI zero-shot model,English,macro_f1,0.1597009131
-Genre,NLI zero-shot model,English,micro_f1,0.231292517
-Genre,Support Vector Machine,Slovenian,macro_f1,0.4826608187
-Genre,Support Vector Machine,Slovenian,micro_f1,0.4936708861
-Genre,Support Vector Machine,Croatian,macro_f1,0.1965894851
-Genre,Support Vector Machine,Croatian,micro_f1,0.2405063291
-Genre,Support Vector Machine,Macedonian,macro_f1,0.0672348485
-Genre,Support Vector Machine,Macedonian,micro_f1,0.1375
-Genre,Support Vector Machine,English,macro_f1,0.5718479589
-Genre,Support Vector Machine,English,micro_f1,0.511627907
-Genre,Naive Bayes Classifier,Slovenian,macro_f1,0.213523976
-Genre,Naive Bayes Classifier,Slovenian,micro_f1,0.3
-Genre,Naive Bayes Classifier,Croatian,macro_f1,0.1392045455
-Genre,Naive Bayes Classifier,Croatian,micro_f1,0.213836478
-Genre,Naive Bayes Classifier,Macedonian,macro_f1,0.1441458903
-Genre,Naive Bayes Classifier,Macedonian,micro_f1,0.1635220126
-Genre,Naive Bayes Classifier,English,macro_f1,0.3363960034
-Genre,Naive Bayes Classifier,English,micro_f1,0.3798449612
-Genre,Logistic Regression,Slovenian,macro_f1,0.5631925445
-Genre,Logistic Regression,Slovenian,micro_f1,0.5605095541
-Genre,Logistic Regression,Croatian,macro_f1,0.116862008
-Genre,Logistic Regression,Croatian,micro_f1,0.1548387097
-Genre,Logistic Regression,Macedonian,macro_f1,0.0987822614
-Genre,Logistic Regression,Macedonian,micro_f1,0.125
-Genre,Logistic Regression,English,macro_f1,0.5085631171
-Genre,Logistic Regression,English,micro_f1,0.4941176471
+COPA,GaMS-27B-Instruct,English,accuracy,0.882
+COPA,GaMS-27B-Instruct,Slovenian,accuracy,0.82
+COPA,GaMS-27B-Instruct,Croatian,accuracy,0.798
+COPA,GaMS-27B-Instruct,Chakavian Dialect,accuracy,0.554
+COPA,GaMS-27B-Instruct,Macedonian,accuracy,0.698
+COPA,GaMS-27B-Instruct,Torlak Dialect,accuracy,0.676
+COPA,GaMS-27B-Instruct,Cerkno Dialect,accuracy,0.51
+COPA,GaMS-27B-Instruct,Serbian,accuracy,0.77
 Genre,X-GENRE classifier,Slovenian,macro_f1,0.9356251592
 Genre,X-GENRE classifier,Slovenian,micro_f1,0.9375
 Genre,X-GENRE classifier,Croatian,macro_f1,0.8942017635
@@ -308,14 +227,14 @@ Genre,Gemini 2.5 Flash,Macedonian,macro_f1,0.6720828688
 Genre,Gemini 2.5 Flash,Macedonian,micro_f1,0.675
 Genre,Gemini 2.5 Flash,English,macro_f1,0.7924552606
 Genre,Gemini 2.5 Flash,English,micro_f1,0.8100775194
-Genre,GPT-5-nano,Slovenian,macro_f1,0.7169565671
-Genre,GPT-5-nano,Slovenian,micro_f1,0.7125
-Genre,GPT-5-nano,Croatian,macro_f1,0.6787414729
-Genre,GPT-5-nano,Croatian,micro_f1,0.6625
-Genre,GPT-5-nano,Macedonian,macro_f1,0.6990301274
-Genre,GPT-5-nano,Macedonian,micro_f1,0.6875
-Genre,GPT-5-nano,English,macro_f1,0.693840202
-Genre,GPT-5-nano,English,micro_f1,0.7286821705
+Genre,GPT-5-Nano,Slovenian,macro_f1,0.7169565671
+Genre,GPT-5-Nano,Slovenian,micro_f1,0.7125
+Genre,GPT-5-Nano,Croatian,macro_f1,0.6787414729
+Genre,GPT-5-Nano,Croatian,micro_f1,0.6625
+Genre,GPT-5-Nano,Macedonian,macro_f1,0.6990301274
+Genre,GPT-5-Nano,Macedonian,micro_f1,0.6875
+Genre,GPT-5-Nano,English,macro_f1,0.693840202
+Genre,GPT-5-Nano,English,micro_f1,0.7286821705
 Genre,GPT-4o,Slovenian,macro_f1,0.7951393223
 Genre,GPT-4o,Slovenian,micro_f1,0.8
 Genre,GPT-4o,Croatian,macro_f1,0.7693341019
@@ -356,14 +275,6 @@ Genre,DeepSeek-R1-Distill,Macedonian,macro_f1,0.4176420071
 Genre,DeepSeek-R1-Distill,Macedonian,micro_f1,0.427480916
 Genre,DeepSeek-R1-Distill,English,macro_f1,0.4121807182
 Genre,DeepSeek-R1-Distill,English,micro_f1,0.5069767442
-Genre,GaMS-Instruct 27B,Slovenian,macro_f1,0.4089400183
-Genre,GaMS-Instruct 27B,Slovenian,micro_f1,0.4444444444
-Genre,GaMS-Instruct 27B,Croatian,macro_f1,0.4554315476
-Genre,GaMS-Instruct 27B,Croatian,micro_f1,0.5194805195
-Genre,GaMS-Instruct 27B,Macedonian,macro_f1,0.3538875107
-Genre,GaMS-Instruct 27B,Macedonian,micro_f1,0.3815789474
-Genre,GaMS-Instruct 27B,English,macro_f1,0.3370772301
-Genre,GaMS-Instruct 27B,English,micro_f1,0.4158415842
 Genre,LLaMA 3.3,Slovenian,macro_f1,0.7581485295
 Genre,LLaMA 3.3,Slovenian,micro_f1,0.7625
 Genre,LLaMA 3.3,Croatian,macro_f1,0.7653672224
@@ -404,6 +315,14 @@ Genre,GPT-5,Macedonian,macro_f1,0.7166651003
 Genre,GPT-5,Macedonian,micro_f1,0.7125
 Genre,GPT-5,English,macro_f1,0.8353798982
 Genre,GPT-5,English,micro_f1,0.8333333333
+Genre,GaMS-27B-Instruct,Slovenian,macro_f1,0.3803979098
+Genre,GaMS-27B-Instruct,Slovenian,micro_f1,0.4129032258
+Genre,GaMS-27B-Instruct,Croatian,macro_f1,0.477594418
+Genre,GaMS-27B-Instruct,Croatian,micro_f1,0.5256410256
+Genre,GaMS-27B-Instruct,Macedonian,macro_f1,0.3470829244
+Genre,GaMS-27B-Instruct,Macedonian,micro_f1,0.3708609272
+Genre,GaMS-27B-Instruct,English,macro_f1,0.3590420263
+Genre,GaMS-27B-Instruct,English,micro_f1,0.3992015968
 News Topic,GPT-5,Slovenian,macro_f1,0.736
 News Topic,GPT-5,Slovenian,micro_f1,0.727
 News Topic,GPT-5,Croatian,macro_f1,0.749
@@ -460,38 +379,10 @@ News Topic,DeepSeek-R1-Distill,Slovenian,macro_f1,0.385
 News Topic,DeepSeek-R1-Distill,Slovenian,micro_f1,0.361
 News Topic,DeepSeek-R1-Distill,Croatian,macro_f1,0.401
 News Topic,DeepSeek-R1-Distill,Croatian,micro_f1,0.39
-News Topic,Support Vector Machine,Slovenian,macro_f1,0.421
-News Topic,Support Vector Machine,Slovenian,micro_f1,0.426
-News Topic,Support Vector Machine,Croatian,macro_f1,0.399
-News Topic,Support Vector Machine,Croatian,micro_f1,0.43
-News Topic,Naive Bayes Classifier,Slovenian,macro_f1,0.211
-News Topic,Naive Bayes Classifier,Slovenian,micro_f1,0.255
-News Topic,Naive Bayes Classifier,Croatian,macro_f1,0.231
-News Topic,Naive Bayes Classifier,Croatian,micro_f1,0.313
-News Topic,Dummy (Stratified),Slovenian,macro_f1,0.053
-News Topic,Dummy (Stratified),Slovenian,micro_f1,0.053
-News Topic,Dummy (Stratified),Croatian,macro_f1,0.057
-News Topic,Dummy (Stratified),Croatian,micro_f1,0.072
-News Topic,Dummy (Most Frequent),Slovenian,macro_f1,0.007
-News Topic,Dummy (Most Frequent),Slovenian,micro_f1,0.06
-News Topic,Dummy (Most Frequent),Croatian,macro_f1,0.006
-News Topic,Dummy (Most Frequent),Croatian,micro_f1,0.058
-Parliamentary Speech Topic,Dummy (Most Frequent),Croatian,macro_f1,0.0056879474
-Parliamentary Speech Topic,Dummy (Most Frequent),Croatian,micro_f1,0.0667433832
-Parliamentary Speech Topic,Dummy (Most Frequent),English,macro_f1,0.0051864175
-Parliamentary Speech Topic,Dummy (Most Frequent),English,micro_f1,0.0605022831
-Parliamentary Speech Topic,Dummy (Most Frequent),Serbian,macro_f1,0.0056574327
-Parliamentary Speech Topic,Dummy (Most Frequent),Serbian,micro_f1,0.0663615561
-Parliamentary Speech Topic,Dummy (Most Frequent),Bosnian,macro_f1,0.0085914086
-Parliamentary Speech Topic,Dummy (Most Frequent),Bosnian,micro_f1,0.104368932
-Parliamentary Speech Topic,Dummy (Stratified),Croatian,macro_f1,0.0412299027
-Parliamentary Speech Topic,Dummy (Stratified),Croatian,micro_f1,0.0563866513
-Parliamentary Speech Topic,Dummy (Stratified),English,macro_f1,0.0487593516
-Parliamentary Speech Topic,Dummy (Stratified),English,micro_f1,0.0559360731
-Parliamentary Speech Topic,Dummy (Stratified),Serbian,macro_f1,0.0459831171
-Parliamentary Speech Topic,Dummy (Stratified),Serbian,micro_f1,0.0583524027
-Parliamentary Speech Topic,Dummy (Stratified),Bosnian,macro_f1,0.0416111714
-Parliamentary Speech Topic,Dummy (Stratified),Bosnian,micro_f1,0.0606796117
+News Topic,GaMS-27B-Instruct,Slovenian,macro_f1,0.315
+News Topic,GaMS-27B-Instruct,Slovenian,micro_f1,0.312
+News Topic,GaMS-27B-Instruct,Croatian,macro_f1,0.276
+News Topic,GaMS-27B-Instruct,Croatian,micro_f1,0.265
 Parliamentary Speech Topic,ParlaCAP-classifier,Croatian,macro_f1,0.6856743459
 Parliamentary Speech Topic,ParlaCAP-classifier,Croatian,micro_f1,0.6766398159
 Parliamentary Speech Topic,ParlaCAP-classifier,English,macro_f1,0.7229632138
@@ -500,22 +391,6 @@ Parliamentary Speech Topic,ParlaCAP-classifier,Serbian,macro_f1,0.7068794735
 Parliamentary Speech Topic,ParlaCAP-classifier,Serbian,micro_f1,0.704805492
 Parliamentary Speech Topic,ParlaCAP-classifier,Bosnian,macro_f1,0.6460589751
 Parliamentary Speech Topic,ParlaCAP-classifier,Bosnian,micro_f1,0.645631068
-Parliamentary Speech Topic,Naive Bayes Classifier,Croatian,macro_f1,0.0195880089
-Parliamentary Speech Topic,Naive Bayes Classifier,Croatian,micro_f1,0.1047180667
-Parliamentary Speech Topic,Naive Bayes Classifier,English,macro_f1,0.0081194643
-Parliamentary Speech Topic,Naive Bayes Classifier,English,micro_f1,0.0445205479
-Parliamentary Speech Topic,Naive Bayes Classifier,Serbian,macro_f1,0.0129640736
-Parliamentary Speech Topic,Naive Bayes Classifier,Serbian,micro_f1,0.0835240275
-Parliamentary Speech Topic,Naive Bayes Classifier,Bosnian,macro_f1,0.0200870307
-Parliamentary Speech Topic,Naive Bayes Classifier,Bosnian,micro_f1,0.1359223301
-Parliamentary Speech Topic,Support Vector Machine,Croatian,macro_f1,0.0730543867
-Parliamentary Speech Topic,Support Vector Machine,Croatian,micro_f1,0.1254315305
-Parliamentary Speech Topic,Support Vector Machine,English,macro_f1,0.0348638118
-Parliamentary Speech Topic,Support Vector Machine,English,micro_f1,0.0707762557
-Parliamentary Speech Topic,Support Vector Machine,Serbian,macro_f1,0.0565144162
-Parliamentary Speech Topic,Support Vector Machine,Serbian,micro_f1,0.1247139588
-Parliamentary Speech Topic,Support Vector Machine,Bosnian,macro_f1,0.0497498047
-Parliamentary Speech Topic,Support Vector Machine,Bosnian,micro_f1,0.1371359223
 Parliamentary Speech Topic,Gemma 3,Croatian,macro_f1,0.5546842733
 Parliamentary Speech Topic,Gemma 3,Croatian,micro_f1,0.5506912442
 Parliamentary Speech Topic,Gemma 3,English,macro_f1,0.6199967092
@@ -604,14 +479,6 @@ Parliamentary Speech Topic,GPT-5-mini,Serbian,macro_f1,0.6837198436
 Parliamentary Speech Topic,GPT-5-mini,Serbian,micro_f1,0.6773455378
 Parliamentary Speech Topic,GPT-5-mini,Bosnian,macro_f1,0.621466215
 Parliamentary Speech Topic,GPT-5-mini,Bosnian,micro_f1,0.6322815534
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,Croatian,macro_f1,0.6025530061
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,Croatian,micro_f1,0.5891829689
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,English,macro_f1,0.6786531566
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,English,micro_f1,0.6826484018
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,Serbian,macro_f1,0.6240595422
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,Serbian,micro_f1,0.6167048055
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,Bosnian,macro_f1,0.5187000797
-Parliamentary Speech Topic,Gemini 2.5 Flash Lite,Bosnian,micro_f1,0.5266990291
 Parliamentary Speech Topic,Gemini 2.5 Flash,Croatian,macro_f1,0.661392603
 Parliamentary Speech Topic,Gemini 2.5 Flash,Croatian,micro_f1,0.6536248562
 Parliamentary Speech Topic,Gemini 2.5 Flash,English,macro_f1,0.7094757832
@@ -636,40 +503,14 @@ Parliamentary Speech Topic,Mistral Small 3.2,Serbian,macro_f1,0.6013668853
 Parliamentary Speech Topic,Mistral Small 3.2,Serbian,micro_f1,0.5949656751
 Parliamentary Speech Topic,Mistral Small 3.2,Bosnian,macro_f1,0.5430821317
 Parliamentary Speech Topic,Mistral Small 3.2,Bosnian,micro_f1,0.5218446602
-Parliamentary Speech Topic,Command A,English,macro_f1,0.66888018
-Parliamentary Speech Topic,Command A,English,micro_f1,0.6735159817
-Sentiment,Dummy (Stratified),English,macro_f1,0.3265833492
-Sentiment,Dummy (Stratified),English,micro_f1,0.3461538462
-Sentiment,Dummy (Stratified),Croatian,macro_f1,0.3158926112
-Sentiment,Dummy (Stratified),Croatian,micro_f1,0.3645209581
-Sentiment,Dummy (Stratified),Serbian,macro_f1,0.3267265564
-Sentiment,Dummy (Stratified),Serbian,micro_f1,0.3612662942
-Sentiment,Dummy (Stratified),Bosnian,macro_f1,0.3200313937
-Sentiment,Dummy (Stratified),Bosnian,micro_f1,0.3631578947
-Sentiment,Dummy (Most Frequent),English,macro_f1,0.1629371307
-Sentiment,Dummy (Most Frequent),English,micro_f1,0.3234615385
-Sentiment,Dummy (Most Frequent),Croatian,macro_f1,0.1969057665
-Sentiment,Dummy (Most Frequent),Croatian,micro_f1,0.4191616766
-Sentiment,Dummy (Most Frequent),Serbian,macro_f1,0.2106157113
-Sentiment,Dummy (Most Frequent),Serbian,micro_f1,0.4618249534
-Sentiment,Dummy (Most Frequent),Bosnian,macro_f1,0.2158956109
-Sentiment,Dummy (Most Frequent),Bosnian,micro_f1,0.4789473684
-Sentiment,Naive Bayes Classifier,English,macro_f1,0.2623114547
-Sentiment,Naive Bayes Classifier,English,micro_f1,0.3276923077
-Sentiment,Naive Bayes Classifier,Croatian,macro_f1,0.4319037542
-Sentiment,Naive Bayes Classifier,Croatian,micro_f1,0.4520958084
-Sentiment,Naive Bayes Classifier,Serbian,macro_f1,0.4415734633
-Sentiment,Naive Bayes Classifier,Serbian,micro_f1,0.4767225326
-Sentiment,Naive Bayes Classifier,Bosnian,macro_f1,0.4471652163
-Sentiment,Naive Bayes Classifier,Bosnian,micro_f1,0.4947368421
-Sentiment,Support Vector Machine,English,macro_f1,0.3461498968
-Sentiment,Support Vector Machine,English,micro_f1,0.3953846154
-Sentiment,Support Vector Machine,Croatian,macro_f1,0.3450901276
-Sentiment,Support Vector Machine,Croatian,micro_f1,0.496257485
-Sentiment,Support Vector Machine,Serbian,macro_f1,0.3697594388
-Sentiment,Support Vector Machine,Serbian,micro_f1,0.5353817505
-Sentiment,Support Vector Machine,Bosnian,macro_f1,0.3450187552
-Sentiment,Support Vector Machine,Bosnian,micro_f1,0.5315789474
+Parliamentary Speech Topic,GaMS-27B-Instruct,Croatian,macro_f1,0.2635184275
+Parliamentary Speech Topic,GaMS-27B-Instruct,Croatian,micro_f1,0.2554660529
+Parliamentary Speech Topic,GaMS-27B-Instruct,English,macro_f1,0.3049592418
+Parliamentary Speech Topic,GaMS-27B-Instruct,English,micro_f1,0.3127853881
+Parliamentary Speech Topic,GaMS-27B-Instruct,Serbian,macro_f1,0.2702223544
+Parliamentary Speech Topic,GaMS-27B-Instruct,Serbian,micro_f1,0.2723112128
+Parliamentary Speech Topic,GaMS-27B-Instruct,Bosnian,macro_f1,0.2052297684
+Parliamentary Speech Topic,GaMS-27B-Instruct,Bosnian,micro_f1,0.2123786408
 Sentiment,XLM-R-ParlaSent,English,macro_f1,0.7275634248
 Sentiment,XLM-R-ParlaSent,English,micro_f1,0.7265384615
 Sentiment,XLM-R-ParlaSent,Croatian,macro_f1,0.6981174088

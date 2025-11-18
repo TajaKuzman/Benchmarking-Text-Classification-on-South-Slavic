@@ -100,6 +100,7 @@ def rename_model(model: str) -> str:
     "anthropic/claude-haiku-4.5": "Claude Haiku 4.5",
     "GaMS-27B-quantized": "GaMS-27B-Instruct (quantized)",
     "GaMS-27B": "GaMS-27B-Instruct",
+    "GaMS-Instruct 27B": "GaMS-27B-Instruct",
     }
 
     return model_name_map.get(model, model)
@@ -123,12 +124,6 @@ def extract_rows_for_task(task_name: str, jsonl_path: str) -> List[Dict[str, Any
         # Apply renaming dictionary
         model_clean = rename_model(model)
 
-        # Skip certain models
-        if model in ["Command A", "Dummy (Most Frequent)", "Dummy (Stratified)",
-                       "Gemini 2.5 Flash Lite", "Llama 4 Scout", "Logistic Regression", "NLI zero-shot model",
-                       "Naive Bayes Classifier", "Support Vector Machine", "fastText"]:
-            continue
-
         for key, value in record.items():
             if key in ("Model", "model"):
                 continue
@@ -149,15 +144,20 @@ def extract_rows_for_task(task_name: str, jsonl_path: str) -> List[Dict[str, Any
 
             # Skip results from Serbian (cyrillic)
             if language != "Serbian (cyrillic)":
-                rows.append(
-                    {
-                        "task": task_name,
-                        "model": model_clean,
-                        "language": language,
-                        "metric": metric,
-                        "value": value_num,
-                    }
-            )
+                # Skip certain models:
+                if model_clean not in ["Command A", "Dummy (Most Frequent)", "Dummy (Stratified)",
+                       "Gemini 2.5 Flash Lite", "Llama 4 Scout", "Logistic Regression", "NLI zero-shot model",
+                       "Naive Bayes Classifier", "Support Vector Machine", "fastText", "GaMS-27B-Instruct (quantized)", "GaMS-27B-Instruct (quantized)"]:
+                    rows.append(
+                        {
+                            "task": task_name,
+                            "model": model_clean,
+                            "language": language,
+                            "metric": metric,
+                            "value": value_num,
+                        }
+                )
+            
     return rows
 
 

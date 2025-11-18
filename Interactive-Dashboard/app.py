@@ -509,7 +509,7 @@ languages. Only models evaluated on all tasks are included.
                 tooltip=list(ranking_df.columns),
             )
         )
-        st.altair_chart(chart_rank, use_container_width=True)
+        st.altair_chart(chart_rank, width='stretch')
 
         base_cols = ["Model", "Average ranking", "Average ranking English", "Average ranking South Slavic"]
         lang_cols = [c for c in ranking_df.columns if c not in base_cols]

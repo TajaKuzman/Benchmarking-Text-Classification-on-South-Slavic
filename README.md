@@ -8,8 +8,9 @@ The repository comprises code and results for benchmarking non-neural methods, f
 - [causal commonsense reasoning (COPA)](DIALECT-COPA-Benchmark)
 - [physical commonsense reasoning (PIQA)](CLASSLA-PIQA-Benchmark)
 
-The experiments and results are further discussed in a paper by Kuzman Pungeršek et al., to be published.
+The experiments and results are further discussed in a paper ["State of the Art in Text Classification for South Slavic Languages: Fine-Tuning or Prompting?"](https://arxiv.org/abs/2511.07989) by Kuzman Pungeršek et al. (2025)
 
+**Interactive Dashboard** - see the results and compare the models in our interactive dashboard: https://classla-llm-benchmarks.streamlit.app/
 
 ## Results Overview
 

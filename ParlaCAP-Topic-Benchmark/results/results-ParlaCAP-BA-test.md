@@ -18,6 +18,8 @@
 | qwen3:32b                                | ParlaCAP-BA-test |      0.48  |      0.465 |
 | llama4:scout                             | ParlaCAP-BA-test |      0.382 |      0.38  |
 | deepseek-r1:14b                          | ParlaCAP-BA-test |      0.266 |      0.26  |
+| GaMS-27B-quantized                       | ParlaCAP-BA-test |      0.216 |      0.219 |
+| GaMS-27B                                 | ParlaCAP-BA-test |      0.205 |      0.212 |
 | SVC                                      | ParlaCAP-BA-test |      0.05  |      0.137 |
 | dummy-stratified                         | ParlaCAP-BA-test |      0.042 |      0.061 |
 | COMPLEMENTNB                             | ParlaCAP-BA-test |      0.02  |      0.136 |

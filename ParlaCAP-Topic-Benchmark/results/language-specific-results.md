@@ -20,6 +20,8 @@
 | gpt-3.5-turbo-0125                       | ParlaCAP-EN-test | GB         |      0.545 |      0.547 |
 | llama4:scout                             | ParlaCAP-EN-test | GB         |      0.513 |      0.525 |
 | deepseek-r1:14b                          | ParlaCAP-EN-test | GB         |      0.404 |      0.381 |
+| GaMS-27B                                 | ParlaCAP-EN-test | GB         |      0.305 |      0.313 |
+| GaMS-27B-quantized                       | ParlaCAP-EN-test | GB         |      0.304 |      0.314 |
 | dummy-stratified                         | ParlaCAP-EN-test | GB         |      0.049 |      0.056 |
 | SVC                                      | ParlaCAP-EN-test | GB         |      0.035 |      0.071 |
 | COMPLEMENTNB                             | ParlaCAP-EN-test | GB         |      0.008 |      0.045 |
@@ -50,6 +52,8 @@
 | gpt-3.5-turbo-0125                       | ParlaCAP-HR-test | HR         |      0.487 |      0.484 |
 | llama4:scout                             | ParlaCAP-HR-test | HR         |      0.484 |      0.484 |
 | deepseek-r1:14b                          | ParlaCAP-HR-test | HR         |      0.311 |      0.284 |
+| GaMS-27B-quantized                       | ParlaCAP-HR-test | HR         |      0.269 |      0.269 |
+| GaMS-27B                                 | ParlaCAP-HR-test | HR         |      0.264 |      0.255 |
 | SVC                                      | ParlaCAP-HR-test | HR         |      0.073 |      0.125 |
 | dummy-stratified                         | ParlaCAP-HR-test | HR         |      0.041 |      0.056 |
 | COMPLEMENTNB                             | ParlaCAP-HR-test | HR         |      0.02  |      0.105 |
@@ -77,6 +81,8 @@
 | qwen3:32b                                | ParlaCAP-BA-test | BA         |      0.48  |      0.465 |
 | llama4:scout                             | ParlaCAP-BA-test | BA         |      0.382 |      0.38  |
 | deepseek-r1:14b                          | ParlaCAP-BA-test | BA         |      0.266 |      0.26  |
+| GaMS-27B-quantized                       | ParlaCAP-BA-test | BA         |      0.216 |      0.219 |
+| GaMS-27B                                 | ParlaCAP-BA-test | BA         |      0.205 |      0.212 |
 | SVC                                      | ParlaCAP-BA-test | BA         |      0.05  |      0.137 |
 | dummy-stratified                         | ParlaCAP-BA-test | BA         |      0.042 |      0.061 |
 | COMPLEMENTNB                             | ParlaCAP-BA-test | BA         |      0.02  |      0.136 |
@@ -104,6 +110,8 @@
 | gpt-3.5-turbo-0125                       | ParlaCAP-RS-test | RS         |      0.554 |      0.541 |
 | llama4:scout                             | ParlaCAP-RS-test | RS         |      0.478 |      0.471 |
 | deepseek-r1:14b                          | ParlaCAP-RS-test | RS         |      0.303 |      0.279 |
+| GaMS-27B                                 | ParlaCAP-RS-test | RS         |      0.27  |      0.272 |
+| GaMS-27B-quantized                       | ParlaCAP-RS-test | RS         |      0.259 |      0.257 |
 | SVC                                      | ParlaCAP-RS-test | RS         |      0.057 |      0.125 |
 | dummy-stratified                         | ParlaCAP-RS-test | RS         |      0.046 |      0.058 |
 | COMPLEMENTNB                             | ParlaCAP-RS-test | RS         |      0.013 |      0.084 |

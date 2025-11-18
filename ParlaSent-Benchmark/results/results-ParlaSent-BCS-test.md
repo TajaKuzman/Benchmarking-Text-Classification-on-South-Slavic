@@ -16,6 +16,8 @@
 | llama4:scout                 | ParlaSent-BCS-test |      0.66  |      0.673 |
 | gpt-3.5-turbo-0125           | ParlaSent-BCS-test |      0.654 |      0.668 |
 | deepseek-r1:14b              | ParlaSent-BCS-test |      0.594 |      0.612 |
+| GaMS-27B                     | ParlaSent-BCS-test |      0.511 |      0.56  |
+| GaMS-27B-quantized           | ParlaSent-BCS-test |      0.507 |      0.553 |
 | COMPLEMENTNB                 | ParlaSent-BCS-test |      0.438 |      0.465 |
 | SVC                          | ParlaSent-BCS-test |      0.355 |      0.515 |
 | dummy-stratified             | ParlaSent-BCS-test |      0.321 |      0.363 |

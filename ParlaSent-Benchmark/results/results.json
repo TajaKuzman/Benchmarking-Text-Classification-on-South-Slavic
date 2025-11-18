@@ -646,5 +646,77 @@
         "Micro F1": 0.7315789473684211
       }
     }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "ParlaSent-EN-test",
+    "Macro F1": 0.5326988360426089,
+    "Micro F1": 0.5407592985160917,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "en": {
+        "Macro F1": 0.5326988360426089,
+        "Micro F1": 0.5407592985160917
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "ParlaSent-BCS-test",
+    "Macro F1": 0.5109270581601223,
+    "Micro F1": 0.5596153846153846,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "sr": {
+        "Macro F1": 0.4942587315842446,
+        "Micro F1": 0.5521415270018621
+      },
+      "hr": {
+        "Macro F1": 0.5216315960793333,
+        "Micro F1": 0.5673652694610778
+      },
+      "bs": {
+        "Macro F1": 0.5162670515512958,
+        "Micro F1": 0.5473684210526316
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "ParlaSent-EN-test",
+    "Macro F1": 0.5324730368567728,
+    "Micro F1": 0.5414981706142885,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "en": {
+        "Macro F1": 0.5324730368567728,
+        "Micro F1": 0.5414981706142885
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "ParlaSent-BCS-test",
+    "Macro F1": 0.5070729342824799,
+    "Micro F1": 0.5532897268180069,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "sr": {
+        "Macro F1": 0.5108242987437618,
+        "Micro F1": 0.5591798695246971
+      },
+      "hr": {
+        "Macro F1": 0.5097704075436034,
+        "Micro F1": 0.5516467065868264
+      },
+      "bs": {
+        "Macro F1": 0.4515429360149857,
+        "Micro F1": 0.531578947368421
+      }
+    }
   }
 ]

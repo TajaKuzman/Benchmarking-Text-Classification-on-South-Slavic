@@ -13,6 +13,8 @@
 {"Model":"llama4:scout","Slovenian (macro-F1)":0.625,"Slovenian (micro-F1)":0.61,"Croatian (macro-F1)":0.585,"Croatian (micro-F1)":0.57}
 {"Model":"deepseek-r1:14b","Slovenian (macro-F1)":0.385,"Slovenian (micro-F1)":0.361,"Croatian (macro-F1)":0.401,"Croatian (micro-F1)":0.39}
 {"Model":"SVC","Slovenian (macro-F1)":0.421,"Slovenian (micro-F1)":0.426,"Croatian (macro-F1)":0.399,"Croatian (micro-F1)":0.43}
+{"Model":"GaMS-27B","Slovenian (macro-F1)":0.315,"Slovenian (micro-F1)":0.312,"Croatian (macro-F1)":0.276,"Croatian (micro-F1)":0.265}
+{"Model":"GaMS-27B-quantized","Slovenian (macro-F1)":0.294,"Slovenian (micro-F1)":0.295,"Croatian (macro-F1)":0.258,"Croatian (micro-F1)":0.244}
 {"Model":"COMPLEMENTNB","Slovenian (macro-F1)":0.211,"Slovenian (micro-F1)":0.255,"Croatian (macro-F1)":0.231,"Croatian (micro-F1)":0.313}
 {"Model":"dummy-stratified","Slovenian (macro-F1)":0.053,"Slovenian (micro-F1)":0.053,"Croatian (macro-F1)":0.057,"Croatian (micro-F1)":0.072}
 {"Model":"dummy-most_frequent","Slovenian (macro-F1)":0.007,"Slovenian (micro-F1)":0.06,"Croatian (macro-F1)":0.006,"Croatian (micro-F1)":0.058}

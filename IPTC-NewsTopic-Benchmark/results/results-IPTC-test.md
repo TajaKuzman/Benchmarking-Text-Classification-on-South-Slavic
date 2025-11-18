@@ -17,6 +17,8 @@
 | llama4:scout                 | IPTC-test      |      0.616 |      0.596 |
 | SVC                          | IPTC-test      |      0.421 |      0.423 |
 | deepseek-r1:14b              | IPTC-test      |      0.394 |      0.379 |
+| GaMS-27B                     | IPTC-test      |      0.24  |      0.235 |
+| GaMS-27B-quantized           | IPTC-test      |      0.234 |      0.221 |
 | COMPLEMENTNB                 | IPTC-test      |      0.207 |      0.275 |
 | dummy-stratified             | IPTC-test      |      0.063 |      0.073 |
 | dummy-most_frequent          | IPTC-test      |      0.006 |      0.056 |

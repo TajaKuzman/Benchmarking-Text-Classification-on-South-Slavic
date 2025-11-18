@@ -17,6 +17,8 @@
 | llama4:scout                 | ParlaSent-EN-test | en         |      0.705 |      0.702 |
 | gpt-3.5-turbo-0125           | ParlaSent-EN-test | en         |      0.7   |      0.698 |
 | deepseek-r1:14b              | ParlaSent-EN-test | en         |      0.617 |      0.617 |
+| GaMS-27B                     | ParlaSent-EN-test | en         |      0.533 |      0.541 |
+| GaMS-27B-quantized           | ParlaSent-EN-test | en         |      0.532 |      0.541 |
 | SVC                          | ParlaSent-EN-test | en         |      0.346 |      0.395 |
 | dummy-stratified             | ParlaSent-EN-test | en         |      0.327 |      0.346 |
 | COMPLEMENTNB                 | ParlaSent-EN-test | en         |      0.262 |      0.328 |
@@ -42,6 +44,8 @@
 | llama4:scout                 | ParlaSent-BCS-test | hr         |      0.668 |      0.679 |
 | gpt-3.5-turbo-0125           | ParlaSent-BCS-test | hr         |      0.652 |      0.673 |
 | deepseek-r1:14b              | ParlaSent-BCS-test | hr         |      0.595 |      0.613 |
+| GaMS-27B                     | ParlaSent-BCS-test | hr         |      0.522 |      0.567 |
+| GaMS-27B-quantized           | ParlaSent-BCS-test | hr         |      0.51  |      0.552 |
 | COMPLEMENTNB                 | ParlaSent-BCS-test | hr         |      0.432 |      0.452 |
 | SVC                          | ParlaSent-BCS-test | hr         |      0.345 |      0.496 |
 | dummy-stratified             | ParlaSent-BCS-test | hr         |      0.316 |      0.365 |
@@ -67,6 +71,8 @@
 | gpt-4o-mini-2024-07-18       | ParlaSent-BCS-test | bs         |      0.593 |      0.653 |
 | gpt-3.5-turbo-0125           | ParlaSent-BCS-test | bs         |      0.584 |      0.626 |
 | deepseek-r1:14b              | ParlaSent-BCS-test | bs         |      0.568 |      0.589 |
+| GaMS-27B                     | ParlaSent-BCS-test | bs         |      0.516 |      0.547 |
+| GaMS-27B-quantized           | ParlaSent-BCS-test | bs         |      0.452 |      0.532 |
 | COMPLEMENTNB                 | ParlaSent-BCS-test | bs         |      0.447 |      0.495 |
 | SVC                          | ParlaSent-BCS-test | bs         |      0.345 |      0.532 |
 | dummy-stratified             | ParlaSent-BCS-test | bs         |      0.32  |      0.363 |
@@ -92,6 +98,8 @@
 | gpt-3.5-turbo-0125           | ParlaSent-BCS-test | sr         |      0.664 |      0.67  |
 | llama4:scout                 | ParlaSent-BCS-test | sr         |      0.651 |      0.669 |
 | deepseek-r1:14b              | ParlaSent-BCS-test | sr         |      0.597 |      0.615 |
+| GaMS-27B-quantized           | ParlaSent-BCS-test | sr         |      0.511 |      0.559 |
+| GaMS-27B                     | ParlaSent-BCS-test | sr         |      0.494 |      0.552 |
 | COMPLEMENTNB                 | ParlaSent-BCS-test | sr         |      0.442 |      0.477 |
 | SVC                          | ParlaSent-BCS-test | sr         |      0.37  |      0.535 |
 | dummy-stratified             | ParlaSent-BCS-test | sr         |      0.327 |      0.361 |

@@ -623,3 +623,11 @@ Sentiment,Mistral Medium 3.1,Serbian,macro_f1,0.7043345052
 Sentiment,Mistral Medium 3.1,Serbian,micro_f1,0.7182114578
 Sentiment,Mistral Medium 3.1,Bosnian,macro_f1,0.6412158118
 Sentiment,Mistral Medium 3.1,Bosnian,micro_f1,0.6736842105
+Sentiment,GaMS-27B-Instruct,English,macro_f1,0.532698836
+Sentiment,GaMS-27B-Instruct,English,micro_f1,0.5407592985
+Sentiment,GaMS-27B-Instruct,Croatian,macro_f1,0.5216315961
+Sentiment,GaMS-27B-Instruct,Croatian,micro_f1,0.5673652695
+Sentiment,GaMS-27B-Instruct,Serbian,macro_f1,0.4942587316
+Sentiment,GaMS-27B-Instruct,Serbian,micro_f1,0.552141527
+Sentiment,GaMS-27B-Instruct,Bosnian,macro_f1,0.5162670516
+Sentiment,GaMS-27B-Instruct,Bosnian,micro_f1,0.5473684211

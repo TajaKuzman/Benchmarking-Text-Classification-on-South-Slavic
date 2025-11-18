@@ -18,6 +18,8 @@
 | gpt-3.5-turbo-0125                       | ParlaCAP-RS-test |      0.554 |      0.541 |
 | llama4:scout                             | ParlaCAP-RS-test |      0.478 |      0.471 |
 | deepseek-r1:14b                          | ParlaCAP-RS-test |      0.303 |      0.279 |
+| GaMS-27B                                 | ParlaCAP-RS-test |      0.27  |      0.272 |
+| GaMS-27B-quantized                       | ParlaCAP-RS-test |      0.259 |      0.257 |
 | SVC                                      | ParlaCAP-RS-test |      0.057 |      0.125 |
 | dummy-stratified                         | ParlaCAP-RS-test |      0.046 |      0.058 |
 | COMPLEMENTNB                             | ParlaCAP-RS-test |      0.013 |      0.084 |

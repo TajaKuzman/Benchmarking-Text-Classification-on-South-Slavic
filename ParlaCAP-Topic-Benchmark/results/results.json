@@ -1174,5 +1174,117 @@
         "Micro F1": 0.6529126213592233
       }
     }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.2161820988330214,
+    "Micro F1": 0.2185792349726776,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.2161820988330214,
+        "Micro F1": 0.2185792349726776
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.26351842745949966,
+    "Micro F1": 0.2554660529344074,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.26351842745949966,
+        "Micro F1": 0.2554660529344074
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "ParlaCAP-HR-test",
+    "Macro F1": 0.26880914338191564,
+    "Micro F1": 0.26927502876869963,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "HR": {
+        "Macro F1": 0.26880914338191564,
+        "Micro F1": 0.26927502876869963
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.3049592418386405,
+    "Micro F1": 0.3127853881278539,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.3049592418386405,
+        "Micro F1": 0.3127853881278539
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.27022235439620457,
+    "Micro F1": 0.2723112128146453,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.27022235439620457,
+        "Micro F1": 0.2723112128146453
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "ParlaCAP-EN-test",
+    "Macro F1": 0.3038316118563113,
+    "Micro F1": 0.3139269406392694,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "GB": {
+        "Macro F1": 0.3038316118563113,
+        "Micro F1": 0.3139269406392694
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B-quantized",
+    "Test Dataset": "ParlaCAP-RS-test",
+    "Macro F1": 0.2590876715533906,
+    "Micro F1": 0.2574370709382151,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "RS": {
+        "Macro F1": 0.2590876715533906,
+        "Micro F1": 0.2574370709382151
+      }
+    }
+  },
+  {
+    "Model": "GaMS-27B",
+    "Test Dataset": "ParlaCAP-BA-test",
+    "Macro F1": 0.2052297684303429,
+    "Micro F1": 0.21237864077669902,
+    "Epochs": null,
+    "Learning Rate": null,
+    "Language-Specific Scores": {
+      "BA": {
+        "Macro F1": 0.2052297684303429,
+        "Micro F1": 0.21237864077669902
+      }
+    }
   }
 ]

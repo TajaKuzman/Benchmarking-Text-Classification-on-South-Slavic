@@ -123,6 +123,12 @@ def extract_rows_for_task(task_name: str, jsonl_path: str) -> List[Dict[str, Any
         # Apply renaming dictionary
         model_clean = rename_model(model)
 
+        # Skip certain models
+        if model in ["Command A", "Dummy (Most Frequent)", "Dummy (Stratified)",
+                       "Gemini 2.5 Flash Lite", "Llama 4 Scout", "Logistic Regression", "NLI zero-shot model",
+                       "Naive Bayes Classifier", "Support Vector Machine", "fastText"]:
+            continue
+
         for key, value in record.items():
             if key in ("Model", "model"):
                 continue

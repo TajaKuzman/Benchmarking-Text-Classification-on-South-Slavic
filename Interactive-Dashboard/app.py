@@ -429,7 +429,29 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.title("CLASSLA LLM Evaluation Dashboard for South Slavic Languages")
+    # Row with title (left) and logo (right)
+    col_title, col_logo = st.columns([6, 2])
+
+    with col_title:
+        st.markdown(
+        "<h1>CLASSLA LLM Evaluation Dashboard<br>for South Slavic Languages</h1>",
+        unsafe_allow_html=True
+    )
+
+    with col_logo:
+        st.image("Interactive-Dashboard/CLASSLA-k-centre-transparent-background.png", width='stretch')
+
+    # Description below the title and logo
+    st.markdown(
+        """
+    This interactive dashboard shows the performance of large language models (LLMs) and other technologies on various text classification 
+    and commonsense reasoning benchmarks for South Slavic languages.  
+    For more information, see:
+    - the code on the 
+    [Github repository](https://github.com/TajaKuzman/Benchmarking-Text-Classification-on-South-Slavic)
+    - the paper ["State of the Art in Text Classification for South Slavic Languages: Fine-Tuning or Prompting?" by Kuzman Pungeršek et al. (2025)](https://arxiv.org/abs/2511.07989)
+     """
+    )
 
     try:
         df = load_data()

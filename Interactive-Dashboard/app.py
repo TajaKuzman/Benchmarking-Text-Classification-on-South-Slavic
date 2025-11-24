@@ -514,7 +514,16 @@ def main():
     st.markdown(
         """
         This interactive dashboard shows the performance of large language models (LLMs) and other technologies on various text classification 
-        and commonsense reasoning benchmarks for South Slavic languages.  
+        and commonsense reasoning benchmarks for South Slavic languages:
+        - evaluated capabilities: natural language understanding and generation - comprehension, reasoning:
+            - PIQA: physical commonsense reasoning benchmark ([Chang et al., 2025](https://arxiv.org/abs/2510.24081)),
+            - COPA: commonsense reasoning benchmark ([Roemmele et al., 2011](https://cdn.aaai.org/ocs/2418/2418-10878-1-PB.pdf), [Ljubešić et al., 2024](https://aclanthology.org/2024.vardial-1.7/), [Žagar & Robnik-Šikonja, 2022](https://aclanthology.org/2022.lrec-1.221/))
+        - evaluated capabilities: natural language understanding and generation - comprehension, general linguistic competence - conversation & pragmatics:
+            - Genre: AGILE automatic genre identification benchmark ([Kuzman et al., 2023](https://www.mdpi.com/2504-4990/5/3/59))
+            - News Topic: IPTC news topic benchmark ([Kuzman & Ljubešić, 2025](https://doi.org/10.1109/ACCESS.2025.3544814)),
+            - Parliamentary Speech Topic: ParlaCAP parliamentary speech topic benchmark ([Kuzman Pungeršek et al., 2025](https://arxiv.org/abs/2511.07989))
+            - Sentiment: ParlaSent parliamentary sentiment benchmark ([Mochtak et al., 2024](https://aclanthology.org/2024.lrec-main.1393/))
+
         For more information, see:
         - the code on the 
         [Github repository](https://github.com/TajaKuzman/Benchmarking-Text-Classification-on-South-Slavic)
@@ -591,7 +600,7 @@ def main():
                 tooltip=list(ranking_df.columns),
             )
         )
-        st.altair_chart(chart_rank, use_container_width=True)
+        st.altair_chart(chart_rank, width="stretch")
 
         base_cols = ["Model", "Average ranking", "Average ranking English", "Average ranking South Slavic"]
         lang_cols = [c for c in ranking_df.columns if c not in base_cols]

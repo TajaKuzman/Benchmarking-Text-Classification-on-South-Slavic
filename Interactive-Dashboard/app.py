@@ -420,7 +420,7 @@ def show_metric_results_table(df_metric: pd.DataFrame, task_name: str, metric_la
     table = table.reset_index().rename(columns={"model": "Model"})
 
     num_cols = table.select_dtypes(include=["float", "int"]).columns
-    styler = table.style.format("{:.6f}", subset=num_cols)
+    styler = table.style.format("{:.3f}", subset=num_cols)
 
     st.dataframe(styler)
 
@@ -636,15 +636,6 @@ def main():
         "Use the filters below to inspect detailed per-task, per-language, per-model results."
     )
 
-    with st.expander(
-        "Task coverage: for each task, which metrics are available",
-        expanded=False,
-    ):
-        if not task_summary_lines:
-            st.info("No data available to summarise task coverage.")
-        else:
-            for line in task_summary_lines:
-                st.write(line)
 
     tasks = sorted(df["task"].unique())
     languages_all = sorted(df["language"].unique())
@@ -678,13 +669,6 @@ def main():
     if filtered.empty:
         st.warning("No rows match your current filters.")
         return
-
-    if len(selected_tasks) != 1:
-        st.info(
-            "Select exactly one task in the 'Tasks' selector above to see the detailed "
-            "task-specific tables. Heatmaps and raw tables below "
-            "reflect all selected tasks and metrics."
-        )
 
     # Detailed task-specific tables when exactly one task is chosen
     if len(selected_tasks) == 1:
@@ -728,9 +712,6 @@ def main():
                     st.info(
                         f"No matrix can be formed for task {task_name} and metric {metric_label}."
                     )
-
-    # Heatmaps, bar plots, and tables per task and metric
-    st.markdown("Heatmaps, bar plots, and tables for each task and metric in the current selection:")
 
     tasks_in_filtered = sorted(filtered["task"].unique())
     for t in tasks_in_filtered:

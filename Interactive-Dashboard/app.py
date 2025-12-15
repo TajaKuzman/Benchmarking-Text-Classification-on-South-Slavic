@@ -496,7 +496,7 @@ def main():
     )
 
     # Row with title (left) and stacked logos (right)
-    col_title, col_logos = st.columns([6, 2])
+    col_title, col_logos = st.columns([6, 1])
 
     with col_title:
         st.markdown(
@@ -507,11 +507,11 @@ def main():
     with col_logos:
         st.image(
             "Interactive-Dashboard/CLASSLA-k-centre-transparent-background.png",
-            width="stretch"
+            width="content"
         )
         st.image(
             "Interactive-Dashboard/logo-clarin.si-en.png",
-            width="stretch"
+            width="content"
         )
 
     # Description below the title and logo

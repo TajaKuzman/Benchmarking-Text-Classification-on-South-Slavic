@@ -17,7 +17,7 @@ plt.rcParams["figure.dpi"] = 500
 # Data loading
 # ---------------------
 @st.cache_data
-def load_data(path: str = "Interactive-Dashboard/results.csv") -> pd.DataFrame:
+def load_data(path: str = "results.csv") -> pd.DataFrame:
     df = pd.read_csv(path)
     df.columns = [c.strip().lower() for c in df.columns]
 
@@ -506,11 +506,11 @@ def main():
 
     with col_logos:
         st.image(
-            "Interactive-Dashboard/CLASSLA-k-centre-transparent-background.png",
+            "CLASSLA-k-centre-transparent-background.png",
             width="content"
         )
         st.image(
-            "Interactive-Dashboard/logo-clarin.si-en.png",
+            "logo-clarin.si-en.png",
             width="content"
         )
 

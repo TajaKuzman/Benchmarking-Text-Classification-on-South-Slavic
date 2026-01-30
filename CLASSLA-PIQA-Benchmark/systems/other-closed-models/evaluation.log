@@ -1,283 +1,372 @@
+Error: the following file `{}` is either not a submission file or is incorrectly named - see the `README.md` on how to prepare submission files.
 All evaluations completed. The results are added to the `results/results.json` file.
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-en        |      0.996 |
-| google/gemini-2.5-pro        | copa-en        |      0.996 |
-| google/gemini-2.5-flash      | copa-en        |      0.99  |
-| gpt-4o-2024-08-06            | copa-en        |      0.988 |
-| llama3.3:latest              | copa-en        |      0.986 |
-| mistralai/mistral-medium-3.1 | copa-en        |      0.986 |
-| anthropic/claude-haiku-4.5   | copa-en        |      0.986 |
-| qwen3:32b                    | copa-en        |      0.972 |
-| gemma3:27b                   | copa-en        |      0.97  |
-| gpt-3.5-turbo-0125           | copa-en        |      0.952 |
-| GaMS-27B                     | copa-en        |      0.864 |
-| deepseek-r1:14b              | copa-en        |      0.748 |
-| dummy-stratified             | copa-en        |      0.518 |
-| dummy-most_frequent          | copa-en        |      0.5   |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| gpt-4o-2024-08-06             | piqa-en        |       0.97 |
+| gpt-5-2025-08-07              | piqa-en        |       0.97 |
+| google/gemini-3-flash-preview | piqa-en        |       0.96 |
+| google/gemini-2.5-pro         | piqa-en        |       0.95 |
+| mistralai/mistral-medium-3.1  | piqa-en        |       0.94 |
+| google/gemini-2.5-flash       | piqa-en        |       0.94 |
+| qwen3:32b                     | piqa-en        |       0.93 |
+| llama3.3:latest               | piqa-en        |       0.91 |
+| anthropic/claude-haiku-4.5    | piqa-en        |       0.91 |
+| gpt-3.5-turbo-0125            | piqa-en        |       0.86 |
+| gemma3:27b                    | piqa-en        |       0.84 |
+| GaMS-27B-quantized            | piqa-en        |       0.81 |
+| GaMS-27B                      | piqa-en        |       0.79 |
+| deepseek-r1:14b               | piqa-en        |       0.63 |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-sl        |      0.998 |
-| google/gemini-2.5-flash      | copa-sl        |      0.974 |
-| gpt-4o-2024-08-06            | copa-sl        |      0.97  |
-| anthropic/claude-haiku-4.5   | copa-sl        |      0.926 |
-| mistralai/mistral-medium-3.1 | copa-sl        |      0.9   |
-| llama3.3:latest              | copa-sl        |      0.87  |
-| gemma3:27b                   | copa-sl        |      0.862 |
-| gpt-3.5-turbo-0125           | copa-sl        |      0.842 |
-| GaMS-27B                     | copa-sl        |      0.832 |
-| qwen3:32b                    | copa-sl        |      0.826 |
-| deepseek-r1:14b              | copa-sl        |      0.53  |
-| dummy-most_frequent          | copa-sl        |      0.5   |
-| dummy-stratified             | copa-sl        |      0.484 |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| gpt-4o-2024-08-06             | piqa-mk        |       1    |
+| gpt-5-2025-08-07              | piqa-mk        |       1    |
+| google/gemini-2.5-pro         | piqa-mk        |       1    |
+| google/gemini-3-flash-preview | piqa-mk        |       1    |
+| google/gemini-2.5-flash       | piqa-mk        |       0.99 |
+| llama3.3:latest               | piqa-mk        |       0.95 |
+| anthropic/claude-haiku-4.5    | piqa-mk        |       0.94 |
+| mistralai/mistral-medium-3.1  | piqa-mk        |       0.92 |
+| gemma3:27b                    | piqa-mk        |       0.9  |
+| GaMS-27B                      | piqa-mk        |       0.87 |
+| qwen3:32b                     | piqa-mk        |       0.86 |
+| GaMS-27B-quantized            | piqa-mk        |       0.85 |
+| gpt-3.5-turbo-0125            | piqa-mk        |       0.8  |
+| deepseek-r1:14b               | piqa-mk        |       0.57 |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-hr        |      0.99  |
-| google/gemini-2.5-flash      | copa-hr        |      0.98  |
-| gpt-4o-2024-08-06            | copa-hr        |      0.972 |
-| anthropic/claude-haiku-4.5   | copa-hr        |      0.948 |
-| mistralai/mistral-medium-3.1 | copa-hr        |      0.942 |
-| llama3.3:latest              | copa-hr        |      0.926 |
-| qwen3:32b                    | copa-hr        |      0.9   |
-| gemma3:27b                   | copa-hr        |      0.894 |
-| gpt-3.5-turbo-0125           | copa-hr        |      0.854 |
-| GaMS-27B                     | copa-hr        |      0.788 |
-| deepseek-r1:14b              | copa-hr        |      0.57  |
-| dummy-stratified             | copa-hr        |      0.512 |
-| dummy-most_frequent          | copa-hr        |      0.5   |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| gpt-4o-2024-08-06             | piqa-bg        |       0.97 |
+| gpt-5-2025-08-07              | piqa-bg        |       0.97 |
+| google/gemini-2.5-flash       | piqa-bg        |       0.96 |
+| anthropic/claude-haiku-4.5    | piqa-bg        |       0.96 |
+| google/gemini-2.5-pro         | piqa-bg        |       0.96 |
+| google/gemini-3-flash-preview | piqa-bg        |       0.96 |
+| mistralai/mistral-medium-3.1  | piqa-bg        |       0.95 |
+| llama3.3:latest               | piqa-bg        |       0.94 |
+| qwen3:32b                     | piqa-bg        |       0.93 |
+| gemma3:27b                    | piqa-bg        |       0.92 |
+| GaMS-27B                      | piqa-bg        |       0.84 |
+| gpt-3.5-turbo-0125            | piqa-bg        |       0.78 |
+| GaMS-27B-quantized            | piqa-bg        |       0.76 |
+| deepseek-r1:14b               | piqa-bg        |       0.55 |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-hr-ckm    |      0.916 |
-| google/gemini-2.5-flash      | copa-hr-ckm    |      0.79  |
-| gpt-4o-2024-08-06            | copa-hr-ckm    |      0.774 |
-| anthropic/claude-haiku-4.5   | copa-hr-ckm    |      0.706 |
-| mistralai/mistral-medium-3.1 | copa-hr-ckm    |      0.7   |
-| llama3.3:latest              | copa-hr-ckm    |      0.674 |
-| gemma3:27b                   | copa-hr-ckm    |      0.642 |
-| gpt-3.5-turbo-0125           | copa-hr-ckm    |      0.612 |
-| GaMS-27B                     | copa-hr-ckm    |      0.592 |
-| qwen3:32b                    | copa-hr-ckm    |      0.59  |
-| deepseek-r1:14b              | copa-hr-ckm    |      0.504 |
-| dummy-most_frequent          | copa-hr-ckm    |      0.5   |
-| dummy-stratified             | copa-hr-ckm    |      0.5   |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| google/gemini-2.5-pro         | piqa-sl        |       1    |
+| google/gemini-3-flash-preview | piqa-sl        |       1    |
+| gpt-5-2025-08-07              | piqa-sl        |       0.99 |
+| gpt-4o-2024-08-06             | piqa-sl        |       0.97 |
+| google/gemini-2.5-flash       | piqa-sl        |       0.96 |
+| anthropic/claude-haiku-4.5    | piqa-sl        |       0.89 |
+| gemma3:27b                    | piqa-sl        |       0.87 |
+| mistralai/mistral-medium-3.1  | piqa-sl        |       0.86 |
+| llama3.3:latest               | piqa-sl        |       0.83 |
+| GaMS-27B                      | piqa-sl        |       0.82 |
+| gpt-3.5-turbo-0125            | piqa-sl        |       0.78 |
+| qwen3:32b                     | piqa-sl        |       0.75 |
+| GaMS-27B-quantized            | piqa-sl        |       0.75 |
+| deepseek-r1:14b               | piqa-sl        |       0.48 |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-mk        |      0.986 |
-| gpt-4o-2024-08-06            | copa-mk        |      0.968 |
-| google/gemini-2.5-flash      | copa-mk        |      0.968 |
-| anthropic/claude-haiku-4.5   | copa-mk        |      0.924 |
-| gemma3:27b                   | copa-mk        |      0.904 |
-| mistralai/mistral-medium-3.1 | copa-mk        |      0.9   |
-| llama3.3:latest              | copa-mk        |      0.894 |
-| qwen3:32b                    | copa-mk        |      0.862 |
-| gpt-3.5-turbo-0125           | copa-mk        |      0.776 |
-| GaMS-27B                     | copa-mk        |      0.692 |
-| deepseek-r1:14b              | copa-mk        |      0.546 |
-| dummy-stratified             | copa-mk        |      0.518 |
-| dummy-most_frequent          | copa-mk        |      0.5   |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| google/gemini-3-flash-preview | piqa-sr_cyrl   |       0.98 |
+| mistralai/mistral-medium-3.1  | piqa-sr_cyrl   |       0.97 |
+| gpt-5-2025-08-07              | piqa-sr_cyrl   |       0.96 |
+| anthropic/claude-haiku-4.5    | piqa-sr_cyrl   |       0.96 |
+| google/gemini-2.5-pro         | piqa-sr_cyrl   |       0.96 |
+| gpt-4o-2024-08-06             | piqa-sr_cyrl   |       0.95 |
+| google/gemini-2.5-flash       | piqa-sr_cyrl   |       0.95 |
+| llama3.3:latest               | piqa-sr_cyrl   |       0.89 |
+| qwen3:32b                     | piqa-sr_cyrl   |       0.85 |
+| gemma3:27b                    | piqa-sr_cyrl   |       0.84 |
+| gpt-3.5-turbo-0125            | piqa-sr_cyrl   |       0.74 |
+| GaMS-27B-quantized            | piqa-sr_cyrl   |       0.72 |
+| GaMS-27B                      | piqa-sr_cyrl   |       0.72 |
+| deepseek-r1:14b               | piqa-sr_cyrl   |       0.6  |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-sl-cer    |      0.886 |
-| google/gemini-2.5-flash      | copa-sl-cer    |      0.742 |
-| gpt-4o-2024-08-06            | copa-sl-cer    |      0.676 |
-| GaMS-27B                     | copa-sl-cer    |      0.586 |
-| gemma3:27b                   | copa-sl-cer    |      0.578 |
-| anthropic/claude-haiku-4.5   | copa-sl-cer    |      0.562 |
-| qwen3:32b                    | copa-sl-cer    |      0.544 |
-| llama3.3:latest              | copa-sl-cer    |      0.536 |
-| mistralai/mistral-medium-3.1 | copa-sl-cer    |      0.532 |
-| dummy-stratified             | copa-sl-cer    |      0.528 |
-| gpt-3.5-turbo-0125           | copa-sl-cer    |      0.528 |
-| dummy-most_frequent          | copa-sl-cer    |      0.5   |
-| deepseek-r1:14b              | copa-sl-cer    |      0.492 |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| gpt-5-2025-08-07              | piqa-hr        |       1    |
+| gpt-4o-2024-08-06             | piqa-hr        |       0.99 |
+| google/gemini-2.5-flash       | piqa-hr        |       0.99 |
+| google/gemini-3-flash-preview | piqa-hr        |       0.99 |
+| anthropic/claude-haiku-4.5    | piqa-hr        |       0.98 |
+| google/gemini-2.5-pro         | piqa-hr        |       0.98 |
+| mistralai/mistral-medium-3.1  | piqa-hr        |       0.96 |
+| gemma3:27b                    | piqa-hr        |       0.94 |
+| qwen3:32b                     | piqa-hr        |       0.9  |
+| llama3.3:latest               | piqa-hr        |       0.89 |
+| gpt-3.5-turbo-0125            | piqa-hr        |       0.88 |
+| GaMS-27B                      | piqa-hr        |       0.87 |
+| GaMS-27B-quantized            | piqa-hr        |       0.76 |
+| deepseek-r1:14b               | piqa-hr        |       0.6  |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-sr        |      0.992 |
-| gpt-4o-2024-08-06            | copa-sr        |      0.972 |
-| google/gemini-2.5-flash      | copa-sr        |      0.972 |
-| anthropic/claude-haiku-4.5   | copa-sr        |      0.956 |
-| mistralai/mistral-medium-3.1 | copa-sr        |      0.932 |
-| llama3.3:latest              | copa-sr        |      0.922 |
-| gemma3:27b                   | copa-sr        |      0.9   |
-| qwen3:32b                    | copa-sr        |      0.89  |
-| gpt-3.5-turbo-0125           | copa-sr        |      0.808 |
-| GaMS-27B                     | copa-sr        |      0.784 |
-| deepseek-r1:14b              | copa-sr        |      0.554 |
-| dummy-most_frequent          | copa-sr        |      0.5   |
-| dummy-stratified             | copa-sr        |      0.494 |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| gpt-5-2025-08-07              | piqa-sr_latn   |       0.99 |
+| gpt-4o-2024-08-06             | piqa-sr_latn   |       0.98 |
+| google/gemini-3-flash-preview | piqa-sr_latn   |       0.96 |
+| google/gemini-2.5-flash       | piqa-sr_latn   |       0.94 |
+| anthropic/claude-haiku-4.5    | piqa-sr_latn   |       0.94 |
+| mistralai/mistral-medium-3.1  | piqa-sr_latn   |       0.93 |
+| google/gemini-2.5-pro         | piqa-sr_latn   |       0.93 |
+| gemma3:27b                    | piqa-sr_latn   |       0.92 |
+| llama3.3:latest               | piqa-sr_latn   |       0.87 |
+| qwen3:32b                     | piqa-sr_latn   |       0.85 |
+| gpt-3.5-turbo-0125            | piqa-sr_latn   |       0.79 |
+| GaMS-27B-quantized            | piqa-sr_latn   |       0.74 |
+| GaMS-27B                      | piqa-sr_latn   |       0.73 |
+| deepseek-r1:14b               | piqa-sr_latn   |       0.6  |
 
 ------------------------------------------
 
 New benchmark scores:
 
-| Model                        | Test Dataset   |   Accuracy |
-|:-----------------------------|:---------------|-----------:|
-| gpt-5-2025-08-07             | copa-sr-tor    |      0.984 |
-| google/gemini-2.5-flash      | copa-sr-tor    |      0.944 |
-| gpt-4o-2024-08-06            | copa-sr-tor    |      0.932 |
-| anthropic/claude-haiku-4.5   | copa-sr-tor    |      0.862 |
-| mistralai/mistral-medium-3.1 | copa-sr-tor    |      0.824 |
-| gemma3:27b                   | copa-sr-tor    |      0.82  |
-| llama3.3:latest              | copa-sr-tor    |      0.798 |
-| qwen3:32b                    | copa-sr-tor    |      0.782 |
-| gpt-3.5-turbo-0125           | copa-sr-tor    |      0.734 |
-| GaMS-27B                     | copa-sr-tor    |      0.636 |
-| deepseek-r1:14b              | copa-sr-tor    |      0.514 |
-| dummy-most_frequent          | copa-sr-tor    |      0.5   |
-| dummy-stratified             | copa-sr-tor    |      0.488 |
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| llama3.3:latest               | piqa-bs        |       1    |
+| gemma3:27b                    | piqa-bs        |       1    |
+| gpt-4o-2024-08-06             | piqa-bs        |       1    |
+| gpt-5-2025-08-07              | piqa-bs        |       1    |
+| mistralai/mistral-medium-3.1  | piqa-bs        |       1    |
+| google/gemini-2.5-flash       | piqa-bs        |       1    |
+| anthropic/claude-haiku-4.5    | piqa-bs        |       1    |
+| gpt-3.5-turbo-0125            | piqa-bs        |       0.99 |
+| google/gemini-3-flash-preview | piqa-bs        |       0.99 |
+| google/gemini-2.5-pro         | piqa-bs        |       0.98 |
+| qwen3:32b                     | piqa-bs        |       0.97 |
+| GaMS-27B                      | piqa-bs        |       0.97 |
+| GaMS-27B-quantized            | piqa-bs        |       0.94 |
+| deepseek-r1:14b               | piqa-bs        |       0.73 |
 
 ------------------------------------------
 
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-en        | en         |      0.996 |
-| google/gemini-2.5-pro        | copa-en        | en         |      0.996 |
-| google/gemini-2.5-flash      | copa-en        | en         |      0.99  |
-| gpt-4o-2024-08-06            | copa-en        | en         |      0.988 |
-| llama3.3:latest              | copa-en        | en         |      0.986 |
-| mistralai/mistral-medium-3.1 | copa-en        | en         |      0.986 |
-| anthropic/claude-haiku-4.5   | copa-en        | en         |      0.986 |
-| qwen3:32b                    | copa-en        | en         |      0.972 |
-| gemma3:27b                   | copa-en        | en         |      0.97  |
-| gpt-3.5-turbo-0125           | copa-en        | en         |      0.952 |
-| GaMS-27B                     | copa-en        | en         |      0.864 |
-| deepseek-r1:14b              | copa-en        | en         |      0.748 |
-| dummy-stratified             | copa-en        | en         |      0.518 |
-| dummy-most_frequent          | copa-en        | en         |      0.5   |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-sl        | sl         |      0.998 |
-| google/gemini-2.5-flash      | copa-sl        | sl         |      0.974 |
-| gpt-4o-2024-08-06            | copa-sl        | sl         |      0.97  |
-| anthropic/claude-haiku-4.5   | copa-sl        | sl         |      0.926 |
-| mistralai/mistral-medium-3.1 | copa-sl        | sl         |      0.9   |
-| llama3.3:latest              | copa-sl        | sl         |      0.87  |
-| gemma3:27b                   | copa-sl        | sl         |      0.862 |
-| gpt-3.5-turbo-0125           | copa-sl        | sl         |      0.842 |
-| GaMS-27B                     | copa-sl        | sl         |      0.832 |
-| qwen3:32b                    | copa-sl        | sl         |      0.826 |
-| deepseek-r1:14b              | copa-sl        | sl         |      0.53  |
-| dummy-most_frequent          | copa-sl        | sl         |      0.5   |
-| dummy-stratified             | copa-sl        | sl         |      0.484 |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-hr        | hr         |      0.99  |
-| google/gemini-2.5-flash      | copa-hr        | hr         |      0.98  |
-| gpt-4o-2024-08-06            | copa-hr        | hr         |      0.972 |
-| anthropic/claude-haiku-4.5   | copa-hr        | hr         |      0.948 |
-| mistralai/mistral-medium-3.1 | copa-hr        | hr         |      0.942 |
-| llama3.3:latest              | copa-hr        | hr         |      0.926 |
-| qwen3:32b                    | copa-hr        | hr         |      0.9   |
-| gemma3:27b                   | copa-hr        | hr         |      0.894 |
-| gpt-3.5-turbo-0125           | copa-hr        | hr         |      0.854 |
-| GaMS-27B                     | copa-hr        | hr         |      0.788 |
-| deepseek-r1:14b              | copa-hr        | hr         |      0.57  |
-| dummy-stratified             | copa-hr        | hr         |      0.512 |
-| dummy-most_frequent          | copa-hr        | hr         |      0.5   |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-hr-ckm    | hr-ckm     |      0.916 |
-| google/gemini-2.5-flash      | copa-hr-ckm    | hr-ckm     |      0.79  |
-| gpt-4o-2024-08-06            | copa-hr-ckm    | hr-ckm     |      0.774 |
-| anthropic/claude-haiku-4.5   | copa-hr-ckm    | hr-ckm     |      0.706 |
-| mistralai/mistral-medium-3.1 | copa-hr-ckm    | hr-ckm     |      0.7   |
-| llama3.3:latest              | copa-hr-ckm    | hr-ckm     |      0.674 |
-| gemma3:27b                   | copa-hr-ckm    | hr-ckm     |      0.642 |
-| gpt-3.5-turbo-0125           | copa-hr-ckm    | hr-ckm     |      0.612 |
-| GaMS-27B                     | copa-hr-ckm    | hr-ckm     |      0.592 |
-| qwen3:32b                    | copa-hr-ckm    | hr-ckm     |      0.59  |
-| deepseek-r1:14b              | copa-hr-ckm    | hr-ckm     |      0.504 |
-| dummy-most_frequent          | copa-hr-ckm    | hr-ckm     |      0.5   |
-| dummy-stratified             | copa-hr-ckm    | hr-ckm     |      0.5   |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-mk        | mk         |      0.986 |
-| gpt-4o-2024-08-06            | copa-mk        | mk         |      0.968 |
-| google/gemini-2.5-flash      | copa-mk        | mk         |      0.968 |
-| anthropic/claude-haiku-4.5   | copa-mk        | mk         |      0.924 |
-| gemma3:27b                   | copa-mk        | mk         |      0.904 |
-| mistralai/mistral-medium-3.1 | copa-mk        | mk         |      0.9   |
-| llama3.3:latest              | copa-mk        | mk         |      0.894 |
-| qwen3:32b                    | copa-mk        | mk         |      0.862 |
-| gpt-3.5-turbo-0125           | copa-mk        | mk         |      0.776 |
-| GaMS-27B                     | copa-mk        | mk         |      0.692 |
-| deepseek-r1:14b              | copa-mk        | mk         |      0.546 |
-| dummy-stratified             | copa-mk        | mk         |      0.518 |
-| dummy-most_frequent          | copa-mk        | mk         |      0.5   |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-sl-cer    | sl-cer     |      0.886 |
-| google/gemini-2.5-flash      | copa-sl-cer    | sl-cer     |      0.742 |
-| gpt-4o-2024-08-06            | copa-sl-cer    | sl-cer     |      0.676 |
-| GaMS-27B                     | copa-sl-cer    | sl-cer     |      0.586 |
-| gemma3:27b                   | copa-sl-cer    | sl-cer     |      0.578 |
-| anthropic/claude-haiku-4.5   | copa-sl-cer    | sl-cer     |      0.562 |
-| qwen3:32b                    | copa-sl-cer    | sl-cer     |      0.544 |
-| llama3.3:latest              | copa-sl-cer    | sl-cer     |      0.536 |
-| mistralai/mistral-medium-3.1 | copa-sl-cer    | sl-cer     |      0.532 |
-| dummy-stratified             | copa-sl-cer    | sl-cer     |      0.528 |
-| gpt-3.5-turbo-0125           | copa-sl-cer    | sl-cer     |      0.528 |
-| dummy-most_frequent          | copa-sl-cer    | sl-cer     |      0.5   |
-| deepseek-r1:14b              | copa-sl-cer    | sl-cer     |      0.492 |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-sr        | sr         |      0.992 |
-| gpt-4o-2024-08-06            | copa-sr        | sr         |      0.972 |
-| google/gemini-2.5-flash      | copa-sr        | sr         |      0.972 |
-| anthropic/claude-haiku-4.5   | copa-sr        | sr         |      0.956 |
-| mistralai/mistral-medium-3.1 | copa-sr        | sr         |      0.932 |
-| llama3.3:latest              | copa-sr        | sr         |      0.922 |
-| gemma3:27b                   | copa-sr        | sr         |      0.9   |
-| qwen3:32b                    | copa-sr        | sr         |      0.89  |
-| gpt-3.5-turbo-0125           | copa-sr        | sr         |      0.808 |
-| GaMS-27B                     | copa-sr        | sr         |      0.784 |
-| deepseek-r1:14b              | copa-sr        | sr         |      0.554 |
-| dummy-most_frequent          | copa-sr        | sr         |      0.5   |
-| dummy-stratified             | copa-sr        | sr         |      0.494 |
-| Model                        | Test Dataset   | Language   |   Accuracy |
-|:-----------------------------|:---------------|:-----------|-----------:|
-| gpt-5-2025-08-07             | copa-sr-tor    | sr-tor     |      0.984 |
-| google/gemini-2.5-flash      | copa-sr-tor    | sr-tor     |      0.944 |
-| gpt-4o-2024-08-06            | copa-sr-tor    | sr-tor     |      0.932 |
-| anthropic/claude-haiku-4.5   | copa-sr-tor    | sr-tor     |      0.862 |
-| mistralai/mistral-medium-3.1 | copa-sr-tor    | sr-tor     |      0.824 |
-| gemma3:27b                   | copa-sr-tor    | sr-tor     |      0.82  |
-| llama3.3:latest              | copa-sr-tor    | sr-tor     |      0.798 |
-| qwen3:32b                    | copa-sr-tor    | sr-tor     |      0.782 |
-| gpt-3.5-turbo-0125           | copa-sr-tor    | sr-tor     |      0.734 |
-| GaMS-27B                     | copa-sr-tor    | sr-tor     |      0.636 |
-| deepseek-r1:14b              | copa-sr-tor    | sr-tor     |      0.514 |
-| dummy-most_frequent          | copa-sr-tor    | sr-tor     |      0.5   |
-| dummy-stratified             | copa-sr-tor    | sr-tor     |      0.488 |
+New benchmark scores:
+
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| google/gemini-2.5-pro         | piqa-sl-cer    |       0.95 |
+| google/gemini-3-flash-preview | piqa-sl-cer    |       0.92 |
+| gpt-5-2025-08-07              | piqa-sl-cer    |       0.88 |
+| gpt-4o-2024-08-06             | piqa-sl-cer    |       0.78 |
+| google/gemini-2.5-flash       | piqa-sl-cer    |       0.77 |
+| mistralai/mistral-medium-3.1  | piqa-sl-cer    |       0.62 |
+| GaMS-27B                      | piqa-sl-cer    |       0.58 |
+| GaMS-27B-quantized            | piqa-sl-cer    |       0.58 |
+| gemma3:27b                    | piqa-sl-cer    |       0.57 |
+| anthropic/claude-haiku-4.5    | piqa-sl-cer    |       0.57 |
+| llama3.3:latest               | piqa-sl-cer    |       0.54 |
+| deepseek-r1:14b               | piqa-sl-cer    |       0.5  |
+| gpt-3.5-turbo-0125            | piqa-sl-cer    |       0.5  |
+| qwen3:32b                     | piqa-sl-cer    |       0.49 |
+
+------------------------------------------
+
+New benchmark scores:
+
+| Model                         | Test Dataset   |   Accuracy |
+|:------------------------------|:---------------|-----------:|
+| google/gemini-2.5-pro         | piqa-hr-ckm    |       0.79 |
+| gpt-5-2025-08-07              | piqa-hr-ckm    |       0.76 |
+| google/gemini-3-flash-preview | piqa-hr-ckm    |       0.73 |
+| google/gemini-2.5-flash       | piqa-hr-ckm    |       0.61 |
+| gpt-4o-2024-08-06             | piqa-hr-ckm    |       0.59 |
+| qwen3:32b                     | piqa-hr-ckm    |       0.54 |
+| llama3.3:latest               | piqa-hr-ckm    |       0.53 |
+| mistralai/mistral-medium-3.1  | piqa-hr-ckm    |       0.53 |
+| GaMS-27B-quantized            | piqa-hr-ckm    |       0.51 |
+| deepseek-r1:14b               | piqa-hr-ckm    |       0.5  |
+| anthropic/claude-haiku-4.5    | piqa-hr-ckm    |       0.5  |
+| gpt-3.5-turbo-0125            | piqa-hr-ckm    |       0.49 |
+| gemma3:27b                    | piqa-hr-ckm    |       0.48 |
+| GaMS-27B                      | piqa-hr-ckm    |       0.48 |
+
+------------------------------------------
+
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| gpt-4o-2024-08-06             | piqa-en        | en         |       0.97 |
+| gpt-5-2025-08-07              | piqa-en        | en         |       0.97 |
+| google/gemini-3-flash-preview | piqa-en        | en         |       0.96 |
+| google/gemini-2.5-pro         | piqa-en        | en         |       0.95 |
+| mistralai/mistral-medium-3.1  | piqa-en        | en         |       0.94 |
+| google/gemini-2.5-flash       | piqa-en        | en         |       0.94 |
+| qwen3:32b                     | piqa-en        | en         |       0.93 |
+| llama3.3:latest               | piqa-en        | en         |       0.91 |
+| anthropic/claude-haiku-4.5    | piqa-en        | en         |       0.91 |
+| gpt-3.5-turbo-0125            | piqa-en        | en         |       0.86 |
+| gemma3:27b                    | piqa-en        | en         |       0.84 |
+| GaMS-27B-quantized            | piqa-en        | en         |       0.81 |
+| GaMS-27B                      | piqa-en        | en         |       0.79 |
+| deepseek-r1:14b               | piqa-en        | en         |       0.63 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| google/gemini-2.5-pro         | piqa-sl        | sl         |       1    |
+| google/gemini-3-flash-preview | piqa-sl        | sl         |       1    |
+| gpt-5-2025-08-07              | piqa-sl        | sl         |       0.99 |
+| gpt-4o-2024-08-06             | piqa-sl        | sl         |       0.97 |
+| google/gemini-2.5-flash       | piqa-sl        | sl         |       0.96 |
+| anthropic/claude-haiku-4.5    | piqa-sl        | sl         |       0.89 |
+| gemma3:27b                    | piqa-sl        | sl         |       0.87 |
+| mistralai/mistral-medium-3.1  | piqa-sl        | sl         |       0.86 |
+| llama3.3:latest               | piqa-sl        | sl         |       0.83 |
+| GaMS-27B                      | piqa-sl        | sl         |       0.82 |
+| gpt-3.5-turbo-0125            | piqa-sl        | sl         |       0.78 |
+| qwen3:32b                     | piqa-sl        | sl         |       0.75 |
+| GaMS-27B-quantized            | piqa-sl        | sl         |       0.75 |
+| deepseek-r1:14b               | piqa-sl        | sl         |       0.48 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| gpt-5-2025-08-07              | piqa-hr        | hr         |       1    |
+| gpt-4o-2024-08-06             | piqa-hr        | hr         |       0.99 |
+| google/gemini-2.5-flash       | piqa-hr        | hr         |       0.99 |
+| google/gemini-3-flash-preview | piqa-hr        | hr         |       0.99 |
+| anthropic/claude-haiku-4.5    | piqa-hr        | hr         |       0.98 |
+| google/gemini-2.5-pro         | piqa-hr        | hr         |       0.98 |
+| mistralai/mistral-medium-3.1  | piqa-hr        | hr         |       0.96 |
+| gemma3:27b                    | piqa-hr        | hr         |       0.94 |
+| qwen3:32b                     | piqa-hr        | hr         |       0.9  |
+| llama3.3:latest               | piqa-hr        | hr         |       0.89 |
+| gpt-3.5-turbo-0125            | piqa-hr        | hr         |       0.88 |
+| GaMS-27B                      | piqa-hr        | hr         |       0.87 |
+| GaMS-27B-quantized            | piqa-hr        | hr         |       0.76 |
+| deepseek-r1:14b               | piqa-hr        | hr         |       0.6  |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| llama3.3:latest               | piqa-bs        | bs         |       1    |
+| gemma3:27b                    | piqa-bs        | bs         |       1    |
+| gpt-4o-2024-08-06             | piqa-bs        | bs         |       1    |
+| gpt-5-2025-08-07              | piqa-bs        | bs         |       1    |
+| mistralai/mistral-medium-3.1  | piqa-bs        | bs         |       1    |
+| google/gemini-2.5-flash       | piqa-bs        | bs         |       1    |
+| anthropic/claude-haiku-4.5    | piqa-bs        | bs         |       1    |
+| gpt-3.5-turbo-0125            | piqa-bs        | bs         |       0.99 |
+| google/gemini-3-flash-preview | piqa-bs        | bs         |       0.99 |
+| google/gemini-2.5-pro         | piqa-bs        | bs         |       0.98 |
+| qwen3:32b                     | piqa-bs        | bs         |       0.97 |
+| GaMS-27B                      | piqa-bs        | bs         |       0.97 |
+| GaMS-27B-quantized            | piqa-bs        | bs         |       0.94 |
+| deepseek-r1:14b               | piqa-bs        | bs         |       0.73 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| gpt-4o-2024-08-06             | piqa-bg        | bg         |       0.97 |
+| gpt-5-2025-08-07              | piqa-bg        | bg         |       0.97 |
+| google/gemini-2.5-flash       | piqa-bg        | bg         |       0.96 |
+| anthropic/claude-haiku-4.5    | piqa-bg        | bg         |       0.96 |
+| google/gemini-2.5-pro         | piqa-bg        | bg         |       0.96 |
+| google/gemini-3-flash-preview | piqa-bg        | bg         |       0.96 |
+| mistralai/mistral-medium-3.1  | piqa-bg        | bg         |       0.95 |
+| llama3.3:latest               | piqa-bg        | bg         |       0.94 |
+| qwen3:32b                     | piqa-bg        | bg         |       0.93 |
+| gemma3:27b                    | piqa-bg        | bg         |       0.92 |
+| GaMS-27B                      | piqa-bg        | bg         |       0.84 |
+| gpt-3.5-turbo-0125            | piqa-bg        | bg         |       0.78 |
+| GaMS-27B-quantized            | piqa-bg        | bg         |       0.76 |
+| deepseek-r1:14b               | piqa-bg        | bg         |       0.55 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| google/gemini-2.5-pro         | piqa-hr-ckm    | hr-ckm     |       0.79 |
+| gpt-5-2025-08-07              | piqa-hr-ckm    | hr-ckm     |       0.76 |
+| google/gemini-3-flash-preview | piqa-hr-ckm    | hr-ckm     |       0.73 |
+| google/gemini-2.5-flash       | piqa-hr-ckm    | hr-ckm     |       0.61 |
+| gpt-4o-2024-08-06             | piqa-hr-ckm    | hr-ckm     |       0.59 |
+| qwen3:32b                     | piqa-hr-ckm    | hr-ckm     |       0.54 |
+| llama3.3:latest               | piqa-hr-ckm    | hr-ckm     |       0.53 |
+| mistralai/mistral-medium-3.1  | piqa-hr-ckm    | hr-ckm     |       0.53 |
+| GaMS-27B-quantized            | piqa-hr-ckm    | hr-ckm     |       0.51 |
+| deepseek-r1:14b               | piqa-hr-ckm    | hr-ckm     |       0.5  |
+| anthropic/claude-haiku-4.5    | piqa-hr-ckm    | hr-ckm     |       0.5  |
+| gpt-3.5-turbo-0125            | piqa-hr-ckm    | hr-ckm     |       0.49 |
+| gemma3:27b                    | piqa-hr-ckm    | hr-ckm     |       0.48 |
+| GaMS-27B                      | piqa-hr-ckm    | hr-ckm     |       0.48 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| gpt-4o-2024-08-06             | piqa-mk        | mk         |       1    |
+| gpt-5-2025-08-07              | piqa-mk        | mk         |       1    |
+| google/gemini-2.5-pro         | piqa-mk        | mk         |       1    |
+| google/gemini-3-flash-preview | piqa-mk        | mk         |       1    |
+| google/gemini-2.5-flash       | piqa-mk        | mk         |       0.99 |
+| llama3.3:latest               | piqa-mk        | mk         |       0.95 |
+| anthropic/claude-haiku-4.5    | piqa-mk        | mk         |       0.94 |
+| mistralai/mistral-medium-3.1  | piqa-mk        | mk         |       0.92 |
+| gemma3:27b                    | piqa-mk        | mk         |       0.9  |
+| GaMS-27B                      | piqa-mk        | mk         |       0.87 |
+| qwen3:32b                     | piqa-mk        | mk         |       0.86 |
+| GaMS-27B-quantized            | piqa-mk        | mk         |       0.85 |
+| gpt-3.5-turbo-0125            | piqa-mk        | mk         |       0.8  |
+| deepseek-r1:14b               | piqa-mk        | mk         |       0.57 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| google/gemini-2.5-pro         | piqa-sl-cer    | sl-cer     |       0.95 |
+| google/gemini-3-flash-preview | piqa-sl-cer    | sl-cer     |       0.92 |
+| gpt-5-2025-08-07              | piqa-sl-cer    | sl-cer     |       0.88 |
+| gpt-4o-2024-08-06             | piqa-sl-cer    | sl-cer     |       0.78 |
+| google/gemini-2.5-flash       | piqa-sl-cer    | sl-cer     |       0.77 |
+| mistralai/mistral-medium-3.1  | piqa-sl-cer    | sl-cer     |       0.62 |
+| GaMS-27B                      | piqa-sl-cer    | sl-cer     |       0.58 |
+| GaMS-27B-quantized            | piqa-sl-cer    | sl-cer     |       0.58 |
+| gemma3:27b                    | piqa-sl-cer    | sl-cer     |       0.57 |
+| anthropic/claude-haiku-4.5    | piqa-sl-cer    | sl-cer     |       0.57 |
+| llama3.3:latest               | piqa-sl-cer    | sl-cer     |       0.54 |
+| deepseek-r1:14b               | piqa-sl-cer    | sl-cer     |       0.5  |
+| gpt-3.5-turbo-0125            | piqa-sl-cer    | sl-cer     |       0.5  |
+| qwen3:32b                     | piqa-sl-cer    | sl-cer     |       0.49 |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| google/gemini-3-flash-preview | piqa-sr_cyrl   | sr_cyrl    |       0.98 |
+| mistralai/mistral-medium-3.1  | piqa-sr_cyrl   | sr_cyrl    |       0.97 |
+| gpt-5-2025-08-07              | piqa-sr_cyrl   | sr_cyrl    |       0.96 |
+| anthropic/claude-haiku-4.5    | piqa-sr_cyrl   | sr_cyrl    |       0.96 |
+| google/gemini-2.5-pro         | piqa-sr_cyrl   | sr_cyrl    |       0.96 |
+| gpt-4o-2024-08-06             | piqa-sr_cyrl   | sr_cyrl    |       0.95 |
+| google/gemini-2.5-flash       | piqa-sr_cyrl   | sr_cyrl    |       0.95 |
+| llama3.3:latest               | piqa-sr_cyrl   | sr_cyrl    |       0.89 |
+| qwen3:32b                     | piqa-sr_cyrl   | sr_cyrl    |       0.85 |
+| gemma3:27b                    | piqa-sr_cyrl   | sr_cyrl    |       0.84 |
+| gpt-3.5-turbo-0125            | piqa-sr_cyrl   | sr_cyrl    |       0.74 |
+| GaMS-27B-quantized            | piqa-sr_cyrl   | sr_cyrl    |       0.72 |
+| GaMS-27B                      | piqa-sr_cyrl   | sr_cyrl    |       0.72 |
+| deepseek-r1:14b               | piqa-sr_cyrl   | sr_cyrl    |       0.6  |
+| Model                         | Test Dataset   | Language   |   Accuracy |
+|:------------------------------|:---------------|:-----------|-----------:|
+| gpt-5-2025-08-07              | piqa-sr_latn   | sr_latn    |       0.99 |
+| gpt-4o-2024-08-06             | piqa-sr_latn   | sr_latn    |       0.98 |
+| google/gemini-3-flash-preview | piqa-sr_latn   | sr_latn    |       0.96 |
+| google/gemini-2.5-flash       | piqa-sr_latn   | sr_latn    |       0.94 |
+| anthropic/claude-haiku-4.5    | piqa-sr_latn   | sr_latn    |       0.94 |
+| mistralai/mistral-medium-3.1  | piqa-sr_latn   | sr_latn    |       0.93 |
+| google/gemini-2.5-pro         | piqa-sr_latn   | sr_latn    |       0.93 |
+| gemma3:27b                    | piqa-sr_latn   | sr_latn    |       0.92 |
+| llama3.3:latest               | piqa-sr_latn   | sr_latn    |       0.87 |
+| qwen3:32b                     | piqa-sr_latn   | sr_latn    |       0.85 |
+| gpt-3.5-turbo-0125            | piqa-sr_latn   | sr_latn    |       0.79 |
+| GaMS-27B-quantized            | piqa-sr_latn   | sr_latn    |       0.74 |
+| GaMS-27B                      | piqa-sr_latn   | sr_latn    |       0.73 |
+| deepseek-r1:14b               | piqa-sr_latn   | sr_latn    |       0.6  |

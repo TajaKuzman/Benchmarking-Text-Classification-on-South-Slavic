@@ -94,6 +94,7 @@ def rename_model(model: str) -> str:
     'google/gemini-2.5-flash-lite': "Gemini 2.5 Flash Lite",
     'google/gemini-2.5-flash': "Gemini 2.5 Flash",
     'google/gemini-2.5-pro': "Gemini 2.5 Pro",
+    "google/gemini-3-flash-preview": "Gemini 3 Flash Preview",
     'mistralai/mistral-medium-3.1': "Mistral Medium 3.1",
     'mistralai/mistral-small-3.2-24b-instruct': "Mistral Small 3.2",
     'cohere/command-a': "Command A",

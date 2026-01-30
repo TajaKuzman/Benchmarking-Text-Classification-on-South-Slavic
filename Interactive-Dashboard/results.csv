@@ -107,6 +107,15 @@ PIQA,GaMS-27B-Instruct,Cerkno Dialect,accuracy,0.58
 PIQA,GaMS-27B-Instruct,Bulgarian,accuracy,0.84
 PIQA,GaMS-27B-Instruct,Croatian,accuracy,0.87
 PIQA,GaMS-27B-Instruct,Bosnian,accuracy,0.97
+PIQA,Gemini 3 Flash Preview,Macedonian,accuracy,1.0
+PIQA,Gemini 3 Flash Preview,English,accuracy,0.96
+PIQA,Gemini 3 Flash Preview,Chakavian Dialect,accuracy,0.73
+PIQA,Gemini 3 Flash Preview,Serbian,accuracy,0.96
+PIQA,Gemini 3 Flash Preview,Slovenian,accuracy,1.0
+PIQA,Gemini 3 Flash Preview,Cerkno Dialect,accuracy,0.92
+PIQA,Gemini 3 Flash Preview,Bulgarian,accuracy,0.96
+PIQA,Gemini 3 Flash Preview,Croatian,accuracy,0.99
+PIQA,Gemini 3 Flash Preview,Bosnian,accuracy,0.99
 COPA,GPT-5,English,accuracy,0.996
 COPA,GPT-5,Slovenian,accuracy,0.998
 COPA,GPT-5,Croatian,accuracy,0.99

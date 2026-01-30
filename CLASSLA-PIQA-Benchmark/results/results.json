@@ -1298,5 +1298,105 @@
         "Accuracy": 0.81
       }
     }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-bg",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "bg": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-sl",
+    "Accuracy": 1.0,
+    "Language-Specific Scores": {
+      "sl": {
+        "Accuracy": 1.0
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-sr_latn",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "sr_latn": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-bs",
+    "Accuracy": 0.99,
+    "Language-Specific Scores": {
+      "bs": {
+        "Accuracy": 0.99
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-hr",
+    "Accuracy": 0.99,
+    "Language-Specific Scores": {
+      "hr": {
+        "Accuracy": 0.99
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-sl-cer",
+    "Accuracy": 0.92,
+    "Language-Specific Scores": {
+      "sl-cer": {
+        "Accuracy": 0.92
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-en",
+    "Accuracy": 0.96,
+    "Language-Specific Scores": {
+      "en": {
+        "Accuracy": 0.96
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-sr_cyrl",
+    "Accuracy": 0.98,
+    "Language-Specific Scores": {
+      "sr_cyrl": {
+        "Accuracy": 0.98
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-hr-ckm",
+    "Accuracy": 0.73,
+    "Language-Specific Scores": {
+      "hr-ckm": {
+        "Accuracy": 0.73
+      }
+    }
+  },
+  {
+    "Model": "google/gemini-3-flash-preview",
+    "Test Dataset": "piqa-mk",
+    "Accuracy": 1.0,
+    "Language-Specific Scores": {
+      "mk": {
+        "Accuracy": 1.0
+      }
+    }
   }
 ]

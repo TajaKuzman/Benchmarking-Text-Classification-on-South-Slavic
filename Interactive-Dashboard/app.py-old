@@ -4,7 +4,13 @@ import altair as alt
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-import io
+import os
+
+
+directory = os.getcwd()
+print(directory)
+
+plt.rcParams["figure.dpi"] = 500
 
 
 # ---------------------
@@ -60,6 +66,25 @@ def language_task_metric_summary(df: pd.DataFrame) -> list[str]:
             task_parts.append(f"{task} ({metrics_str})")
         if task_parts:
             lines.append(f"{lang}: " + "; ".join(task_parts))
+    return lines
+
+
+def task_metric_summary(df: pd.DataFrame) -> list[str]:
+    if df.empty:
+        return []
+
+    grouped = (
+        df.groupby("task")["metric"]
+        .apply(lambda x: sorted(set(x)))
+        .reset_index()
+    )
+
+    lines: list[str] = []
+    for _, row in grouped.iterrows():
+        task = row["task"]
+        metrics = [format_metric_name(m) for m in row["metric"]]
+        metrics_str = ", ".join(metrics)
+        lines.append(f"{task}: {metrics_str}")
     return lines
 
 
@@ -129,10 +154,17 @@ def compute_model_rankings(
 
     overall_rank = agg.groupby("model")["rank"].mean().rename("Average ranking")
 
-    per_lang_rank = agg.groupby(["model", "language"])["rank"].mean().reset_index()
+    per_lang_rank = (
+        agg.groupby(["model", "language"])["rank"]
+        .mean()
+        .reset_index()
+    )
 
     languages_all = sorted(per_lang_rank["language"].unique())
-    english_langs = [l for l in languages_all if l.strip().lower() in {"english", "en"}]
+    english_langs = [
+        l for l in languages_all
+        if l.strip().lower() in {"english", "en"}
+    ]
 
     if english_langs:
         english_rank = (
@@ -173,21 +205,15 @@ def compute_model_rankings(
 
     rank_df = rank_df.reset_index().rename(columns={"model": "Model"})
 
-    base_cols = [
-        "Model",
-        "Average ranking",
-        "Average ranking English",
-        "Average ranking South Slavic",
-    ]
+    base_cols = ["Model", "Average ranking", "Average ranking English", "Average ranking South Slavic"]
     lang_cols = [c for c in rank_df.columns if c not in base_cols]
     rank_df = rank_df[base_cols + lang_cols]
 
-    rank_df = rank_df.sort_values("Average ranking", ascending=True).reset_index(
-        drop=True
-    )
+    rank_df = rank_df.sort_values("Average ranking", ascending=True).reset_index(drop=True)
 
-    tasks_per_lang_series = agg.groupby("language")["task"].apply(
-        lambda s: sorted(s.unique())
+    tasks_per_lang_series = (
+        agg.groupby("language")["task"]
+        .apply(lambda s: sorted(s.unique()))
     )
     tasks_per_lang = tasks_per_lang_series.to_dict()
 
@@ -226,26 +252,7 @@ def order_metrics(metrics: list[str]) -> list[str]:
     return sorted(metrics, key=metric_key)
 
 
-def sanitize_filename(s: str) -> str:
-    return "".join(ch if ch.isalnum() or ch in ("-", "_") else "_" for ch in s)
-
-
-def fig_bytes(fig: plt.Figure, fmt: str, dpi: int | None = None) -> bytes:
-    buf = io.BytesIO()
-    if fmt.lower() == "pdf":
-        fig.savefig(buf, format="pdf", bbox_inches="tight")
-    elif fmt.lower() == "svg":
-        fig.savefig(buf, format="svg", bbox_inches="tight")
-    else:
-        fig.savefig(buf, format=fmt, dpi=dpi or 300, bbox_inches="tight")
-    buf.seek(0)
-    return buf.getvalue()
-
-
-def plot_task_heatmap(
-    df_task: pd.DataFrame,
-    metric_label: str
-):
+def plot_task_heatmap(df_task: pd.DataFrame, metric_label: str):
     if df_task.empty:
         return
 
@@ -255,15 +262,17 @@ def plot_task_heatmap(
         values="value",
         aggfunc="mean",
     )
+
     if matrix.empty:
         return
 
     matrix["Average"] = matrix.mean(axis=1)
     data = matrix.sort_values(by="Average", ascending=False)
 
-    fig, ax = plt.subplots(figsize=(8, 6))
+    # Smaller figure
+    plt.figure(figsize=(8, 6), dpi=500)
 
-    sns.heatmap(
+    ax = sns.heatmap(
         data,
         annot=False,
         fmt=".3f",
@@ -273,7 +282,6 @@ def plot_task_heatmap(
         linewidths=0.4,
         linecolor="white",
         cbar_kws={"label": metric_label},
-        ax=ax,
     )
 
     n_rows, n_cols = data.shape
@@ -284,29 +292,36 @@ def plot_task_heatmap(
             val = col.iloc[y]
             if pd.isna(val):
                 continue
-            ax.text(
-                x + 0.5,
-                y + 0.5,
-                f"{val:.3f}",
-                ha="center",
-                va="center",
-                fontsize=7,
-                fontweight="bold" if val == max_val else "normal",
-            )
+            text = f"{val:.3f}"
+            if val == max_val:
+                ax.text(
+                    x + 0.5,
+                    y + 0.5,
+                    text,
+                    ha="center",
+                    va="center",
+                    fontweight="bold",
+                    fontsize=7,
+                )
+            else:
+                ax.text(
+                    x + 0.5,
+                    y + 0.5,
+                    text,
+                    ha="center",
+                    va="center",
+                    fontsize=7,
+                )
 
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha="right", fontsize=8)
-    ax.set_yticklabels(ax.get_yticklabels(), rotation=0, fontsize=8)
+    plt.xticks(rotation=45, ha="right", fontsize=8)
+    plt.yticks(rotation=0, fontsize=8)
+    plt.tight_layout()
 
-    fig.tight_layout()
-    st.pyplot(fig, clear_figure=True)
-
-    plt.close(fig)
+    st.pyplot(plt.gcf())
+    plt.close()
 
 
-def plot_task_bar_chart(
-    df_task: pd.DataFrame,
-    metric_label: str
-):
+def plot_task_bar_chart(df_task: pd.DataFrame, metric_label: str):
     if df_task.empty:
         return
 
@@ -316,57 +331,41 @@ def plot_task_bar_chart(
         values="value",
         aggfunc="mean",
     )
+
     if matrix.empty:
         return
 
+    # Smallest score in the table
     data_min = float(np.nanmin(matrix.values))
     ymin = round(data_min - 0.01, 2)
 
-    fig, ax = plt.subplots(figsize=(5.0, 3.0))
+    plt.figure(figsize=(4, 3))  # smaller figure
 
-    matrix.plot(kind="bar", width=0.9, colormap="tab20", ax=ax)
+    ax = matrix.plot(kind="bar", width=0.9, colormap="tab20")
 
-    # Smaller legend (font + box), and constrain layout
-    leg = ax.legend(
-        bbox_to_anchor=(1.02, 1),
+    ax.legend(
+        bbox_to_anchor=(1.05, 1),
         loc="upper left",
-        borderaxespad=0.0,
+        borderaxespad=0,
         title="Model",
-        fontsize=7,
-        title_fontsize=8,
-        frameon=True,
-        framealpha=0.85,
-        borderpad=0.25,
-        labelspacing=0.25,
-        handlelength=1.0,
-        handletextpad=0.4,
-        columnspacing=0.8,
     )
-    if leg is not None:
-        leg._legend_box.sep = 4  # keeps legend compact (matplotlib internal, but stable)
 
     ax.set_ylim(ymin, None)
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha="right", fontsize=9)
-    ax.set_ylabel(metric_label, fontsize=9)
-    ax.tick_params(axis="y", labelsize=9)
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha="right")
+    ax.set_ylabel(metric_label)
 
-    ymin2, ymax2 = ax.get_ylim()
-    ymin2 = max(0.0, round(ymin2, 2))
-    ymax2 = round(ymax2 + 0.05, 2)
-    if ymax2 > ymin2:
-        ticks = np.arange(ymin2, ymax2 + 1e-9, 0.05)
+    ymin, ymax = ax.get_ylim()
+    ymin = max(0.0, round(ymin, 2))
+    ymax = round(ymax + 0.05, 2)
+    if ymax > ymin:
+        ticks = np.arange(ymin, ymax + 1e-9, 0.05)
         ax.set_yticks(ticks)
-
     ax.yaxis.grid(True, linestyle="--", linewidth=0.8, color="gray", alpha=0.5)
     ax.set_axisbelow(True)
 
-    # Give extra room on the right for the legend so it doesn't overlap / resize plot badly
-    fig.tight_layout()
-    fig.subplots_adjust(right=0.72)
-
-    st.pyplot(fig, clear_figure=True)
-
-    plt.close(fig)
+    plt.tight_layout()
+    st.pyplot(plt.gcf())
+    plt.close()
 
 
 def multiselect_with_select_all(
@@ -395,7 +394,11 @@ def show_metric_results_table(df_metric: pd.DataFrame, task_name: str, metric_la
         st.info(f"No data available for task {task_name} and metric {metric_label}.")
         return
 
-    grouped = df_metric.groupby(["model", "language"])["value"].mean().reset_index()
+    grouped = (
+        df_metric.groupby(["model", "language"])["value"]
+        .mean()
+        .reset_index()
+    )
 
     table = grouped.pivot_table(
         index="model",
@@ -434,46 +437,101 @@ def main():
     st.markdown(
         """
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
         <style>
-        html, body, [class*="css"] { font-family: 'Inter', sans-serif !important; }
-        p, span, div { font-size: 18px !important; }
+        html, body, [class*="css"] {
+            font-family: 'Inter', sans-serif !important;
+        }
+
+        p, span, div {
+            font-size: 18px !important;
+        }
+
         .stSidebar, .stSidebar p, .stSidebar span, .stSidebar label {
             font-size: 18px !important;
             font-family: 'Inter', sans-serif !important;
         }
-        h1 { font-size: 38px !important; font-weight: 600 !important; }
-        h2 { font-size: 30px !important; font-weight: 500 !important; }
-        h3 { font-size: 24px !important; font-weight: 500 !important; }
+
+        h1 {
+            font-size: 38px !important;
+            font-weight: 600 !important;
+        }
+        h2 {
+            font-size: 30px !important;
+            font-weight: 500 !important;
+        }
+        h3 {
+            font-size: 24px !important;
+            font-weight: 500 !important;
+        }
+
         .stDataFrame div, .stDataFrame table, .stDataFrame th, .stDataFrame td {
             font-size: 16px !important;
             font-family: 'Inter', sans-serif !important;
         }
-        [data-baseweb="tag"] { font-size: 16px !important; font-family: 'Inter', sans-serif !important; }
-        [data-baseweb="select"] * { font-family: 'Inter', sans-serif !important; font-size: 18px !important; }
-        [data-baseweb="tag"] { background-color: #0080aa !important; color: white !important; }
-        [data-baseweb="tag"]:hover { background-color: #006c8d !important; color: white !important; }
-        [data-baseweb="select"] div[data-baseweb="option"]:hover { background-color: #0080aa20 !important; }
+
+        [data-baseweb="tag"] {
+            font-size: 16px !important;
+            font-family: 'Inter', sans-serif !important;
+        }
+
+        [data-baseweb="select"] * {
+            font-family: 'Inter', sans-serif !important;
+            font-size: 18px !important;
+        }
+        [data-baseweb="tag"] {
+            background-color: #0080aa !important;
+            color: white !important;
+        }
+        [data-baseweb="tag"]:hover {
+            background-color: #006c8d !important;
+            color: white !important;
+        }
+        [data-baseweb="select"] div[data-baseweb="option"]:hover {
+            background-color: #0080aa20 !important;
+        }
         </style>
         """,
-        unsafe_allow_html=True,
+        unsafe_allow_html=True
     )
 
+    # Row with title (left) and stacked logos (right)
     col_title, col_logos = st.columns([6, 1])
 
     with col_title:
         st.markdown(
             "<h1>CLASSLA LLM Evaluation Dashboard<br>for South Slavic Languages</h1>",
-            unsafe_allow_html=True,
+            unsafe_allow_html=True
         )
 
     with col_logos:
-        st.image("CLASSLA-k-centre-transparent-background.png", width='stretch')
-        st.image("logo-clarin.si-en.png", width='stretch')
+        st.image(
+            "CLASSLA-k-centre-transparent-background.png",
+            width="content"
+        )
+        st.image(
+            "logo-clarin.si-en.png",
+            width="content"
+        )
 
+    # Description below the title and logo
     st.markdown(
         """
         This interactive dashboard shows the performance of large language models (LLMs) and other technologies on various text classification 
-        and commonsense reasoning benchmarks for South Slavic languages.
+        and commonsense reasoning benchmarks for South Slavic languages:
+        - evaluated capabilities: natural language understanding and generation - comprehension, reasoning:
+            - PIQA: physical commonsense reasoning benchmark ([Chang et al., 2025](https://arxiv.org/abs/2510.24081)),
+            - COPA: commonsense reasoning benchmark ([Roemmele et al., 2011](https://cdn.aaai.org/ocs/2418/2418-10878-1-PB.pdf), [Ljubešić et al., 2024](https://aclanthology.org/2024.vardial-1.7/), [Žagar & Robnik-Šikonja, 2022](https://aclanthology.org/2022.lrec-1.221/))
+        - evaluated capabilities: natural language understanding and generation - comprehension, general linguistic competence - conversation & pragmatics:
+            - Genre: AGILE automatic genre identification benchmark ([Kuzman et al., 2023](https://www.mdpi.com/2504-4990/5/3/59))
+            - News Topic: IPTC news topic benchmark ([Kuzman & Ljubešić, 2025](https://doi.org/10.1109/ACCESS.2025.3544814)),
+            - Parliamentary Speech Topic: ParlaCAP parliamentary speech topic benchmark ([Kuzman Pungeršek et al., 2025](https://arxiv.org/abs/2511.07989))
+            - Sentiment: ParlaSent parliamentary sentiment benchmark ([Mochtak et al., 2024](https://aclanthology.org/2024.lrec-main.1393/))
+
+        For more information, see:
+        - the code on the 
+        [Github repository](https://github.com/TajaKuzman/Benchmarking-Text-Classification-on-South-Slavic)
+        - the paper ["State of the Art in Text Classification for South Slavic Languages: Fine-Tuning or Prompting?" by Kuzman Pungeršek et al. (2025)](https://arxiv.org/abs/2511.07989)
         """
     )
 
@@ -487,7 +545,16 @@ def main():
         st.exception(e)
         return
 
+    st.markdown(
+        """
+        Use the sections below to:
+        - See a global comparison of models based on average ranking across all tasks and languages.
+        - Explore detailed per-task, per-language, per-model results with interactive filters.
+        """
+    )
+
     lang_summary_lines = language_task_metric_summary(df)
+    task_summary_lines = task_metric_summary(df)
 
     with st.expander(
         "Language coverage: for each language, which tasks and metrics are available",
@@ -501,6 +568,9 @@ def main():
 
     st.markdown("---")
 
+    # ---------------------
+    # Global summary
+    # ---------------------
     st.subheader("Global summary")
 
     st.markdown(
@@ -522,10 +592,15 @@ def main():
             .encode(
                 x=alt.X(
                     "Model:N",
-                    sort=alt.EncodingSortField(field="Average ranking", order="ascending"),
+                    sort=alt.EncodingSortField(
+                        field="Average ranking", order="ascending"
+                    ),
                     title="Model",
                 ),
-                y=alt.Y("Average ranking:Q", title="Average ranking (lower is better)"),
+                y=alt.Y(
+                    "Average ranking:Q",
+                    title="Average ranking (lower is better)",
+                ),
                 tooltip=list(ranking_df.columns),
             )
         )
@@ -565,27 +640,97 @@ def main():
 
     st.markdown("---")
 
+    # ---------------------
+    # Task-level view
+    # ---------------------
     st.subheader("Task-level view")
-    st.markdown("Use the filters below to inspect detailed per-task, per-language, per-model results.")
+
+    st.markdown(
+        "Use the filters below to inspect detailed per-task, per-language, per-model results."
+    )
+
 
     tasks = sorted(df["task"].unique())
     languages_all = sorted(df["language"].unique())
     models_all = sorted(df["model"].unique())
 
-    selected_tasks = multiselect_with_select_all("Tasks", options=tasks, key="tasks_multiselect")
-    selected_languages = multiselect_with_select_all("Languages / Dialects", options=languages_all, key="languages_multiselect")
-    selected_models = multiselect_with_select_all("Models", options=models_all, key="models_multiselect")
+    selected_tasks = multiselect_with_select_all(
+        "Tasks",
+        options=tasks,
+        key="tasks_multiselect",
+    )
 
-    filtered = apply_filters(df, tasks=selected_tasks, languages=selected_languages, models=selected_models)
+    selected_languages = multiselect_with_select_all(
+        "Languages / Dialects",
+        options=languages_all,
+        key="languages_multiselect",
+    )
+
+    selected_models = multiselect_with_select_all(
+        "Models",
+        options=models_all,
+        key="models_multiselect",
+    )
+
+    filtered = apply_filters(
+        df,
+        tasks=selected_tasks,
+        languages=selected_languages,
+        models=selected_models,
+    )
 
     if filtered.empty:
         st.warning("No rows match your current filters.")
         return
 
+    # Detailed task-specific tables when exactly one task is chosen
+    if len(selected_tasks) == 1:
+        task_name = selected_tasks[0]
+        filtered_task = filtered[filtered["task"] == task_name]
+
+        if filtered_task.empty:
+            st.info(f"No data available for task {task_name} with current filters.")
+        else:
+            metrics_for_task = order_metrics(
+                sorted(filtered_task["metric"].unique())
+            )
+
+            st.markdown(f"Results for task: {task_name} (all available metrics).")
+
+            for metric in metrics_for_task:
+                df_tm = filtered_task[filtered_task["metric"] == metric]
+                metric_label = format_metric_name(metric)
+
+                st.markdown(f"Metric: {metric_label}")
+                matrix = (
+                    df_tm.pivot_table(
+                        index="model",
+                        columns="language",
+                        values="value",
+                        aggfunc="mean",
+                    )
+                )
+                if not matrix.empty:
+                    matrix["Average"] = matrix.mean(axis=1)
+                    matrix = matrix.sort_values("Average", ascending=False)
+
+                    # Reorder columns: languages then Average
+                    col_order = [
+                        c for c in matrix.columns if c != "Average"
+                    ] + ["Average"]
+                    matrix = matrix[col_order]
+
+                    st.dataframe(matrix.style.format("{:.3f}"))
+                else:
+                    st.info(
+                        f"No matrix can be formed for task {task_name} and metric {metric_label}."
+                    )
+
     tasks_in_filtered = sorted(filtered["task"].unique())
     for t in tasks_in_filtered:
         df_t_all = filtered[filtered["task"] == t]
         metrics_for_task = order_metrics(sorted(df_t_all["metric"].unique()))
+
         if not metrics_for_task:
             continue
 
@@ -597,10 +742,6 @@ def main():
                 continue
 
             metric_label = format_metric_name(metric)
-
-            safe_task = sanitize_filename(str(t))
-            safe_metric = sanitize_filename(str(metric))
-            base = f"{safe_task}__{safe_metric}"
 
             st.markdown(f"Metric: {metric_label}")
 

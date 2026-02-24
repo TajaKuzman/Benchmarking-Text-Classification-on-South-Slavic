@@ -422,6 +422,8 @@ def show_metric_results_table(df_metric: pd.DataFrame, task_name: str, metric_la
     st.dataframe(styler)
 
 
+
+
 # ---------------------
 # Streamlit layout
 # ---------------------
@@ -474,6 +476,10 @@ def main():
         """
         This interactive dashboard shows the performance of large language models (LLMs) and other technologies on various text classification 
         and commonsense reasoning benchmarks for South Slavic languages.
+		
+		""")
+    st.markdown("""
+        Find more information on the evaluated models and benchmarks in the paper ["State of the Art in Text Classification for South Slavic Languages: Fine-Tuning or Prompting?"](https://doi.org/10.48550/arXiv.2511.07989) (Kuzman Pungeršek et al., 2026). The implementation code is available in a [GitHub repository](https://github.com/TajaKuzman/Benchmarking-Text-Classification-on-South-Slavic).
         """
     )
 
@@ -497,6 +503,27 @@ def main():
             st.info("No data available to summarise language coverage.")
         else:
             for line in lang_summary_lines:
+                st.write(line)
+
+    model_summary_lines = [
+        'Claude Haiku 4.5 - [`anthropic/claude-haiku-4.5`](https://openrouter.ai/anthropic/claude-haiku-4.5) ([Anthropic, 2025](https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf)): a closed-source hybrid reasoning large language model from Anthropic. Available details on the model architecture and language coverage are limited.',
+        'DeepSeek-R1-Distill - [`DeepSeek-R1-Distill-Qwen-14B`](https://ollama.com/library/deepseek-r1:14b) ([Guo et al., 2025](https://arxiv.org/pdf/2501.12948?)): an open-weight reasoning LLM, developed by DeepSeek AI. We use the distilled model in 14 billion parameter size. The model is based on the Qwen 2.5 model that was fine-tuned using a dataset curated with the DeepSeek-R1 reasoning model. The Qwen 2.5 model provides multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, and Arabic.',
+        '[GaMS-27B-Instruct](https://huggingface.co/cjvt/GaMS-27B-Instruct) - [`GaMS-27B-Instruct-i1-GGUF:latest`](https://huggingface.co/mradermacher/GaMS-27B-Instruct-i1-GGUF): an open-source 27B parameter model from the GaMS (Generative Model for Slovene) family ([Vreš et al., 2024](https://repozitorij.uni-lj.si/IzpisGradiva.php?id=164282)). The model is based on the Gemma 2 model and continually pretrained on Slovenian, English and some portion of Croatian, Serbian and Bosnian corpora.',
+        'Gemini 2.5 Flash - [`google/gemini-2.5-flash`](https://openrouter.ai/google/gemini-2.5-flash), Gemini 2.5 Pro - [`google/gemini-2.5-pro`](https://openrouter.ai/google/gemini-2.5-pro) ([Comanici et al., 2025](https://arxiv.org/abs/2507.06261)) and Gemini 3 Flash Preview - [`google/gemini-3-flash-preview`](https://openrouter.ai/google/gemini-3-flash-preview) ([Google DeepMind, 2025](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf)): closed-source multilingual and multimodal instruction-tuned LLMs by Google DeepMind. The models are reported to be pretrained on over 400 languages, however, details on the language coverage are not available.',
+        '[Gemma 3](https://ollama.com/library/gemma3) ([Gemma Team et al., 2025](https://arxiv.org/pdf/2503.19786)): an open-weight multilingual instruction-tuned LLM, developed by Google DeepMind. The model was pretrained on multimodal data with large quantities of multilingual texts and is reported to support over 140 languages. We use the model in 27 billion parameter size.',
+        'GPT-3.5-Turbo - `gpt-3.5-turbo-0125` ([OpenAI, 2023](https://help.openai.com/en/articles/6783457-chatgpt-general-faq)); GPT-4o - `gpt-4o-2024-08-06` and GPT-4o-mini - `gpt-4o-mini-2024-07-18` ([OpenAI, 2024](https://openai.com/index/hello-gpt-4o/)); GPT-5 - `gpt-5-2025-0807`, GPT-5-Nano - `gpt-5-nano-2025-08-07`, and GPT-5-mini - `gpt-5-mini-2025-08-07` ([OpenAI, 2025](https://openai.com/index/introducing-gpt-5/)): closed-source instruction-tuned LLMs developed by OpenAI. OpenAI states that the models are trained on large multilingual web corpora, however, specific details about the training data, procedures, and architecture are not publicly known.',
+        '[LLaMA 3.3](https://ollama.com/library/llama3.3) ([Meta, 2024](https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md)): an open-weight instruction-tuned multilingual LLM, developed by Meta, with 70 billion parameters. The model was pretrained on a web text collection in various languages, however, it is reported to support only 8 languages, namely, English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai.',
+        '[Llama 4 Scout](https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md) - [`llama4:scout`](https://ollama.com/library/llama4): an open-weight instruction-tuned multilingual and multimodal LLM, developed by Meta, with 17 billion active parameters and 109 billion total parameters. It was pretrained on 200 languages, but it is said to support only the following languages: Arabic, English, French, German, Hindi, Indonesian, Italian, Portuguese, Spanish, Tagalog, Thai, and Vietnamese.',
+        'Mistral Medium 3.1 - [`mistralai/mistral-medium-3.1`](https://openrouter.ai/mistralai/mistral-medium-3.1/api), and Mistral Small 3.2 - [`mistralai/mistral-small-3.2-24b-instruct`](https://openrouter.ai/mistralai/mistral-small-3.2-24b-instruct) ([Mistral AI, 2025](https://mistral.ai/news/mistral-medium-3)): closed-source multimodal instruction-tuned models by Mistral AI. Available details on the model architecture and language coverage are very limited.',
+        'Qwen 3 - [`Qwen3-2504`](https://ollama.com/library/qwen3) ([Yang et al., 2025](https://arxiv.org/abs/2505.09388)): an open-weight LLM, developed by Alibaba Cloud. We use the model with the 32 billion parameter size, namely, the qwen3:32b model. The model is said to support over 100 languages and dialects.',
+        'BERT-like models, fine-tuned to the evaluated task: [X-GENRE classifier](https://doi.org/10.57967/hf/0927) for automatic genre identification ([Kuzman et al., 2023](https://www.mdpi.com/2504-4990/5/3/59)), [IPTC XLM-R classifier](https://huggingface.co/classla/multilingual-IPTC-news-topic-classifier) for news topic classification ([Kuzman & Ljubešić, 2025](https://doi.org/10.1109/ACCESS.2025.3544814)), [ParlaCAP-classifier](https://huggingface.co/classla/ParlaCAP-Topic-Classifier) for policy topic classification ([Kuzman Pungeršek et al., 2026](http://arxiv.org/abs/2602.16516)), and [XLM-R-ParlaSent model](https://huggingface.co/classla/xlm-r-parlasent) for sentiment identification ([Mochtak et al., 2024](https://aclanthology.org/2024.lrec-main.1393/))'
+	]
+
+    with st.expander(
+        "Evaluated models",
+        expanded=False,
+    ):
+      for line in model_summary_lines:
                 st.write(line)
 
     st.markdown("---")
